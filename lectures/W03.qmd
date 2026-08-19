@@ -1,0 +1,841 @@
+---
+title: "W#03 Amounts Proportions Uncertainty"
+subtitle: "With inspiration from the Data Visualization Courses of Andrew Heiss and Data Science Box from Mine Cetinkaya-Rundel"
+author: Jan Lorenz
+format: 
+  revealjs: 
+    slide-number: true
+    preview-links: false
+    logo: img/ConstructorUniversity.png
+    footer: "MDSSB: Visual Communication and Data Storytelling"
+    smaller: true
+    code-fold: true
+    echo: true
+---
+
+# Visualize Amounts and Proportions by Example
+
+## Brexit Opinions in the UK
+
+History:
+
+- In 2016, the UK voted to leave the EU in a [referendum](https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum) with 51.8% for leaving and 48.1% for remaining.
+- In 2020, the UK formally left the EU after long negotiations about the exact condition. 
+- Inbetween, there were elections, changes in government and a heated debate.
+
+- In 2019, a YouGov survey asked people whether they think leaving the EU was the right or wrong decision.
+
+Let us work with this data to illustrate principles of effective visualizations.
+
+## Brexit Survey Data
+
+In September 2019, YouGov survey asked 1,639 adults in the UK the following question:
+
+:::{style="font-size:80%;"} 
+*In hindsight, do you think Britain was right/wrong to vote to leave EU?*   
+🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don't know
+:::
+
+The file `brexit_opinions.csv` in the  dataset in the repository [VisCom_Playground](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground). 
+
+::: {.columns}
+::: {.column}
+Look at the first 10 rows
+```{r}
+library(tidyverse)
+brexit <- read_csv("../data/brexit_opinions.csv")
+brexit
+```
+
+:::
+
+::: {.column .fragment}
+Look at 10 random rows
+
+```{r}
+brexit |> slice_sample(n = 10)
+```
+
+:::
+:::
+
+## First basic visuals with `geom_bar`
+
+::: {.columns}
+::: {.column}
+
+```{r}
+ggplot(brexit, aes(x = opinion)) +
+  geom_bar()
+```
+
+:::
+::: {.column}
+
+```{r}
+ggplot(brexit, aes(x = region)) +
+  geom_bar()
+```
+
+:::
+:::
+
+## `geom_bar` vs. `geom_col`
+
+- `geom_bar()` counts the number of occurrences of each category in the data and creates bars based on these counts.
+    - It is a geom which also does some data transformation! (Here counting)
+- `geom_col()` requires you to provide the heights of the bars explicitly. It uses the values in the data to determine the height of each bar.
+    - It is the basic building block for bar plots
+
+
+## `geom_bar` vs. `geom_col`
+
+::: {.columns}
+::: {.column width="33%"}
+With `geom_bar`
+
+```{r}
+brexit |>
+  ggplot(aes(x = opinion)) +
+  geom_bar()
+```
+
+:::
+::: {.column width="33%"}
+For `geom_col` we need to count first
+
+```{r}
+brexit |>
+  count(opinion)
+```
+
+:::
+::: {.column width="33%"}
+With `geom_col` we must specify `x` and `y`
+
+```{r}
+brexit |>
+  count(opinion) |>
+  ggplot(aes(x = opinion, y = n)) +
+  geom_col()
+```
+
+:::
+:::
+
+. . . 
+
+
+Alphabetical order is rarely what you want! Do we really want "Don't know" first?
+
+
+
+## Order Matters
+
+Often good: Order by frequency
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(x = fct_infreq(opinion))) +
+  geom_bar()
+```
+
+. . . 
+
+`fct_infreq`: (Creates and) reorders a factor by the frequency. 
+
+
+## Clean up labels
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(x = fct_infreq(opinion))) +
+  geom_bar() +
+  labs(
+    x = "Opinion",
+    y = "Count"
+  )
+```
+
+
+## Order Matters: Inherent levels 
+
+Reorder **manually** with a custom order
+
+`fct_relevel`: Reorders the levels of a factor as specified
+
+```{r}
+#| echo: true
+brexit <- brexit |>
+  mutate(
+    region = fct_relevel(
+      region,
+      "london",
+      "rest_of_south",
+      "midlands_wales",
+      "north",
+      "scot"
+    )
+  )
+```
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(x = region)) +
+  geom_bar()
+```
+
+
+
+## Clean factor labels 
+
+Reorder manually with a custom order
+
+`fct_recode`: Change factor levels by hand
+
+```{r}
+#| echo: true
+brexit <- brexit |>
+  mutate(
+    region = fct_recode(
+      region,
+      London = "london",
+      `Rest of South` = "rest_of_south",
+      `Midlands / Wales` = "midlands_wales",
+      North = "north",
+      Scotland = "scot"
+    )
+  )
+```
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(x = region)) +
+  geom_bar()
+```
+
+
+
+## Long categories names on the y-axis!
+
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(y = region)) +
+  geom_bar()
+```
+
+
+## Reverse the order of levels to start with the top
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(y = fct_rev(region))) +
+  geom_bar()
+```
+
+
+
+## Clean up axis lables 
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(y = fct_rev(region))) +
+  geom_bar() +
+  labs(
+    x = "Count",
+    y = ""
+  )
+```
+
+Do we really need "Region" on the y-axis?
+
+
+
+## Pick a purpose!
+
+What is the (main) purpose of the visualization?  
+
+. . . 
+
+Purpose: **Show how support for Brexit differs regionally**
+
+
+## First try: Segmented stacked barplot
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = region)) +
+  geom_bar()
+```
+
+## Or "the other way round"?
+
+```{r}
+#| fig-height: 3
+#| fig-width: 5
+#| fig-align: center
+ggplot(brexit, aes(y = region, fill = opinion)) +
+  geom_bar()
+```
+
+. . . 
+
+They are both hard to read.
+
+
+## Use facets
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = region)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1)
+```
+
+
+## Avoid redundancy?
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1)
+```
+
+## Redundancy can help to tell a story. 
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1)
+```
+
+## Be selective with redundancy
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1) +
+  guides(fill = "none")
+```
+
+We do not need a legend when the colors are also `y`-labels.
+
+
+## Use informative labels
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1) +
+  guides(fill = "none") +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    x = NULL,
+    y = NULL
+  )
+```
+
+
+## More information (Survey and Source)
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1) +
+  guides(fill = "none") +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = NULL,
+    y = NULL
+  )
+```
+
+
+
+## Select meaningful colors
+
+Are the default rainbow colors meaningful?
+Another option: Pick colors manually
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1) +
+  guides(fill = "none") +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = NULL,
+    y = NULL
+  ) +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "red",
+      "Right" = "green",
+      "Don't know" = "gray"
+    )
+  )
+```
+
+
+
+## Choose better colors
+
+[colorbrewer2.org](https://colorbrewer2.org){preview-link="true"}
+
+
+## Use better colors
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1) +
+  guides(fill = "none") +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = NULL,
+    y = NULL
+  ) +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  )
+```
+
+
+
+## Choose a theme
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1) +
+  guides(fill = "none") +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = NULL,
+    y = NULL
+  ) +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  ) +
+  theme_minimal()
+```
+
+
+## Adjust the general text size
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+#| fig-align: center
+ggplot(brexit, aes(y = opinion, fill = opinion)) +
+  geom_bar() +
+  facet_wrap("region", nrow = 1) +
+  guides(fill = "none") +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = NULL,
+    y = NULL
+  ) +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  ) +
+  theme_minimal(base_size = 14)
+```
+
+
+## General principles	applied before
+
+- Order matters
+- Put long categories on the y-axis
+- Use meaningful labels
+- **Pick a purpose**
+- Select meaningful colors
+
+
+## What about percentages?
+
+Let us first compute percentages. But what percentages?
+
+::: {.columns}
+::: {.column}
+
+```{r}
+#| code-fold: false
+brexit |>
+  count(opinion, region)
+```
+
+:::
+::: {.column}
+
+```{r}
+#| code-fold: false
+brexit |>
+  count(region, opinion)
+```
+
+:::
+::: 
+
+. . . 
+
+Sensible would be percentages within each region.
+
+## Compute percentages within regions
+
+```{r}
+#| code-fold: false
+
+brexit |>
+  count(region, opinion) |>
+  mutate(pct = n / sum(n) * 100, .by = region)
+```
+
+## Stacked bar plot with percentages
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+
+brexit |>
+  count(region, opinion) |>
+  mutate(pct = n / sum(n) * 100, .by = region) |>
+  ggplot(aes(y = fct_rev(region), x = pct, fill = opinion)) +
+  geom_col() +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = "Percentage",
+    y = NULL
+  ) +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  ) +
+  theme_minimal(base_size = 14)
+```
+
+Is the order of Wrong/Right/Don't know good here?
+
+## Stacked bar plot with percentages
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+
+brexit |>
+  count(region, opinion) |>
+  mutate(opinion = fct_relevel(opinion, "Right", "Don't know", "Wrong")) |>
+  mutate(pct = n / sum(n) * 100, .by = region) |>
+  ggplot(aes(y = fct_rev(region), x = pct, fill = opinion)) +
+  geom_col() +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = "Percentage",
+    y = NULL
+  ) +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  ) +
+  guides(fill = "none") +
+  theme_minimal(base_size = 14)
+```
+
+
+## Elegant percentages with `scales`
+
+Also make bars a bit thinner.
+
+```{r}
+#| fig-height: 4
+#| fig-width: 8
+
+library(scales)
+brexit |>
+  count(region, opinion) |>
+  mutate(opinion = fct_relevel(opinion, "Right", "Don't know", "Wrong")) |>
+  mutate(pct = n / sum(n), .by = region) |>
+  ggplot(aes(y = fct_rev(region), x = pct, fill = opinion)) +
+  geom_col(width = 0.75) +
+  scale_x_continuous(labels = label_percent(accuracy = 1)) +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = "",
+    y = NULL
+  ) +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  ) +
+  guides(fill = "none") +
+  theme_minimal(base_size = 14)
+```
+
+## Bar plots vs. Pie Charts
+
+::: {.columns}
+::: {.column}
+
+```{r}
+#| fig-height: 5
+brexit |>
+  count(opinion) |>
+  ggplot(aes(x = "", y = n, fill = fct_rev(opinion))) +
+  geom_col() +
+  coord_polar(theta = "y") +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  ) +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = NULL,
+    y = NULL,
+    fill = "Opinion"
+  ) +
+  theme_void(base_size = 16)
+```
+
+:::
+::: {.column}
+
+```{r}
+#| fig-height: 5
+brexit |>
+  count(opinion) |>
+  ggplot(aes(x = fct_rev(opinion), y = n, fill = fct_rev(opinion))) +
+  geom_col() +
+  scale_fill_manual(
+    values = c(
+      "Wrong" = "#ef8a62",
+      "Right" = "#67a9cf",
+      "Don't know" = "gray"
+    )
+  ) +
+  labs(
+    title = "Was Britain right/wrong to vote to leave EU?",
+    subtitle = "YouGov Survey Results, 2-3 September 2019",
+    x = NULL,
+    y = NULL,
+    fill = "Opinion"
+  ) +
+  theme_minimal(base_size = 16)
+```
+
+:::
+:::
+
+What is easier to read for what purpose?
+
+## \#barbarplots
+
+{{< video https://www.youtube.com/watch?v=LFDbqw2xPbQ  width="600" height="400" >}}
+
+::: aside
+<https://barbarplots.github.io/index.html>
+:::
+
+
+# Uncertainty and Distributions
+
+
+
+## Visualize all data before aggreagteing 
+
+Lets test the dogs and cats example with self created data. 
+
+```{r}
+set.seed(1234)
+animals <- tibble(
+  animal = c(rep(c("Small cat", "Big cat"), each = 250), rep("Dog", 500))
+) |>
+  mutate(
+    weight = case_when(
+      animal == "Small cat" ~ rnorm(n(), 20, 5),
+      animal == "Big cat" ~ rnorm(n(), 60, 5),
+      animal == "Dog" ~ rnorm(n(), 40, 10)
+    )
+  ) |>
+  mutate(animal_type = ifelse(str_detect(animal, "cat"), "Cats", "Dogs"))
+
+animals_mean <- animals |>
+  group_by(animal_type) |>
+  summarize(avg_weight = mean(weight))
+
+ggplot(animals_mean, aes(x = animal_type, y = avg_weight, fill = animal_type)) +
+  geom_col() +
+  labs(x = NULL, y = "Weight") +
+  guides(fill = "none")
+```
+
+
+## Show all data with jitter plots
+
+```{r}
+ggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +
+  geom_jitter() +
+  geom_point(
+    data = animals_mean,
+    aes(y = avg_weight),
+    color = "black",
+    size = 5
+  ) +
+  labs(x = NULL, y = "Weight") +
+  guides(color = "none")
+```
+
+## Add the averages and make points transparent
+
+```{r}
+ggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +
+  geom_jitter(alpha = 0.5) +
+  geom_point(data = animals_mean, aes(y = avg_weight), size = 10) +
+  labs(x = NULL, y = "Weight") +
+  guides(color = "none")
+```
+
+Note: We include a different dataset for the averages with `data = animals_mean` in `geom_point()`
+
+## Show all data with beeswarm plots
+
+```{r}
+library(ggbeeswarm)
+
+ggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +
+  geom_beeswarm(size = 1) +
+  # Or try this too:
+  # geom_quasirandom() +
+  labs(x = NULL, y = "Weight") +
+  guides(color = "none")
+```
+
+## Combine boxplots with points
+
+```{r}
+ggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +
+  geom_boxplot(width = 0.5) +
+  geom_point(position = position_jitter(height = 0), size = 1, alpha = 0.5) +
+  labs(x = NULL, y = "Weight") +
+  guides(color = "none")
+```
+
+## Combine violins with points
+
+```{r}
+ggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +
+  geom_violin(width = 0.5) +
+  geom_point(position = position_jitter(height = 0), size = 1, alpha = 0.5) +
+  labs(x = NULL, y = "Weight") +
+  guides(color = "none")
+```
+
+
+## Overlapping ridgeplots
+
+```{r}
+library(ggridges)
+
+ggplot(animals, aes(x = weight, y = animal_type, fill = animal_type)) +
+  geom_density_ridges() +
+  labs(x = "Weight", y = NULL) +
+  guides(fill = "none")
+```
+
+## More information is better
+
+- Avoid ploting single numbers when there is a whole range behind it  
+- OK, you may do it in a longer data story after making clear how the variation looks like
+
+
+
+# How to select a visual? 
+
+"Flow Chart" Website with examples and links to code in `R` and `python`:
+
+[data-to-viz.com](https://www.data-to-viz.com/)
+
+
+
+## Practice: Distribution Visualization
+
+Do some of visualizations of distributions using the country dataset in the [VisCom_Playground](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground) repository.
+
+Create a new slidedeck with some trials. 
+
+For example: Use Life Expectancy and compare the distribution of countries' value between continents. You can also visualize how a distribution changes over time.

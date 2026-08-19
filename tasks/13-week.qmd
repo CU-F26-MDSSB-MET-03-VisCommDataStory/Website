@@ -1,0 +1,34 @@
+---
+week: "13"
+title: "Week 13"
+format:
+  html: 
+    number-sections: false
+---
+
+## Student Presentations
+
+Below is a tentative schedule. We will adjust it in class. We could also go over the break between session 1 and 2 and finish earlier.
+
+#### *Session 1* (09:45 - 11:00): **Individual Projects** (max. 15 min.)
+
+Time    | Project Name 
+-------|----------------
+09:45 | Exoplanets
+10:00 | Libraries
+10:15 | IShowSpeed
+10:30 | GPUSentiment
+10:45 | Bundesliga
+
+#### *Session 2* (11:15 - 12:35): **Group Projects** (max. 20 min.)
+
+(Please allow 5 min. over time of the session.)
+
+Time    | Project Name 
+-------|----------------
+11:15 | ProgressParadox
+11:35 | ClimateChange
+11:55 | FilterBubble
+12:15 | Housing
+
+

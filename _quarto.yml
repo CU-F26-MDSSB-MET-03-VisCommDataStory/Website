@@ -1,0 +1,59 @@
+project:
+  type: website
+
+website:
+  title: "Visual Communication and Data Storytelling"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Syllabus
+      - href: schedule.qmd
+        text: Schedule
+      - text: "Project Milestones"
+        file: milestones.qmd
+      - text: "Readings"
+        file: readings.qmd
+    right:
+      - icon: github
+        href: "{{< var org.link >}}"
+        text: "{{< var org.name >}}"
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Syllabus"
+        file: index.qmd
+      - title: Schedule
+        href: schedule.qmd
+        contents:
+          - tasks/01-week.qmd
+          - tasks/02-week.qmd
+          - tasks/03-week.qmd
+          - tasks/04-week.qmd
+          - tasks/05-week.qmd
+          - tasks/06-week.qmd
+          - tasks/07-week.qmd
+          - tasks/08-week.qmd
+          - tasks/09-week.qmd
+          - tasks/10-week.qmd
+          - tasks/11-week.qmd
+          - tasks/12-week.qmd
+          - tasks/13-week.qmd
+      - readings.qmd
+      - milestones.qmd
+      - quarto.qmd
+         
+format:
+  html:
+    theme: cosmo
+    css: styles/styles.css
+    toc: true
+    number-sections: true
+
+bibliography: "Data Visualization.bib"
+csl: styles/apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+

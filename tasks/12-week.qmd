@@ -1,0 +1,24 @@
+---
+week: "12"
+title: "Week 12"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+Input slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
+
+```{=html}
+<iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+**The slides also mention the activity in class.** If you do this week assynchronously, please work through the slides and do the activities on your own.
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+
+## Assignments / Readings
+
+- Prepare your Presentation for [Milestone 5: Presentation 💬](../milestones.qmd#m5)!

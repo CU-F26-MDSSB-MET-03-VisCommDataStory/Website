@@ -1,0 +1,16 @@
+---
+week: "11"
+title: "Week 11"
+format:
+  html: 
+    number-sections: false
+---
+
+## NO CLASS but [Individual Meeting]{.green} with Instructor about Project Status and Presentation
+
+- A [**meeting** will be scheduled on **MS Teams**]{.green}in the range of class 09:45 -- 12:30. Special arrangement are possible for online students, contact the instructor. 
+
+
+## Assignments / Readings
+
+- **Read the paper recommended by Moritz Stefaner:** @FranconeriEtAl2021ScienceVisualData

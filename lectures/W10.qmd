@@ -1,0 +1,150 @@
+---
+title: "W#10: Storyboarding!"
+subtitle: "[Material mostly from Dykes (2019)]{style='color:gray;'}"
+author: Jan Lorenz
+format: 
+  revealjs: 
+    slide-number: true
+    preview-links: false
+    logo: img/ConstructorUniversity.png
+    footer: "MDSSB: Visual Communication and Data Storytelling"
+    smaller: true
+    code-fold: true
+    echo: true
+---
+
+
+## Data, Visuals, [Narrative]{style='color:blue;'} {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width='33%'}
+The three essential elements of data stories.
+
+![](img/dykes/datanarrativesvisuals.png)
+
+[Storyboading is about a **narrative** and how it relates to data and visuals.]{style='color:red;'}
+:::
+
+::: {.column width='65%'}
+- [**Explain.**]{style='color:blue;'} Narrative coupled with data. 
+  - What's happening in the data? 
+  - What is the context?
+  - Guide through the data structure!
+  - Why is a particular insight important? 
+- **Enlighten.** Visuals applied to data. 
+  - Some insights are hard with numbers only. 
+  - Show patterns and outliers otherwise hidden. 
+- [**Engage.**]{style='color:blue;'} Narrative and visuals merged together. 
+  - Engage (or even entertain) an audience. 
+  - Visuals capture interest, only a story holds attention.
+:::
+
+::::
+
+# Anatomy of a Data Story
+
+## Data Story Continuum {.smaller}
+
+![](img/dykes/datastorycontinuum.png)
+
+[While storyboarding, make your story points with attributes from the *right* side.]{style='color:red;'}
+
+## Storyframing before {.smaller}
+
+- Before you communicate insight, you must find one!
+- Focus on key dimensions and find key metrics
+
+![](img/dykes/storyframing_vs_storytelling.png)
+
+- [While storyboarding, note open points for your storyframing.]{style='color:red;'}
+- [Open points can be discussed in individual meetings next week]{style='color:red;'}
+
+
+
+## Anatomy of a Data Story {.smaller}
+
+![](img/dykes/storyformat.png)
+
+[**Different structure for two parts of your report**]{style='color:red;'}
+
+- [Narrative structure for your **slide deck and presentation**]{style='color:blue;'}
+- Inverted pyramid structure for the **written report**
+
+## Six essential elements of data stories {.smaller}
+
+![](img/dykes/datastories_six_elements.png)
+
+- [Your **project slide deck and presentation** matches a **Data Presentation**]{style='color:blue;'}
+- [Your **project  report** matches a **Curated Report (and Dashboard)**]{style='color:blue;'}
+
+## Differences in Communication {.smaller}
+
+![](img/dykes/direct_vs_indirect_comm.png)
+
+- [Your **project slide deck and presentation** is direct communication]{style='color:blue;'}
+- [Your **project  report** is indirect communication]{style='color:blue;'}
+
+# Narrative Structure
+
+## Data Storytelling Arc
+
+![](img/dykes/datastorytelling_arc.png)
+
+## Compared to other communication models
+
+![](img/dykes/narrative_comm_models.png)
+
+## Examples of story points {.smaller}
+
+![](img/dykes/storypoints_9.png)
+
+[Activity: ]{style='color:red;'} Check if your ideas fit into one of the categories and then improve on that premise. Alternatively: Get inspired by these. 
+
+
+# Storyboarding Activity
+
+## Storyboarding {.smaller}
+
+- Definition: A **story** is an account of causally related or connected series of events.
+- A narrative always has a one-dimensional **linear sequence**, but we can decide 
+  - what is in and 
+  - in which order.
+- **Storyboarding** is a technique from the movie industry (invented at Disney's in the 30's, now part of pre-visualization) which can also be used for data presentations. 
+- Main purpose: [**Build the story, not the exact visualizations (rough ideas are enough)!**]{style='color:blue;'}
+
+[Activity:]{style='color:red;'} Make a story board for your presentation. Follow the steps on the next slides. 
+
+
+## Phase A: Story points! {.smaller}
+
+[Activity]{style='color:red;'}
+
+1. Write down **story points** and/or brief visual sketches on sticky notes or cards.
+    - There is no limit on the initial number of story-point card to generate!
+    - **Select the best 6 to 10 ones**
+    - Keep all, maybe you want to replace one 
+    - You can always create or refine one later
+
+2. Already now you can play with your story points to search for a **compelling story**.
+  - Arrange them in order
+  - Replace, combine, refine, and reshuffle them
+  - Use them to tell the story
+  - Scrutinize and iterate your story
+
+
+## Phase B: Storyboarding! {.smaller}
+
+[Activity:]{style='color:red;'} Realize these steps in your storyboard. 
+
+- Step 1: Identify your **"Aha" moment** (main insight)
+- Step 2: Find your beginning (the **setting** and the **"hook"**)
+- Step 3: Select your **rising insights** (narrative from the hook to the Aha moment)
+- Step 4: **Conclude** with solutions, next steps, empowerment to action, ...
+
+
+When your storyboard is fixed 
+
+- write the titles down in your slide deck and 
+- start working on your final visuals such that they best support your story.

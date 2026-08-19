@@ -1,0 +1,73 @@
+---
+title: "W#04 Relationships - Spurious Correlations"
+subtitle: "With inspiration from the Data Visualization Courses of Andrew Heiss"
+author: Jan Lorenz
+format: 
+  revealjs: 
+    slide-number: true
+    preview-links: false
+    logo: img/ConstructorUniversity.png
+    footer: "MDSSB: Visual Communication and Data Storytelling"
+    smaller: true
+    code-fold: true
+    echo: true
+---
+
+# Relationships - Snippet on Spurious Correlations
+
+## Stop eating margarine!
+
+![](img/spuriouscorrelation_margerine.png)
+
+. . .
+
+From Tyler Vigen's famous [Spurious Correlations](https://tylervigen.com/spurious/correlation/7036_popularity-of-the-distracted-boyfriend-meme_correlates-with_the-number-of-statisticians-in-new-jersey)
+
+. . . 
+
+Read: Why this works? On [Spurious Scholar](https://tylervigen.com/spurious-scholar)
+
+. . .
+
+Recall: What does $p < 0.05$ mean? 
+
+. . . 
+
+If there was actually real no effect, you would see data this extreme only 5% of the time.
+
+## Dual y-axes give several options!
+
+- You choose where each y-axes starts and stops, which means ...   
+    ... you can force the two trends to line up in many different ways.
+
+. . .
+
+- Only do it if the two axes are really measuring the same thing!
+- Or if you can provide a **convincing reason** why the different y-axis should be related in the way you do it
+
+. . .
+
+Alternatives:  
+
+- Use facets
+- Use other aesthetics (color, shape, size)
+
+<!-- ## Visualize Correlation
+
+$$
+r_{x, y} = \frac{\operatorname{cov}(x, y)}{\sigma_x \sigma_y}
+$$
+
+Meaning: As the value of X goes up, Y tends to go up (or down)
+.box-1[Says nothing about *how much*<br>Y changes when X changes
+
+
+
+# Comparisons 
+
+
+
+
+
+# Annotations -->
+

@@ -1,0 +1,26 @@
+---
+week: "10"
+title: "Week 10"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+Input slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
+
+```{=html}
+<iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+**The slides also mention the activity in class.** If you do this week assynchronously, please work through the slides and do the activities on your own.
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+
+## Assignments / Readings
+
+- Check your project work against [Milestone 4: Data story and storyboard 📖](../milestones.qmd#m4) and bring it to that level.
+- Prepare a draft presentation of your project for the individual coaching to discuss the student presentation [Milestone 5: Presentation 💬](../milestones.qmd#m4). To that end read:
+   - [**Delivery: Quarto Advice**](../quarto.qmd) and check the [**DataStory_Template**](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/DataStory_Template). (You need to be member of [{{< var org.name >}}]({{< var org.link >}}) and logged in at GitHub.)

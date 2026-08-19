@@ -1,0 +1,32 @@
+---
+week: "02"
+title: "Week 02"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+Slides [Direct Link](../lectures/W02.qmd)
+
+```{=html}
+<iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+### Assigments / Readings
+
+- **Read Chapter 2 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+    - Complete the corresponding reading assignment on [Teams]({{< var teams.link >}}): Click the Assignments Tab and write your engagement comments in your personal class notebook there.  
+- **Make one visual** based on the data you find in the [VisCom_Playground](https://github.com/{{< var org.name >}}/VisCom_Playground) in the {{< var org.name >}} Repositories
+    - Complete the corresponding assignment on [Teams]({{< var teams.link >}})
+- **Search the internet for a visual you find great.** It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!
+    - Complete the corresponding assignment on [Teams]({{< var teams.link >}}) (same as above). Have it ready to be shared and discussed in class.
+
+## Checklist
+
+Check the boxes when done, and feel the "done" 🙂.
+
+- [ ] Have the repository [VisCom_Playground](https://github.com/{{< var org.name >}}/VisCom_Playground) cloned to your computer.

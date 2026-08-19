@@ -1,0 +1,87 @@
+---
+title: "Delivery: Quarto Advice"
+---
+
+Here is advice and links to work with quarto to make beautiful and trustful Presentations and Reports with [https://quarto.org/quarto.png](https://quarto.org). 
+
+The focus is on presentations using the [revealjs](https://revealjs.com/) framework and HTML output because they are well integrated in quarto and the default for the final report.
+
+You can use the template repository [**DataStory_Template**](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/DataStory_Template). (You need to be member of [{{< var org.name >}}]({{< var org.link >}}) and logged in at GitHub.)
+
+## From Reports to Presentations (and vice versa)
+
+These are two different formats for *data storytelling*. However, the markdown structure has some similarity: 
+
+|  | Report | Presentation |
+|--|--------|--------------|
+| Output format | HTML | revealjs (HTML) |
+| `#` | Defines a main Section and its header  | Defines a presentation Section with a title-like extra slide |
+| `##` | Defines a Subsection and its header | Define a Slide and its header |
+
+: {tbl-colwidths="[16,38,46]"}
+
+So, a common workflow **Presentation to Report** or **Report to Presention** can be to copy the file and then adjust the `format` in the YAML and adjust the structure. Typically:
+
+- Shorten text, e.g. to list for presentation, make text paragraphs from text lists
+- Refine the headers (`#`, `##`, ...) for the purpose
+- Check if visuals work well in the new format
+
+
+## Reading the quarto Documentation
+
+You find almost everything in the [quarto documentation **Guide**](https://quarto.org/docs/guide/) and the [quarto documentation **Reference**](https://quarto.org/docs/reference/). However, it is sometimes not so easy to find the right section to read for what problems. 
+
+- Read the [**Guide**](https://quarto.org/docs/guide/) to understand subtopics of quarto holistically. For example: 
+    - **Authoring** with topics like Markdown Basics, how to embed images, make tables and other interesting sections to check out. The subsection **Scholarly Writing** is important for 
+        - making an advanced front matter with more than title and author
+        - how to work with **citations** (when you refer to references like articles in the text) and **references** (which appear at the end of the text)
+        - how to make cross-references, e.g. links from your text to numbers figures with captions and links to other sections 
+    - **Computations** explaining how to work with python and R code blocks
+    - **Tools** for problems helping you to work within RStudio or VSCode
+    - **Documents** for things related to the documents you want to render like your **HTML**-pages for project reports
+    -  **Presentations** for making presentations, in particular using the revealjs framework
+    - More advanced sections about making dashboards, or websites, books, and manuscripts, or other so called *projects* (which are multi-document directories, e.g. as stored in a GitHub repository)
+- Go to the [**Reference**](https://quarto.org/docs/reference/) if you need a particular option or customization for your document or code chunk. For example:
+    - What options are availbale to customize your [HTML output](https://quarto.org/docs/reference/formats/html.html) or your [revealjs Presentation](https://quarto.org/docs/reference/formats/presentations/revealjs.html)
+    - What options are available to customize the size of figures created by code blocks. This is in the section **Code Cells**.   
+    **Important:** look into [*Knitr*](https://quarto.org/docs/reference/cells/cells-knitr.html) (default) if you work from RStudio mainly in R, select *Jupyter* if you render from a Jupyter notebook
+    - What options are available about showing, fold or hide your code or other code execution output like warnings and message  
+    **Important:** look into [*Knitr*](https://quarto.org/docs/reference/cells/cells-knitr.html) (default) if you work from RStudio mainly in R, select *Jupyter* if you render from a Jupyter notebook
+
+
+## From a quick report to a beautiful web article
+
+**Quick report:** A report produced fast for internal use for yourself or a few colleagues or outsiders you need to quickly share results with. Quick reports often have:
+  
+- just title and author, no sophisticated front matter with date, affiliation, contact information, funding information, ...
+- code based figures just in place without captions and not being cross-referenced
+- code echo and code output (like warnings) appearing directly in the text, not nicely folded or removed/suppressed (after careful checks) 
+
+**Web article:** A well crafted report which is prepared to be readable by any outsider, e.g. as a web site published from GitHub pages. For a beautiful web article you: 
+
+- Have a sensible structure for Headers (`#`, `##`, `###`) which may also provide a sensible table of content (see `toc` related options for HTML)
+- Fold in Code (`code-fold: true`), and suppress any warnings (e.g., `warnings: false`) or other messages (e.g., `messages: false`) which are not relevant for the reader. If there was something relevant for the reader (like removed data points or whatever), write about it in your text. 
+- Have well adjusted code-based figures. No cut-off labels. Large enough labels. Appropriate size (adjust `fig-width` and/or `fig-height` in quarto). 
+- Do not show data frames as raw console out put but use a formatted table output. In R, use for example `knitr::kable()` (simple option) or advance table produced witht the [`gt`](https://gt.rstudio.com/) package. 
+- Use [inline code](https://quarto.org/docs/computations/inline-code.html) to show numbers from your analysis in the text!
+- If not very brief introduce Figures and Table by making them referable see sections on cross-referencing. By doing that Figures and Tables also get a caption. 
+- Cite sources you use for your report by using Links, Citations, and a final References sections (read the docs on this)   
+
+## Publish your project from GitHub
+
+The quarto docs provide details and different ways to publish your report. Check the check the **Publishing** section in the quarto [**Guide**](https://quarto.org/docs/guide/). 
+
+As you are working from GitHub anyway, look at the section about publishing using [GitHub Pages](https://quarto.org/docs/publishing/github-pages.html). There are three ways: (1) render to `docs`, (2) use the `quarto publish` command, (3) use GitHub actions. All are fine and documented. Just follow the steps when you do it the first time. The different ways are different. (1) has lowest "overhead" using other tools but requires more systematic manual work when updating a lot of files, it is great for *one file* reports which you do not need to update a lot. (2) is better if you need to update more often like in a website. (3) is the most advanced using GitHub actions provided bny GitHub. 
+
+
+## (Optional but useful) Citation, References, Literature Management
+
+See above how to find guides in quarto on these topics. Additionally, it makes sense to think more about tools helping you to start a sustainable workflow for *reading*, *archiving* and *citing* scientific literature, for your future studies also beyond this course and beyond your studies going further in academia or industry jobs. 
+
+- **Find a literature manager!** A recommendation is [zotero](https://www.zotero.org/) (free to use). You can use it to 
+    - Collect literature you find browsing the internet or other literature. There are easy ways in zotero to import by just pasting in a DOI, are there a browser plugins that give you a button in your browser you can click when on the website of an article. 
+    - Read and annotate articles. Zotero can easily also archive PDFs of articles on your local machine and a PDF viewer. You can also annotate PDF there and there are other tools to access such annotations automatically.
+    - Organize your literature into *collections* of topics of interest. (Any item can be  in more collections!)
+    - Export `bibtex` bibliographies (`.bib`-files) which you can use to embed them in your reports as `references.bib` to cite from (You need the BetterBibTex plugin for zotero for that!).
+- Learn how to work with references and citations in quarto! You do not need a full workflow on it you can also start small for just one project. It will pay off to get into this!
+- Search for video tutorials on literature management. Be aware that there are several options, but many are connected through free standards like `bibtex` or `csl`. 

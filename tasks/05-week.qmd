@@ -1,0 +1,32 @@
+---
+week: "05"
+title: "Week 05"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+Slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
+
+```{=html}
+<iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+
+## Assignments / Readings
+
+- **Read Chapter 5 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+
+- Think about the data story you want to do and fill the [Form: Project and Team Check-in](https://forms.office.com/e/UZb7NFxLZB) by [**Friday, 2025-10-03**]{.red}. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)
+    - Check the [Milestones](../milestones.qmd). 
+    - Milestone 1 is the project pitch in class!
+    - Check the [Schedule](../schedule.qmd) for the dates of the milestones.
+    - **Next week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story.**
+
+## Additional readings
+
+[Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point](https://clauswilke.com/dataviz/telling-a-story.html)

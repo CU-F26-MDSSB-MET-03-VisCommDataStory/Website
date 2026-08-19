@@ -1,0 +1,30 @@
+---
+title: "Schedule"
+format:
+  html: 
+    number-sections: false
+---
+ 
+[*Class*]{.red} = whole class meets together  
+[*Team*]{.green} = team sessions with the instructor in the same time (no class meeting)
+
+Week | Dates  | How | Topic                  | Readings | Milestones |
+-----|--------|:---:|------------------------|---------:|:---:|
+1    | Sep 02 | [*Class*]{.red} | [What is Visual Communication? What is Data Storytelling?](tasks/01-week.qmd)  |  [Ch 1](readings.qmd#r) | |
+2    | Sep 09 | [*Class*]{.red} | [Data Visualization: Grammar of Graphics](tasks/02-week.qmd)  |  [Ch 2](#r) | |
+3    | Sep 16 | [*Class*]{.red} | [Amounts Proportions Uncertainty](tasks/03-week.qmd)          | [Ch 3](readings.qmd#r) | | 
+4    | Sep 23 | [*Class*]{.red} | [Relationships Comparisons Annotations](tasks/04-week.qmd)    | [Ch 4](readings.qmd#r) |  |   |
+5    | Sep 30 | [*Class*]{.red} | [Data Stories](tasks/05-week.qmd)                             | [Ch 5](readings.qmd#r) |
+6    | Oct 07 | [*Team*]{.green} | [Individual Coaching: Projects Work Start!](tasks/06-week.qmd) | [Ch 6](readings.qmd#r) | [0](milestones.qmd#m0) |
+7    | Oct 14 | [*Class*]{.red} | [Project Pitches](tasks/07-week.qmd)    | [Ch 7](readings.qmd#r) | [1](milestones.qmd#m1) |
+8    | Oct 21 | [*Class*]{.red} | [Main Insight](tasks/08-week.qmd)       | [Ch 8](readings.qmd#r) | [2](milestones.qmd#m2)|
+9    | Oct 28 | [*Class*]{.red} | Session 1: [Making your Visuals!](tasks/09-week.qmd) (only 9:45-11:00) <br> 11:15 - 12:30 **Session 2: [*The Art and Science of Data Visualization*](tasks/09-week.qmd#session-2-the-art-and-beauty-of-data-visualization-with-moritz-stefaner) Talk by a leading Data Visualization Expert** (Room RLH 274)   |                        | [3](milestones.qmd#m3)  |
+10   | Nov 04 | [*Class*]{.red} | [Story boarding!](tasks/10-week.qmd)  |                    | [4](milestones.qmd#m4) |
+11   | Nov 11 | [*Team*]{.green} | [Individual Coaching](tasks/11-week.qmd)                     | | |
+12   | Nov 18 | [*Class*]{.red} | [Polishing your Visuals](tasks/12-week.qmd)                | | |
+13   | Nov 25 | [*Class*]{.red} | [*Student Presentations*](tasks/13-week.qmd)                       | | [5](milestones.qmd#m5) |
+14   | Dec 02 | **no class** | Instructor is unavailable                         | |   |
+Dec  | Meet   | [*Team*]{.green} |   Feedback on presentation / Advice for Finalization    | |   |
+&nbsp;    | End of Tm | *Submission* | Final report and slidedeck                 |  | [6](milestones.qmd#m6) | 
+
+: {tbl-colwidths="[5, 7, 8, 50, 10, 10]"}

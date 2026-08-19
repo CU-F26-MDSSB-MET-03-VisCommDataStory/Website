@@ -1,0 +1,55 @@
+---
+title: "Grading"
+format: html
+---
+
+## Assessment Criteria (100 points total)
+
+1. Visual Representation Quality (25 points)
+
+- Integration of diverse data sources
+- Clarity, accuracy, and effectiveness of visualizations
+- Application of design principles (color, typography, hierarchy)
+- Proper labeling (axes, legends, units)
+
+2. Appropriateness of Visual Choices (20 points)
+
+- Match between visualization type and data type
+- Effective choices for analytical purpose (trends, comparisons, distributions, etc.)
+- Variety and sophistication in chart selection
+- Management of data complexity
+
+3. Critical Evaluation and Analysis (20 points)
+
+- Critical thinking about visual design decisions
+- Awareness of strengths, limitations, and potential biases
+- Evidence-based justifications for choices
+- Effective guidance for users in visual data analysis
+
+4. Audience Targeting (15 points)
+
+- Clear identification and characterization of target audience
+- Appropriate calibration of complexity and terminology
+- Effective balance of accessibility and sophistication
+- Context and framing suited to audience needs
+
+5. Narrative Structure - Slide Deck (10 points)
+
+- Compelling story arc with climax positioned around 2/3 point
+- Smooth transitions and logical flow
+- Strategic pacing and information revelation
+- Effective conclusion
+
+6. Inverted Pyramid Structure - Written Report (10 points)
+
+- Key findings and conclusions presented first
+- Progressive detail from most to least important
+- Logical organization allowing readers to stop at any point
+- Effective use of sections
+
+7. Integration and Coherence (10 points)
+
+- Complementary relationship between slide deck and report
+- Consistency of story and findings across formats
+- Appropriate use of each medium's strengths
+- Seamless integration of text, visuals, and data

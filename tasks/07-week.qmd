@@ -1,0 +1,49 @@
+---
+week: "07"
+title: "Week 07"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+### Project Pitches
+
+Below is a tentative schedule. We will adjust it in class. There is a bit of buffer. If we do not need it, pitches can start earlier! We could also go over the break between session 1 and 2 and finish earlier.
+
+#### *Session 1* (09:45 - 11:00): **Individual Projects** (~ 10 min.)
+
+Time    | Project Name 
+-------|----------------
+09:50 | Exoplanets
+10:00 | CrimeRates
+10:10 | IShowSpeed
+10:20 | GPUSentiment
+10:30 | Bundesliga
+
+#### *Session 2* (11:15 - 12:30): **Group Projects** (~ 15 min.)
+
+Time    | Project Name 
+-------|----------------
+11:15 | ProgressParadox
+11:30 | ClimateChange
+11:45 | FilterBubble
+12:00 | Housing
+
+
+## Assignments / Readings
+
+- **Read Chapter 7 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter.
+- Check your project work against [Milestone 1](../milestones.qmd#m1) and bring it to that level. 
+
+- **Prepare for the classroom activities in Week 08**
+  - **Draft at least 3 visuals as potential story points.**   
+      *A story point is a SLIDE in your presentation.
+      Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make*
+  - **Write three short narrative texts** for example in your repo's report/index file
+    1. What is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?
+    2. Write a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)
+    3. Write a one-sentence version of the abstract which contains the main insight of your report.  
+      *Example for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: "School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends."*
+

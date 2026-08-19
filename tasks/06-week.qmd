@@ -1,0 +1,23 @@
+---
+week: "06"
+title: "Week 06"
+format:
+  html: 
+    number-sections: false
+---
+
+## NO CLASS but [Individual Meeting]{.green} with Instructor about Project Check-in
+
+- You have to fill out [Form: Project and Team Check-in](https://forms.office.com/e/UZb7NFxLZB) by [**Friday, 2025-10-03**]{.red}. (See [Week #05](05-week.qmd) for details.)
+
+- A [**meeting** will be scheduled on **MS Teams**]{.green} once you filled the form. It lies in the range of class 09:45 -- 12:30. Special arrangement are possible for online students, contact the instructor. 
+
+
+## Assignments / Readings
+
+- **Read Chapter 6 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+- [**Prepare your project pitch**]{.red} for Week #07.   
+    - Prepare it in your project repository. You can create it from the [DataStory_Template](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/DataStory_Template). 
+    - Have all essential parts outlined at [Milestone 1: Project Pitch](../milestones.qmd#m1). 
+    - Perfection in visualization is not the goal at this stage, but having something to show and discuss.
+    - This is an example [project pitch presentation](https://janlorenz.github.io/summerbreakcovid/presentation_pitch.html) for the Data Story: [CoviD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/)

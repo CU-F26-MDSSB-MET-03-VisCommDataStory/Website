@@ -1,0 +1,64 @@
+---
+week: "04"
+title: "Week 04"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+### Assignments for Visualizations of Distributions
+
+Instructor's trials in VisCom_Playground [GitHub Repo](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground)
+
+### Spurious Correlations
+
+Slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
+
+```{=html}
+<iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+### Data Story Example
+
+[CoviD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/)
+
+Follow the [Direct Link](https://janlo.de/presentation.html#/title-slide) to the slides!
+
+Analyse the Data Story
+
+1. What is the main insight?
+2. Who is the target audience?
+3. What is the story structure?
+4. What are the data sources?
+  - List all what is necessary to reproduce the analysis
+5. What metrics are used?
+  - What new metrics are computed? Try to list all. 
+  - How is the raw data transformed mathematically?
+6. Got through the slides one by one
+  - What is the purpose of each slide? 
+  - Is anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?
+  - Detailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?
+  - Details about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)? 
+
+*Group discussion.* 
+
+## Assignments / Readings
+
+- **Read Chapter 4 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+- Prepare things to share in class:
+    1. Please find a data story you find interesting and well-crafted on the internet and
+        a. Be prepared to share the link on Teams on Tuesday, so that we can look at it in class.
+        b. Prepare to walk us through the data story and explain what it is about and what you find well-crafted.
+    2. Find a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea. Alternatively, if you do not find data, prepare a topic for a data story. We can then briefly discuss how to find out if data is available for it. 
+
+
+## Additional readings
+
+[Chapter 12 in Fundamentals of Data Visualization: Visualizing associations among two or more quantitative variables](https://clauswilke.com/dataviz/visualizing-associations.html) (Wilke 2018)   
+[Chapter 13 in Fundamentals of Data Visualization: Visualizing time series and other functions of an independent variable](https://clauswilke.com/dataviz/time-series.html) (Wilke 2018)   
+[Chapter 14 in Fundamentals of Data Visualization: Visualizing trends](https://clauswilke.com/dataviz/visualizing-trends.html) (Wilke 2018)   
+

@@ -1,0 +1,64 @@
+---
+title: "Readings"
+format:
+  html: 
+    number-sections: false
+---
+
+::: {.callout-tip}
+The [Schedule](schedule.qmd) lists when readings should be completed (feel free to read ahead!)  
+Watch out for Tasks related to readings. 
+:::
+
+
+## Book: Dykes (2019) {#book}
+
+There are several good books on Data Storytelling. I use the following book as a main reference. While my own data story telling is mostly scientific, the book is written from a business perspective which is a good complement and many principles are the same.
+
+Dykes, C. (2019). *Effective Data Storytelling: How to Drive Change with Data, Narrative and Visuals*. Wiley.
+
+The book is available as an eBook through the University Library:   
+<https://ebookcentral.proquest.com/lib/constructor-university/detail.action?docID=5993965>   
+(You need to be on campus or login with your University M365 account.)
+
+After the course you will have read most of the book. 
+
+## Reading Remarks on Dykes {#r}
+
+The purpose of reading is to apply the knowledge for doing your Data Story Project. To that end, some parts require closer reading than others. 
+
+- **Chapter 1**: *Introduction to Driving Change through Insight*  
+All.   
+A central concept in this chapter is *Insight*. Visual communication and data storytelling is about enabling insights for the audience. For your project you need to think about what insights you want to communicate. Focus on getting an idea what an insight is. 
+- **Chapter 2**: *Why Tell Stories with Data?*  
+All.
+- **Chapter 3**: *The Psychology of Data Storytelling*    
+   This Chapter is *optional*. Read it if you are interested in the psychology of human perception of facts. Consult the summary in Table 3.1.
+- **Chapter 4**: *The Anatomy of a Data Story* (21 pages intensive reading) 
+   Do an intensive reading of the Sections
+    - The Chapter Introduction including Figure 4.2 *The Analysis Journey: From Storyframing to Storytelling* (pp. 105-110)
+    - *The Six Essential Elements of a Data Story* (pp. 110-118)
+    - *Data Stories Come in All Shapes and Sizes* (pp. 118-121)
+    - *When It Makes Sense to Craft Data Stories and When It Doesn’t* (pp. 139-143)
+      
+    You can skim *Every Story Needs a Storyteller* and *Know Your Audience Before Telling Your Story*
+- **Chapter 5**: *Data, The Foundation of Your Data Story* (20 pages intensive reading)   
+  Do an intensive reading of the Sections
+    - The Chapter Introduction (pp. 146-148)
+    - *The Analysis Process: Exploration to Explanation* (pp. 161-168)
+    - *Analyzing and Communicating Data Demands Discipline* (pp. 168-176)
+
+    You can skim *Examine the Building Blocks of Your Data Stories*, *Every Data Story Needs a Central Insight*, *Do You Have an Actionable Insight?*, and *When Too Much of a Good Thing Is Bad*
+ - **Chapter 6**: *Narrative, The Structure of Your Data Story* (14 pages intensive reading) 
+   Do an intensive reading of the Sections
+    - *Defining a Narrative Model for Data Stories* (pp. 186-195)
+    - *Fleshing Out Your Narrative with Story Points* (pp. 195-199)
+   
+    The content of *Storyboarding Your Data Story* will be the basis for the classroom story boarding activity.   
+    You can skim faster through *When They Want Just the Facts*, *Uncovering the Heroes in Your Data Story*, and *Make Your Ideas More Digestible with Analogies*.
+ - **Chapter 7**: *Visuals (Part 1): Setting the Scenes of Your Data Story*  
+ All
+ - **Chapter 8**: *Visuals (Part 2): Polishing the Scenes of Your Data Story*  
+ All
+ - **Chapter 9**: *Crafting Your Own Data Story*  
+ Optional

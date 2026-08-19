@@ -1,0 +1,169 @@
+---
+title: "W#05 Data Stories"
+author: Jan Lorenz
+subtitle: "Many material from Dykes (2019)"
+format: 
+  revealjs: 
+    slide-number: true
+    preview-links: false
+    logo: img/ConstructorUniversity.png
+    footer: "MDSSB: Visual Communication and Data Storytelling"
+    smaller: true
+    code-fold: true
+    echo: true
+---
+
+
+## Visual Communication $\to$ Tell a story 
+
+![](img/time-series-story.png)
+
+::: {style="font-size:50%;"}
+Credit: Angela Zoss and Eric Monson, Duke DVS, from Data Science Box from Mine Cetinkaya-Rundel"
+:::
+
+## Why do we need to tell a story?
+
+::: {.incremental}
+- Most data visualization is done for the purpose of communication. 
+- We have insights from data, and we have a potential audience for it. 
+- To communicate successfully, we have to present a clear and exciting story. 
+- [The need for a story may seem disturbing to scientists and engineers, who may equate it with making things up, putting a spin on things, or overselling results.]{style='color:blue;'}
+- This perspective misses the important role that stories play in reasoning and memory!
+- Moreover, any communication creates a story in the audience’s minds. If we don’t provide a clear story ourselves, then our audience will make one up. In the best-case scenario, the story they make up is reasonably close to our own view of the material presented. However, it can be and often is much worse. The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent.
+:::
+
+. . .
+
+So, we have to do it, even we tend to not wanting to do it...
+
+::: aside
+From: [Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point](https://clauswilke.com/dataviz/telling-a-story.html) (Wilke 2018)
+:::
+
+## Data, Visuals, [Narrative]{style='color:blue;'} {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width='33%'}
+The three essential elements of data stories.
+
+![](img/dykes/datanarrativesvisuals.png)
+
+:::
+
+::: {.column width='65%'}
+- [**Explain.**]{style='color:blue;'} Narrative coupled with data. 
+  - What's happening in the data? 
+  - What is the context?
+  - Guide through the data structure!
+  - Why is a particular insight important? 
+- **Enlighten.** Visuals applied to data. 
+  - Some insights are hard with numbers only. 
+  - Show patterns and outliers otherwise hidden. 
+- [**Engage.**]{style='color:blue;'} Narrative and visuals merged together. 
+  - Engage (or even entertain) an audience. 
+  - Visuals capture interest, only a story holds attention.
+:::
+
+::::
+
+## Aristotle's rhetoric perspectives for a Storyteller {.smaller}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+![](img/dykes/aristotle_rhetoric.png)
+:::
+
+::: {.column width='50%'}
+
+- **Ethos** an appeal to credibility
+- **Logos** an appeal to logic or reason
+- **Pathos** an appeal to emotion
+- *Telos* an appeal to purpose
+- *Kairos* an appeal to timeliness (opportune moment)
+
+:::
+::::
+
+
+## Data Story Continuum {.smaller}
+
+![](img/dykes/datastorycontinuum.png)
+
+[With Data Storytelling you typically tend towards the *right hand* side.]{style='color:red;'}
+
+## Storyframing {.smaller}
+
+- Before you communicate insight, you must find one!
+- Focus on key dimensions and find key metrics
+
+![](img/dykes/storyframing_vs_storytelling.png)
+
+
+
+## Anatomy of a Data Story {.smaller}
+
+![](img/dykes/storyformat.png)
+
+
+## Your Storytelling Project {.smaller}
+
+You will tell the story in both formats with a focus on the *Narrative Structure*.
+
+
+![](img/dykes/storyformat.png){width="40%"}
+
+. . . 
+
+Your report will have two parts: 
+
+1. [**Slide deck and presentation**]{style='color:blue;'}: Narrative structure
+2. [Classical **Report** as classical HTML page]{style='color:blue;'}: Inverted pyramid structure
+
+## Six essential elements of data stories {.smaller}
+
+![](img/dykes/datastories_six_elements.png)
+
+- [Your **project slide deck and presentation** matches a **Data Presentation**]{style='color:blue;'}
+- [Your **project  report** matches a **Curated Report (and Dashboard)**]{style='color:blue;'}
+
+## Differences in Communication {.smaller}
+
+![](img/dykes/direct_vs_indirect_comm.png)
+
+- [Your **project slide deck and presentation** is direct communication]{style='color:blue;'}
+- [Your **project  report** is indirect communication]{style='color:blue;'}
+
+
+## Data Storytelling Arc
+
+![](img/dykes/datastorytelling_arc.png)
+
+## Compared to other communication models
+
+![](img/dykes/narrative_comm_models.png)
+
+## Examples of story points {.smaller}
+
+![](img/dykes/storypoints_9.png)
+
+
+## Storyboarding {.smaller}
+
+- Definition: A **story** is an account of causally related or connected series of events.
+- A narrative always has a one-dimensional **linear sequence**, but we can decide 
+  - what is in and 
+  - in which order.
+- **Storyboarding** is a technique from the movie industry (invented at Disney's in the 30's, now part of pre-visualization) which can also be used for data presentations. 
+- Main purpose: [**Build the story, not the exact visualizations (rough ideas are enough)!**]{style='color:blue;'}
+
+**A storyboard is Milestone 4**
+
+## Example Storyboard
+
+![](img/storyboardexample.jpg)
+
+Before you have to achieve milestones 0, 1, 2, and 3 ...

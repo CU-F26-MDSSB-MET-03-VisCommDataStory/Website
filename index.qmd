@@ -1,0 +1,139 @@
+---
+title: "Visual Communication and Data Story-telling"
+---
+
+## Module Names
+
+- MDSSSB-MET-03 Visual Communication and Data Story-telling (Methods area, 5 credits)
+
+Offered in the [Master program: Data Science for Society and Business (DSSB)](https://constructor.university/programs/graduate-education/data-science-for-society-business). See the module description in the [DSSB Handbook](). 
+
+
+## Module Components
+
+The courses is offered in the Fall term. 
+
+Requirements: **Data Science Concepts** and **Data Science Tools**
+
+## Class Meeting Information
+
+Classes are on **Tuesdays**  
+Session 1 **{{< var session1 >}}**   
+Session 2 **{{< var session1 >}}**    
+Location: **{{< var room >}}** in-person  
+Video streaming and recording in Teams will be provided, it does not work for all class activities perfectly: Team **F25_MDSSB-MET-03_Visual Communication and Data Story-telling**, General Channel
+
+## Instructors
+
+[**Jan Lorenz**](http://janlo.de) Email: <jlorenz@constructor.univeristy>
+
+
+## Format and Workload
+
+17.5 hours Lectures (including class activities)
+17.5 hours Tutorials (partly prepared by students)
+90 hours Project Work outside Class
+
+
+## Intended Learning Outcomes
+
+The module descriptions can be found in the [DSSB Handbook](https://constructor.university/sites/default/files/2023-09/DSSB_MSc_Handbook_16-08-2023_Track%20changes%20.pdf)  
+
+### From the handbook
+
+By the end of this module, students will be able 
+
+1. visually represent various data sources
+2. choose suitable visual representations for different data sets
+3. evaluate visual depictions of data
+4. assist users in visual data analysis
+5. target visual representations to different audiences
+
+### Additional remark from the instructor
+
+You will build on your experience 
+
+- the small **Data Science Project** in Data Science Tools in the the **1st semester**
+- your **Data Science Lab Project** in the **2nd semester**
+
+You will create another Data Science Project focusing on *great graphics* and *telling a story with data*! You will write the report such that a non Data Scientist can enjoy reading it and gain some insights about the datastory you tell. 
+
+
+## Examination and Assessment
+
+From the Handbook:\
+Assessment Type: **Project Report** (6000 - 8000 words)    
+This is the official word count from the handbook. However, the instructor will not count words and will not assess the report based on fulfilling the word count. Essential parts the submissions will be visual anyway. 
+
+**Details about the project report:** The project report is a website
+which tells a data story which is rendered with quarto.   
+
+It includes
+
+1.  a slide deck used to tell the story in a presentation,
+2.  a written report tells the story for readers and gives more details and more visuals, e.g. in Appendices.
+
+Optional the submission can also include a dashboard with interactive graphs which enables individual
+exploration by the reader.
+
+The report must be reproducible. That means the source code must be provided.   
+However, the report must be readable without reading code. The target audience is not a programmer and they should not see code while reading. Technical parts should be in the appendix. 
+<!-- A potential structure and some notes are in the document `index.qmd` in your project's GitHub repository <https://github.com/JU-F22-MDSSB-MET-03/project-YOURNAMES>. Please also use the structure in this document when you produce the report with other tools.  -->
+
+Delivery via GitHub.
+
+:::{.callout-important}
+You can make your data story into a nice thing to **show your competence to the outside world**. It is not too difficult to publish the report as a **website** from your final repository. Make your report such that it is worth to publish and show it!
+:::
+
+
+## Module Policies and expected student engagement and contributions {#sec-stud-contrib}
+
+In this course we work with different methods and most of them require student engagement such as
+
+- reading a chapter before class to discuss it in class
+- preparing something to show to others
+- pitch your project idea to the class
+- engage in a class room activity, like a joint storyboarding session
+- do a final project presentation
+
+For all activities, participation **in person** is best.   
+Some sessions may be streamed and recorded when some students have a valid excuse to not be present in person. However, there may be activities where this does not work well. 
+
+
+## Academic Integrity
+
+All involved parties (professors and lecturers, instructors and students) are expected to abide by the word and spirit of the "Code of Academic Integrity": 
+https://constructor.university/student-life/student-services/university-policies/academic-policies/code-of-academic-integrity. Violations of the Code might be brought to the attention of the Academic Integrity Committee.
+
+## Artifical Intelligence (AI) Use Policy
+
+This policy covers any generative AI tool, such as ChatGPT, Elicit, etc. This includes text, code, slides, artwork/graphics/video/audio and other products.
+
+We instructors encouraged to using and exploring AI tools for these purposes: 
+
+  - **Learning by dialog with a chatbot.** AI chatbots can be very helpful to explain you concepts *on your desired level* and get a feeling about how certain topics are treated. You can ask for an easier or more detailed explanation or focus on certain aspects. Note: The capabilities are limited and you likely receive a lot of false information! An AI chat can be a good entry point to learn about a specific topic but the more specific it gets the more likely it is that AI will start to deliver useless or wrong answers. Using chatbots should remain a small part of your learning process. Rule of thumb: Spend not more than 25% of the learning time with chatting. There is no way around reading textbooks, reading software documentation, learning and understanding concepts, searching for help online, asking instructors or fellow students.
+  - **Have code snippets written.** Tools like GitHub Copilot can be a great help in coding! You are encouraged to have them available and try them. The GitHub Copilot is free to use for students and teachers who joined [GitHub Education](https://github.com/education)), they can be integrated in your programming IDE like RStudio and VSCode. Copilots can speed up writing. However, they may deliver bad code. There is no way around understanding yourself what code is doing! Do not spend endless hours asking for new code with new prompts, spend time understanding a language and the functions and objects you are using! AI chatbots and Copilots can also help you to understand code. Copilots can be a great help to get a skeleton of code and an idea how your solution *might* look, they rarely deliver the complete code, expect that the code does not work, expect that the code seems to works but the results are wrong. **You are 100% accountable for the code you produce, with or without the help of a copilot!**
+  - **Have a draft text snippet written.** Formulating and describing research questions, describing data, documenting code, interpreting results, and deriving conclusion from the results is an essential part of data science not direclty related to coding but verbal text. Chatbots are good in writing text which often appears as well readable. You can use this to inspire you and to polish and improve your texts. However, you are 100% accountable for the text you deliver. You are expected to know what your text is about and to be able to answer questions about what your text means! With text generated purely by chatbots, it is oftenn evident for us that students do not understand. We consider such cases worse than incomplete but sensible self-written text. Text written by chatbots is often very generic and not specific. In general, we value more specific text higher than generic text. Large parts of very generic text is considered worse than a shorter more specific text. 
+  - Note: **Philosophical and legal questions around the training and use of chatbots and code copilots are controversially contested and re-examined constantly!** We encourage to engage with such questions and become aware of arguments and debates.
+
+If any part of this AI policy is confusing or uncertain, please reach out to us for a conversation before submitting your work.
+
+## Schedule
+
+The [**Schedule**](schedule.qmd) is on an extra page and will be updated continuously. 
+
+
+## Literature
+
+During the course we will work through this book: 
+
+*Dykes, B. (2019). Effective Data Storytelling: How to Drive Change with Data, Narrative and Visuals. John Wiley & Sons.*
+
+See [Readings](readings.qmd).
+
+
+
+## Feedback from Students
+
+We are eager to constantly improve the quality of our teaching. We would be glad to obtain your feedback at any time of the course to improve your learning experience.

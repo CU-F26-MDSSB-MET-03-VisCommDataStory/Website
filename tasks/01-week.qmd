@@ -1,0 +1,34 @@
+---
+title: "Week 01"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+Slides [Direct Link](https://docs.google.com/presentation/d/e/2PACX-1vQHA-VAX_GPn1q1elwQt8OOwT3OdQgX3ky76CH4wz84xC8ByDXBMrbUcYhGn3IEZWgExImBipT6ZeyI/pub?start=false&loop=false&delayms=3000&slide=id.g27b4bb0a919_0_0)
+
+```{=html}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHA-VAX_GPn1q1elwQt8OOwT3OdQgX3ky76CH4wz84xC8ByDXBMrbUcYhGn3IEZWgExImBipT6ZeyI/pubembed?start=false&loop=false&delayms=3000" frameborder="1" width="800" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+### Assigments / Readings
+
+- **Read Chapter 1 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+    - Complete the corresponding reading assignment on [Teams]({{< var teams.link >}}): Click the Assignments Tab and write your engagement comments in your personal class notebook there.  
+- Make a visual with the data in the Playground repository found in the [Repository of the Course]()
+
+## Checklist
+
+Check the boxes when done, and feel the "done" 🙂.
+
+- [ ] Get ready for your Playground repository
+    - [ ] Accept the invitation to join the GitHub-Organization [{{< var org.name >}}]({{< var org.link >}}). Check your emails for the invitation, or go to the page while logged in and find the acceptance button.
+    - [ ] Make your tool ready for work with R, tidyverse, and quarto. 
+        - [ ] [Recommendation]{.red}: Switch to [**Positron**](https://positron.posit.co/) as a replacement for RStudio. 
+        - [ ] Check that you have R 4.5.1 and the `tidyverse` package installed.
+- [ ] Read the [syllabus](../index.qmd), come up with clarification question. 
+- [ ] Readings and Assignment done. 

@@ -1,0 +1,35 @@
+---
+week: "08"
+title: "Week 08"
+format:
+  html: 
+    number-sections: false
+---
+
+## Material
+
+Input slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
+
+```{=html}
+<iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+**The slides also contain the activities in class.** If you do this week assynchronously, please work through the slides and do the activities on your own.
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+
+
+
+## Assignments / Readings
+
+- **Read Chapter 8 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter.
+- Check your project work against [Milestone 2: Main insight 💡](../milestones.qmd#m2) and bring it to that level.
+
+- **Prepare for the classroom activities in Week 09**
+   - Make one visual for your story with your actual data. 
+    - Be ready to share the **visual** (e.g. screenshot) and the **code** (R or Python, also share the packages used) over Teams in class. 
+    - Be ready to explain what story point you want to make with the visual.
+    - What improvements you would like to make (annotations, insets, labels, images, ...)
+
+  The purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. So, the discussion should take the form of a peer consulting session. 

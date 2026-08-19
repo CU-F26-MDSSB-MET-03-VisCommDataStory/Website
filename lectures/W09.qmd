@@ -1,0 +1,69 @@
+---
+title: "W#09 Making Visuals"
+author: Jan Lorenz
+subtitle: "Many material from Dykes (2019)"
+format: 
+  revealjs: 
+    slide-number: true
+    preview-links: false
+    logo: img/ConstructorUniversity.png
+    footer: "MDSSB: Visual Communication and Data Storytelling"
+    smaller: true
+    code-fold: true
+    echo: true
+---
+
+## Milestone 3: Visual Drafts 📊📈📉️
+
+
+**Target Achievements:** 
+
+-   For each insight
+    -   a visuals drafted in the report or the presentation (a draft can be a first coded visual, or even photo of a sketch on paper)
+    -   notes and ideas for the final version
+
+. . .
+
+
+Make Visual Drafts ready for **Milestone 4**: [Make Story Point ready for Story Boarding]{style="color:red;"}
+
+
+## Example Storyboard
+
+![](img/storyboardexample.jpg)
+
+
+## Terminology
+
+|             | Definition      | Where?
+|-------------|-----------------|---------------------------
+| [**Insight**]{style="color:darkgreen"} | (unexpected) *shift* in the way one understands things | In the audiences mind 
+| [**Story Point**]{style="color:darkblue"}  | A part of a narrative. Something you communicate in words. Bringing across an [insight]{style="color:darkgreen"} needs at least one [story point]{style="color:darkblue"}, maybe more building on each other. | In your narrative script for the presentation
+| [**Data Visual**]{style="color:darkorange"}      | A graphical representation of data. In *data storytelling* most [story points]{style="color:darkblue"} center around one or more visuals. | On a slide in your slidedeck and/or in a Figure in your report
+| [**Conceptual Visual**]{style="color:purple"} | A visual that is not based on data, but helps to explain [story points]{style="color:darkblue"} about concepts, ideas, and processes. In *visual communication* also non-data story points use visuals. | On a slide in your slidedeck and/or in a Figure in your report
+
+: {tbl-colwidths="[15,55,30]"}
+
+## Data Variations to Consider for Visuals
+
+![](img/dykes/fivedatavariations.png)
+
+[**Activity:**]{style="color:red"} (Consult the Dykes (2019) for details)  
+
+::: {.incremental}
+- Think about communicating **Totals**, **Percentages** and **Variance**. How important is which for your story?  
+- Do you need a Special Calculated Metric? 
+- What added context will help? (Aggregated data as main trend, or data from other sources for comparison.)
+::: 
+
+## Example (Visual) [Story Points]{style="color:darkblue"}
+
+![](img/dykes/storypoints_9.png)
+
+[**Activity:** Write down which of them you will use. Sketch how. Extend by some you could check out.]{style="color:red"} (Consult the Dykes (2019) for details)
+
+## Ideas on [Data Visuals]{style="color:darkorange"} 
+
+![](img/dykes/charttypes.png)
+
+[**Activity:** Write down which of them you will use. Sketch how. Extend by some you could check out.]{style="color:red"} (Consult the Dykes (2019) for details)

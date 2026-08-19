@@ -1,0 +1,57 @@
+---
+week: "09"
+title: "Week 09"
+format:
+  html: 
+    number-sections: false
+---
+
+
+## Material
+
+### Session 1: Drafting your Visuals! 
+
+9:45 - 11:00
+
+Input slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
+
+```{=html}
+<iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+**The slides also mention the activity in class.** If you do this week assynchronously, please work through the slides and do the activities on your own.
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+### Session 2: *The Art and Beauty of Data Visualization* with Moritz Stefaner
+
+A special event! A talk by a leading data visualization expert.
+
+**11:15 - 12:30 Room RLH 274 (as part of Current Topics Seminars)**
+
+*Speaker:* [Moritz Stefaner](https://truth-and-beauty.net/)
+
+*Title:* **The Art and Beauty of Data Visualization**
+
+*Abstract:* As an independent Truth & Beauty Operator, Moritz Stefaner is constantly chasing the perfect shape for information — how can we create expressive, intriguing, and elegant data experiences? Drawing on high-profile projects for the German government, WHO, and OECD, as well as innovative creative explorations, he demonstrates how effective data visualization can achieve much more than simply making charts look nicer.
+
+
+::: {.columns}
+::: {.column width="63%"}
+*Short Bio:* With a background in Cognitive Science and Interface Design, his work beautifully balances analytical and aesthetic aspects in mapping complex phenomena to support data–driven decision making. Moritz has helped clients like the OECD, Google News Initiative, Salesforce, the World Economic Forum, Deutsche Bahn and the Max Planck Research Society to find insights and beauty in large and complex data sets. He is the record winner of the Kantar Information is Beautiful awards and his work has been exhibited at Venice Biennale of Architecture, SIGGRAPH, Max Planck Science Gallery, Fondation EDF, and Ars Electronica. As a writer, co-host of the [Data Stories podcast](https://datastori.es/), and sought-after keynote speaker and workshop facilitator, Moritz Stefaner continues to excite more and more people about the magic that can emerge when art and science connect deeply. 
+:::
+::: {.column width="37%"}
+![](https://truth-and-beauty.net/about/_mo-cover.jpg)
+:::
+::: 
+
+[Slide of Moritz Stefaner](https://www.dropbox.com/scl/fi/o6noon9esyhodz7rdicbc/2506-constructor.pdf)
+
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+
+## Assignments
+
+- Check your project work against [Milestone 3: Visual Drafts 📊📈📉️](../milestones.qmd#m3) and bring it to that level.
+- Have a list of story points and visual drafts ready for [**Milestone 4: Data story and storyboard 📖**](../milestones.qmd#m4) next week.
+- *If you need to follow next week's Storyboarding online*: Prepare a pile of 10-20 sheets of paper in small format (A6 or A7 = Postcard or half a postcard, also Post-its can work if not very small) and pens in 2-4 colors. You also need space on a table where you can order and shift around these sheets. My experience is that this is better than using online whiteboards. When your team colleagues are also remote, I suggest you both storyboard independently and exchange either in class occasionally or afterward. 
