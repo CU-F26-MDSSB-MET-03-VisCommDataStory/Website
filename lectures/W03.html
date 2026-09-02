@@ -270,16 +270,16 @@ Jan Lorenz
 <pre><code># A tibble: 10 × 2
    opinion    region        
    &lt;chr&gt;      &lt;chr&gt;         
- 1 Right      rest_of_south 
- 2 Wrong      london        
- 3 Wrong      scot          
- 4 Wrong      north         
- 5 Wrong      rest_of_south 
- 6 Don't know north         
- 7 Wrong      rest_of_south 
- 8 Wrong      scot          
- 9 Wrong      rest_of_south 
-10 Wrong      midlands_wales</code></pre>
+ 1 Right      north         
+ 2 Wrong      midlands_wales
+ 3 Wrong      north         
+ 4 Right      rest_of_south 
+ 5 Right      north         
+ 6 Wrong      midlands_wales
+ 7 Wrong      midlands_wales
+ 8 Wrong      rest_of_south 
+ 9 Don't know midlands_wales
+10 Right      north         </code></pre>
 </div>
 </div>
 </div></div>
@@ -1491,7 +1491,7 @@ Jan Lorenz
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/CU-F26-MDSSB-MET-03-VisCommDataStory\.github\.io\/Website\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }

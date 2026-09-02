@@ -301,7 +301,7 @@ Video streaming and recording in Teams will be provided (but it does not work fo
 </section>
 <section id="format-and-workload" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="format-and-workload"><span class="header-section-number">5</span> Format and Workload</h2>
-<p>17.5 hours Lectures (including class activities) 17.5 hours Tutorials (partly prepared by students) 90 hours Project Work outside Class</p>
+<p>17.5 hours Lectures 17.5 hours Tutorials 90 hours Project Work outside Class</p>
 </section>
 <section id="intended-learning-outcomes" class="level2" data-number="6">
 <h2 data-number="6" class="anchored" data-anchor-id="intended-learning-outcomes"><span class="header-section-number">6</span> Intended Learning Outcomes</h2>
@@ -477,7 +477,7 @@ Some sessions may be streamed and recorded when some students have a valid excus
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/CU-F26-MDSSB-MET-03-VisCommDataStory\.github\.io\/Website\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -487,7 +487,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository VisCom_Playground.\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"../data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      rest_of_south \n 2 Wrong      london        \n 3 Wrong      scot          \n 4 Wrong      north         \n 5 Wrong      rest_of_south \n 6 Don't know north         \n 7 Wrong      rest_of_south \n 8 Wrong      scot          \n 9 Wrong      rest_of_south \n10 Wrong      midlands_wales"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository VisCom_Playground.\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"../data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      north         \n 2 Wrong      midlands_wales\n 3 Wrong      north         \n 4 Right      rest_of_south \n 5 Right      north         \n 6 Wrong      midlands_wales\n 7 Wrong      midlands_wales\n 8 Wrong      rest_of_south \n 9 Don't know midlands_wales\n10 Right      north"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -831,7 +831,7 @@
     "href": "index.html#format-and-workload",
     "title": "Visual Communication and Data Story-telling",
     "section": "5 Format and Workload",
-    "text": "5 Format and Workload\n17.5 hours Lectures (including class activities) 17.5 hours Tutorials (partly prepared by students) 90 hours Project Work outside Class",
+    "text": "5 Format and Workload\n17.5 hours Lectures 17.5 hours Tutorials 90 hours Project Work outside Class",
     "crumbs": [
       "Syllabus"
     ]
@@ -1090,7 +1090,7 @@
     "href": "tasks/01-week.html#checklist",
     "title": "Week 01",
     "section": "Checklist",
-    "text": "Checklist\nCheck the boxes when done, and feel the “done” 🙂.\n\nGet ready for your Playground repository\n\nAccept the invitation to join the GitHub-Organization CU-F26-MDSSB-MET-03-VisCommDataStory. Check your emails for the invitation, or go to the page while logged in and find the acceptance button.\nMake your tool ready for work with R, tidyverse, and quarto.\n\nRecommendation: Switch to Positron as a replacement for RStudio.\nCheck that you have R 4.5.1 and the tidyverse package installed.\n\n\nRead the syllabus, come up with clarification question.\nReadings and Assignment done."
+    "text": "Checklist\nCheck the boxes when done, and feel the “done” 🙂.\n\nGet ready for your Playground repository\n\nAccept the invitation to join the GitHub-Organization CU-F26-MDSSB-MET-03-VisCommDataStory. Check your emails for the invitation, or go to the page while logged in and find the acceptance button.\nMake your tool ready for work with R, tidyverse, and quarto.\n\nCheck that you have R 4.6.1 and the tidyverse package installed.\n\n\nRead the syllabus, come up with clarification question.\nReadings and Assignment done."
   },
   {
     "objectID": "tasks/07-week.html",
@@ -1413,7 +1413,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Projects Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nProject Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Tm\nSubmission\nFinal report and slidedeck\n\n6",
+    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Projects Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nProject Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Term\nSubmission\nFinal report and slidedeck\n\n6",
     "crumbs": [
       "Syllabus",
       "Schedule"
