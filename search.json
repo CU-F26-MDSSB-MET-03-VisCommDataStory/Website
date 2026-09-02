@@ -1,0 +1,1681 @@
+[
+  {
+    "objectID": "lectures/W12.html#storyboard",
+    "href": "lectures/W12.html#storyboard",
+    "title": "W#12: Polishing Visuals",
+    "section": "Storyboard",
+    "text": "Storyboard\nDykes’ Storytelling Arc"
+  },
+  {
+    "objectID": "lectures/W12.html#storyboard-example",
+    "href": "lectures/W12.html#storyboard-example",
+    "title": "W#12: Polishing Visuals",
+    "section": "Storyboard example",
+    "text": "Storyboard example\nStoryboard for a presentation of the datastory The summer break effects on the CoViD-19 pandemic in Germany 2020-2022"
+  },
+  {
+    "objectID": "lectures/W12.html#checklist-datastory-presentation-essentials",
+    "href": "lectures/W12.html#checklist-datastory-presentation-essentials",
+    "title": "W#12: Polishing Visuals",
+    "section": "Checklist: Datastory Presentation Essentials",
+    "text": "Checklist: Datastory Presentation Essentials\nMost important:\n\nWhat is your hook?\nMake clear what the story is about. Provide context.\nWhat is your main Point?\nSelect one among all the story points you have.\n\nThen:\n\nWhat are the rising insights?\nStory points to make one after the other from the hook to the main point.\nWhat are the conclusion?\nDepending on the assumed audience."
+  },
+  {
+    "objectID": "lectures/W12.html#slidedeck",
+    "href": "lectures/W12.html#slidedeck",
+    "title": "W#12: Polishing Visuals",
+    "section": "Slidedeck",
+    "text": "Slidedeck\nHave most Visuals for your Story Points drafted in code!"
+  },
+  {
+    "objectID": "lectures/W12.html#goals-for-visual-storytelling",
+    "href": "lectures/W12.html#goals-for-visual-storytelling",
+    "title": "W#12: Polishing Visuals",
+    "section": "Goals for Visual Storytelling",
+    "text": "Goals for Visual Storytelling\n\nAs data storyteller, you bear the burden of comprehension - not your audience.\nMake it as easy as possible for your audience to understand your visuals and follow your overall story."
+  },
+  {
+    "objectID": "lectures/W12.html#principles-visual-data-storytelling",
+    "href": "lectures/W12.html#principles-visual-data-storytelling",
+    "title": "W#12: Polishing Visuals",
+    "section": "Principles Visual Data Storytelling",
+    "text": "Principles Visual Data Storytelling"
+  },
+  {
+    "objectID": "lectures/W12.html#visualize-right-data",
+    "href": "lectures/W12.html#visualize-right-data",
+    "title": "W#12: Polishing Visuals",
+    "section": "1. Visualize Right Data",
+    "text": "1. Visualize Right Data\nData Variations to Consider"
+  },
+  {
+    "objectID": "lectures/W12.html#visualize-right-data-example",
+    "href": "lectures/W12.html#visualize-right-data-example",
+    "title": "W#12: Polishing Visuals",
+    "section": "1. Visualize Right Data: Example",
+    "text": "1. Visualize Right Data: Example"
+  },
+  {
+    "objectID": "lectures/W12.html#visualize-right-data-example-1",
+    "href": "lectures/W12.html#visualize-right-data-example-1",
+    "title": "W#12: Polishing Visuals",
+    "section": "1. Visualize Right Data: Example",
+    "text": "1. Visualize Right Data: Example"
+  },
+  {
+    "objectID": "lectures/W12.html#visualize-right-data-example-2",
+    "href": "lectures/W12.html#visualize-right-data-example-2",
+    "title": "W#12: Polishing Visuals",
+    "section": "1. Visualize Right Data: Example",
+    "text": "1. Visualize Right Data: Example"
+  },
+  {
+    "objectID": "lectures/W12.html#right-visual-choose-best-fitting",
+    "href": "lectures/W12.html#right-visual-choose-best-fitting",
+    "title": "W#12: Polishing Visuals",
+    "section": "2. Right Visual: Choose best fitting",
+    "text": "2. Right Visual: Choose best fitting"
+  },
+  {
+    "objectID": "lectures/W12.html#right-visual-accurate-comparison",
+    "href": "lectures/W12.html#right-visual-accurate-comparison",
+    "title": "W#12: Polishing Visuals",
+    "section": "2. Right Visual: Accurate comparison",
+    "text": "2. Right Visual: Accurate comparison"
+  },
+  {
+    "objectID": "lectures/W12.html#right-visual-bar-chart-vs.-slope-chart",
+    "href": "lectures/W12.html#right-visual-bar-chart-vs.-slope-chart",
+    "title": "W#12: Polishing Visuals",
+    "section": "2. Right Visual: Bar Chart vs. Slope Chart",
+    "text": "2. Right Visual: Bar Chart vs. Slope Chart"
+  },
+  {
+    "objectID": "lectures/W12.html#right-visual-pie-vs.-bars",
+    "href": "lectures/W12.html#right-visual-pie-vs.-bars",
+    "title": "W#12: Polishing Visuals",
+    "section": "2. Right Visual: Pie vs. Bars",
+    "text": "2. Right Visual: Pie vs. Bars\n\nWhat is easy to grasp, what not?\n\nIf you use a Pie chart, thingk about if the total sum is some sensible total!\n\nExample: If it is about market share do your item represent the whole market?\nExample: It is is about world population, do you cover (almost) all countries?\n\nIf you use a Pie chart of percentages make sure things add up to 100%!"
+  },
+  {
+    "objectID": "lectures/W12.html#calibrate-visuals-to-message",
+    "href": "lectures/W12.html#calibrate-visuals-to-message",
+    "title": "W#12: Polishing Visuals",
+    "section": "3. Calibrate Visuals to Message",
+    "text": "3. Calibrate Visuals to Message\n\nKeep comparisons in close proximity\nPut the things you compare close to each other\nProvide a common baseline for comparisons\nCan you provide a baseline for your comparison?\nEnsure charts are consistent for comparisons\nDo you use color consistently"
+  },
+  {
+    "objectID": "lectures/W12.html#calibrate-visual-to-message",
+    "href": "lectures/W12.html#calibrate-visual-to-message",
+    "title": "W#12: Polishing Visuals",
+    "section": "3. Calibrate visual to message",
+    "text": "3. Calibrate visual to message"
+  },
+  {
+    "objectID": "lectures/W12.html#calibrate-visual-to-message-1",
+    "href": "lectures/W12.html#calibrate-visual-to-message-1",
+    "title": "W#12: Polishing Visuals",
+    "section": "3. Calibrate visual to message",
+    "text": "3. Calibrate visual to message"
+  },
+  {
+    "objectID": "lectures/W12.html#calibrate-visual-to-message-2",
+    "href": "lectures/W12.html#calibrate-visual-to-message-2",
+    "title": "W#12: Polishing Visuals",
+    "section": "3. Calibrate visual to message",
+    "text": "3. Calibrate visual to message"
+  },
+  {
+    "objectID": "lectures/W12.html#calibrate-visual-to-message-3",
+    "href": "lectures/W12.html#calibrate-visual-to-message-3",
+    "title": "W#12: Polishing Visuals",
+    "section": "3. Calibrate visual to Message",
+    "text": "3. Calibrate visual to Message"
+  },
+  {
+    "objectID": "lectures/W12.html#remove-unneccessary-noise",
+    "href": "lectures/W12.html#remove-unneccessary-noise",
+    "title": "W#12: Polishing Visuals",
+    "section": "4. Remove unneccessary noise",
+    "text": "4. Remove unneccessary noise\n\nRemove surplus data\nAggregate less important data\nSeparate overlapping data\nShould you facet a graphic?\n\nRemove/reduce chartjunk"
+  },
+  {
+    "objectID": "lectures/W12.html#focus-attention-on-what-is-important",
+    "href": "lectures/W12.html#focus-attention-on-what-is-important",
+    "title": "W#12: Polishing Visuals",
+    "section": "5. Focus attention on what is important",
+    "text": "5. Focus attention on what is important\n\nWhich color palettes?\nUse color vs. gray\nUse text (or other) annotations\nTry to find explanatory and not purely descriptive titles"
+  },
+  {
+    "objectID": "lectures/W12.html#make-data-approachableengaging",
+    "href": "lectures/W12.html#make-data-approachableengaging",
+    "title": "W#12: Polishing Visuals",
+    "section": "6. Make data approachable/engaging",
+    "text": "6. Make data approachable/engaging\n\n\nMake Your Data Approachable and Engaging\n\nTips to Streamline Readability of Charts\nTips for Using Reference Lines\nTips for Formatting\nTips for Convention Adherence\n\n\nPractically:\n\nMake axis labels\nConsider direct labels\nAvoid vertical or diagonal text if possible\nUse simple axis increments, avoid scientific notation of numbers (no 1e6)\nCan you use meaningful guidelines, anchorlines, trendlines, shaded regions, gridlines\nSort categories?\nUse transparency to show overplotting\n“Independent” variable on the x-axis\n…"
+  },
+  {
+    "objectID": "lectures/W12.html#instill-trust-in-numbers",
+    "href": "lectures/W12.html#instill-trust-in-numbers",
+    "title": "W#12: Polishing Visuals",
+    "section": "7. Instill trust in numbers",
+    "text": "7. Instill trust in numbers\n\nAvoid practices which maybe considered as deceptive. Be careful with or explain well:\n\nTruncated y-axis\nInconsistent date intervals\nInconsistent binning\n…\n\nYou may such things unconsciously! Even if not intended, it may look deceptive to your audience.\nAnother way to instill trust is providing source information in figure captions or slide bottom notes.\n\nHere smaller fonts are fine to make clear that this is not the main point but context information."
+  },
+  {
+    "objectID": "lectures/W02.html#truth-beauty-facts-and-data",
+    "href": "lectures/W02.html#truth-beauty-facts-and-data",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Truth, Beauty, Facts, and Data",
+    "text": "Truth, Beauty, Facts, and Data\n\nProfessionals in data visualization often care about truth and beauty.\nThis may appear surprising at first glance because it should be about facts and data.\nBelieves behind this are\n\nFacts require beauty to become true.\nBeauty is necessary to see patterns.\n\nThere is no “Just show me the data!”, there is always some crafting involved in showing data."
+  },
+  {
+    "objectID": "lectures/W02.html#the-data-saurus",
+    "href": "lectures/W02.html#the-data-saurus",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "The Data Saurus",
+    "text": "The Data Saurus\n\n\n\n\nCode\nlibrary(tidyverse)\n# install.packages(\"datasauRus\")\nlibrary(datasauRus)\ndatasaurus_dozen |&gt; \n  filter(dataset == \"dino\")\n\n\n# A tibble: 142 × 3\n   dataset     x     y\n   &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;\n 1 dino     55.4  97.2\n 2 dino     51.5  96.0\n 3 dino     46.2  94.5\n 4 dino     42.8  91.4\n 5 dino     40.8  88.3\n 6 dino     38.7  84.9\n 7 dino     35.6  79.9\n 8 dino     33.1  77.6\n 9 dino     29.0  74.5\n10 dino     26.2  71.4\n# ℹ 132 more rows\n\n\nCode\ndatasaurus_dozen |&gt; \n  filter(dataset == \"dino\") |&gt; \n    summarise(\n    mean_x = mean(x),\n    mean_y = mean(y),\n    sd_x = sd(x),\n    sd_y = sd(y),\n    cor_xy = cor(x, y)\n  )\n\n\n# A tibble: 1 × 5\n  mean_x mean_y  sd_x  sd_y  cor_xy\n   &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;\n1   54.3   47.8  16.8  26.9 -0.0645\n\n\n\n\n\nCode\ndatasaurus_dozen |&gt; \n  filter(dataset == \"dino\") |&gt; \n  ggplot(aes(x = x, y = y)) +\n  geom_point() +\n  coord_fixed() +\n  theme_minimal(base_size = 20)"
+  },
+  {
+    "objectID": "lectures/W02.html#the-data-saurus-and-12-friends",
+    "href": "lectures/W02.html#the-data-saurus-and-12-friends",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "The Data Saurus and 12 Friends",
+    "text": "The Data Saurus and 12 Friends\n\n\nCode\ndatasaurus_dozen |&gt; \n  ggplot(aes(x = x, y = y)) +\n  geom_point() +\n  facet_wrap(~ dataset, ncol = 5) +\n  coord_fixed() +\n  theme_minimal()"
+  },
+  {
+    "objectID": "lectures/W02.html#what-do-the-summary-statistics-say",
+    "href": "lectures/W02.html#what-do-the-summary-statistics-say",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "What do the summary statistics say?",
+    "text": "What do the summary statistics say?\n\n\n\n\nCode\ndatasaurus_dozen |&gt; \n  summarise(\n    mean_x = mean(x),\n    mean_y = mean(y),\n    sd_x = sd(x),\n    sd_y = sd(y),\n    cor_xy = cor(x, y),\n    .by = dataset\n  )\n\n\n# A tibble: 13 × 6\n   dataset    mean_x mean_y  sd_x  sd_y  cor_xy\n   &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;\n 1 dino         54.3   47.8  16.8  26.9 -0.0645\n 2 away         54.3   47.8  16.8  26.9 -0.0641\n 3 h_lines      54.3   47.8  16.8  26.9 -0.0617\n 4 v_lines      54.3   47.8  16.8  26.9 -0.0694\n 5 x_shape      54.3   47.8  16.8  26.9 -0.0656\n 6 star         54.3   47.8  16.8  26.9 -0.0630\n 7 high_lines   54.3   47.8  16.8  26.9 -0.0685\n 8 dots         54.3   47.8  16.8  26.9 -0.0603\n 9 circle       54.3   47.8  16.8  26.9 -0.0683\n10 bullseye     54.3   47.8  16.8  26.9 -0.0686\n11 slant_up     54.3   47.8  16.8  26.9 -0.0686\n12 slant_down   54.3   47.8  16.8  26.9 -0.0690\n13 wide_lines   54.3   47.8  16.8  26.9 -0.0666"
+  },
+  {
+    "objectID": "lectures/W02.html#what-makes-a-good-visual",
+    "href": "lectures/W02.html#what-makes-a-good-visual",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "What makes a good visual?",
+    "text": "What makes a good visual?\n\n“Graphical excellence is the well-designed presentation of interesting data—a matter of substance, of statistics, and of design … [It] consists of complex ideas communicated with clarity, precision, and efficiency. … [It] is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space … [It] is nearly always multivariate … And graphical excellence requires telling the truth about the data.”\n\nEdward Tufte, The Visual Display of Quantitative Information"
+  },
+  {
+    "objectID": "lectures/W02.html#what-makes-a-good-visual-1",
+    "href": "lectures/W02.html#what-makes-a-good-visual-1",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "What makes a good visual?",
+    "text": "What makes a good visual?\n\nTruthful\nFunctional\nBeautiful\nInsightful\nEnlightening\n\nAlberto Cairo, The Truthful Art\n\n\nMaybe, this is a bit too much to ask for with too big words?"
+  },
+  {
+    "objectID": "lectures/W02.html#what-makes-a-good-visual-down-to-earth-version",
+    "href": "lectures/W02.html#what-makes-a-good-visual-down-to-earth-version",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "What makes a good visual? Down to earth version",
+    "text": "What makes a good visual? Down to earth version\n\nGood aesthetics\nNo substantiv issues\nNo perceptual issues\nShows honesty and good judgment\n\nKieran Healy, Data Visualization: A Practical Introduction\nIt is a good book, available online for free: https://socviz.co/"
+  },
+  {
+    "objectID": "lectures/W02.html#basic-ideas",
+    "href": "lectures/W02.html#basic-ideas",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Basic Ideas",
+    "text": "Basic Ideas\n\nMap data to aesthetics.\nData = Column in a data frame\nAesthetics = Visual attributes (x, y, color, size, shape, …)\nUse geometric objects to represent data points\nGeometric objects = Points, lines, bars, …"
+  },
+  {
+    "objectID": "lectures/W02.html#gapminder",
+    "href": "lectures/W02.html#gapminder",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Gapminder",
+    "text": "Gapminder\n\n\nCode\nlibrary(gapminder)\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "lectures/W02.html#gapminder-1",
+    "href": "lectures/W02.html#gapminder-1",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Gapminder",
+    "text": "Gapminder\n\n\n\ncolumn\naesthetic aes()\ngeom\n\n\n\n\n\ngdpPercap\nx = gdpPercap\ngeom_point\n\n\n\nlifeExp\ny = lifeExp\ngeom_point\n\n\n\ncontinent\ncolor = continent\ngeom_point\n\n\n\npop\nsize = pop\ngeom_point"
+  },
+  {
+    "objectID": "lectures/W02.html#grammatical-layers",
+    "href": "lectures/W02.html#grammatical-layers",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Grammatical Layers",
+    "text": "Grammatical Layers\n\nData\nAesthetics\nGeometric objects\nScales\nCoordinate system\nFacets\nTheme"
+  },
+  {
+    "objectID": "lectures/W02.html#data",
+    "href": "lectures/W02.html#data",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "1. Data",
+    "text": "1. Data\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot()"
+  },
+  {
+    "objectID": "lectures/W02.html#aesthetics",
+    "href": "lectures/W02.html#aesthetics",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "2. Aesthetics",
+    "text": "2. Aesthetics\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop))"
+  },
+  {
+    "objectID": "lectures/W02.html#geometric-objects",
+    "href": "lectures/W02.html#geometric-objects",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "3. Geometric objects",
+    "text": "3. Geometric objects\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point()"
+  },
+  {
+    "objectID": "lectures/W02.html#scales",
+    "href": "lectures/W02.html#scales",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "4. Scales",
+    "text": "4. Scales\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  scale_y_continuous(limits = c(20, 90))"
+  },
+  {
+    "objectID": "lectures/W02.html#coordinate-system",
+    "href": "lectures/W02.html#coordinate-system",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "5. Coordinate system",
+    "text": "5. Coordinate system\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  coord_flip()"
+  },
+  {
+    "objectID": "lectures/W02.html#facets",
+    "href": "lectures/W02.html#facets",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "6. Facets",
+    "text": "6. Facets\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point() +\n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  facet_wrap(~ continent)"
+  },
+  {
+    "objectID": "lectures/W02.html#theme-base-text-size",
+    "href": "lectures/W02.html#theme-base-text-size",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "7. Theme & Base Text Size",
+    "text": "7. Theme & Base Text Size\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  theme_minimal(base_size = 14)"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-labels",
+    "href": "lectures/W02.html#more-things-labels",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Labels",
+    "text": "More things: Labels\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\"\n  ) +\n  theme_minimal(base_size = 14)"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-labels-1",
+    "href": "lectures/W02.html#more-things-labels-1",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Labels",
+    "text": "More things: Labels\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop1M)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-plot-labels",
+    "href": "lectures/W02.html#more-things-plot-labels",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Plot Labels",
+    "text": "More things: Plot Labels\nChanging the Figure width in the quarto output with #| fig-width: 10\n\n\nCode\n```{r}\n#| fig-width: 7\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop1M)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-geom-labels",
+    "href": "lectures/W02.html#more-things-geom-labels",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Geom Labels",
+    "text": "More things: Geom Labels\n\n\nCode\n```{r}\n#| fig-width: 7\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop1M, label = country)) +\n  geom_point() + \n  geom_label(size = 2) +\n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-geom-selected-labels",
+    "href": "lectures/W02.html#more-things-geom-selected-labels",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Geom Selected Labels",
+    "text": "More things: Geom Selected Labels\nFirst Try: Make new column\n\n\nCode\n```{r}\n#| fig-width: 7\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(\n    pop1M = pop / 1000000,\n    selected_labels = if_else(country %in% c(\"India\", \"China\"), country, \"\")\n    ) |&gt;\n  ggplot(aes(\n    x = gdpPercap, \n    y = lifeExp, \n    color = continent, \n    size = pop1M, \n    label = selected_labels)) +\n  geom_point() + \n  geom_label(size = 4) +\n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-geom-selected-labels-1",
+    "href": "lectures/W02.html#more-things-geom-selected-labels-1",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Geom Selected Labels",
+    "text": "More things: Geom Selected Labels\nSecond Try: New data frame\n\n\nCode\n```{r}\n#| fig-width: 7\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(\n    x = gdpPercap, \n    y = lifeExp, \n    color = continent, \n    size = pop1M)) +\n  geom_point() + \n  geom_label(\n    data = gapminder |&gt; \n      filter(year == 2007, (country == \"China\" | country == \"India\")) |&gt; \n      mutate(pop1M = pop / 1000000),\n    mapping = aes(x = gdpPercap, y = lifeExp, label = country),\n    size = 4) +\n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-facet-two-years",
+    "href": "lectures/W02.html#more-things-facet-two-years",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Facet two years",
+    "text": "More things: Facet two years\n\n\nCode\n```{r}\ngapminder |&gt;  \n  filter(year == 2007 | year == 1952) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(\n    x = gdpPercap, \n    y = lifeExp, \n    color = continent, \n    size = pop1M)) +\n  geom_point() + \n  geom_label(\n    data = gapminder |&gt; \n      filter((year == 2007 | year == 1952), (country == \"China\" | country == \"India\")) |&gt; \n      mutate(pop1M = pop / 1000000),\n    mapping = aes(x = gdpPercap, y = lifeExp, label = country),\n    size = 4) +\n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  facet_wrap(~ year) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-add-a-path",
+    "href": "lectures/W02.html#more-things-add-a-path",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Add a path",
+    "text": "More things: Add a path\n\n\nCode\n```{r}\ngapminder |&gt;  \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(\n    x = gdpPercap, \n    y = lifeExp, \n    color = continent, \n    size = pop1M)) +\n  geom_point() + \n  geom_label(\n    data = gapminder |&gt; \n      filter((year == 2007), (country == \"China\" | country == \"India\")) |&gt; \n      mutate(pop1M = pop / 1000000),\n    mapping = aes(x = gdpPercap, y = lifeExp, label = country),\n    size = 4) +\n  geom_path(\n    data = gapminder |&gt; \n      filter(country == \"China\" | country == \"India\") |&gt; \n      mutate(pop1M = pop / 1000000),\n    mapping = aes(x = gdpPercap, y = lifeExp),\n    size = 1) +\n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+  },
+  {
+    "objectID": "lectures/W02.html#more-things-add-a-path-1",
+    "href": "lectures/W02.html#more-things-add-a-path-1",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More things: Add a path",
+    "text": "More things: Add a path\nOrder layers and make groups correctly\n\n\nCode\n```{r}\ngapminder |&gt;  \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(\n    x = gdpPercap, \n    y = lifeExp, \n    color = continent, \n    size = pop1M)) +\n  geom_path(\n    data = gapminder |&gt; \n      filter(country == \"China\" | country == \"India\") |&gt; \n      mutate(pop1M = pop / 1000000),\n    mapping = aes(x = gdpPercap, y = lifeExp, group = country),\n    size = 1) +\n  geom_point() + \n  geom_label(\n    data = gapminder |&gt; \n      filter((year == 2007), (country == \"China\" | country == \"India\")) |&gt; \n      mutate(pop1M = pop / 1000000),\n    mapping = aes(x = gdpPercap, y = lifeExp, label = country),\n    size = 4) +\n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+  },
+  {
+    "objectID": "lectures/W02.html#another-example-line-plot",
+    "href": "lectures/W02.html#another-example-line-plot",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Another Example: Line plot",
+    "text": "Another Example: Line plot\n\n\nCode\ngapminder |&gt; \n  filter(continent == \"Asia\") |&gt; \n  ggplot(aes(x = year, y = lifeExp)) +\n  geom_line() +\n  geom_point()"
+  },
+  {
+    "objectID": "lectures/W02.html#another-example-line-plot-1",
+    "href": "lectures/W02.html#another-example-line-plot-1",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Another Example: Line plot",
+    "text": "Another Example: Line plot\n\n\nCode\ngapminder |&gt; \n  filter(continent == \"Asia\") |&gt; \n  ggplot(aes(x = year, y = lifeExp, color = country)) +\n  geom_line() +\n  geom_point()"
+  },
+  {
+    "objectID": "lectures/W02.html#another-example-line-plot-2",
+    "href": "lectures/W02.html#another-example-line-plot-2",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Another Example: Line plot",
+    "text": "Another Example: Line plot\n\n\nCode\ngapminder |&gt; \n  filter(continent == \"Asia\") |&gt; \n  ggplot(aes(x = year, y = lifeExp, group = country)) +\n  geom_line() +\n  geom_point() +\n  theme_minimal()"
+  },
+  {
+    "objectID": "lectures/W02.html#another-example-line-plot-3",
+    "href": "lectures/W02.html#another-example-line-plot-3",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Another Example: Line plot",
+    "text": "Another Example: Line plot\n\n\nCode\ngapminder |&gt; \n  mutate(\n    country_highlight = if_else(country %in% c(\"China\", \"India\"), country, \"Other Asia\")\n    ) |&gt;\n  filter(continent == \"Asia\") |&gt; \n  ggplot(aes(x = year, y = lifeExp, group = country, color = country_highlight)) +\n  geom_line() +\n  geom_point() +\n  scale_color_manual(values = c(\"China\" = \"red\", \"India\" = \"blue\", \"Other Asia\" = \"grey\")) +\n  labs(\n    title = \"Life Expectancy in Asia\",\n    subtitle = \"Highlighting China and India\",\n    x = \"Year\",\n    y = \"Life Expectancy\",\n    color = \"Country\"\n  ) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "lectures/W02.html#another-example-line-plot-more-columns",
+    "href": "lectures/W02.html#another-example-line-plot-more-columns",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Another Example: Line plot more columns",
+    "text": "Another Example: Line plot more columns\n\n\nCode\ngapminder |&gt; \n  mutate(\n    country_highlight = if_else(country %in% c(\"China\", \"India\"), country, \"Other Asia\"),\n    logGDP = log10(gdpPercap)\n    ) |&gt;\n  pivot_longer(cols = c(logGDP, lifeExp), names_to = \"measure\", values_to = \"value\") |&gt;\n  filter(continent == \"Asia\") |&gt; \n  ggplot(aes(x = year, y = value, group = country, color = country_highlight)) +\n  geom_line() +\n  geom_point() +\n  scale_color_manual(values = c(\"China\" = \"red\", \"India\" = \"blue\", \"Other Asia\" = \"grey\")) +\n  facet_wrap(~ measure, scales = \"free_y\", ncol = 1) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "lectures/W02.html#stripes-what-is-this",
+    "href": "lectures/W02.html#stripes-what-is-this",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Stripes: What is this?",
+    "text": "Stripes: What is this?\n\n\nCode\nwarming_stripe_colors &lt;- c(\"#67000d\", \"#a50f15\", \"#cb181d\", \"#ef3b2c\", \"#fb6a4a\", \n                           \"#fc9272\", \"#fcbba1\", \"#fee0d2\", \"#FFFFFF\", \"#deebf7\", \"#c6dbef\", \n                           \"#9ecae1\", \"#6baed6\", \"#4292c6\", \"#2171b5\", \"#08519c\", \"#08306b\")\ntemperature &lt;- read_csv(\"../data/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv\") \ntemperature |&gt; \n  ggplot(aes(x = Time, y = 1, fill = `Anomaly (deg C)`)) +\n  geom_tile() +\n  scale_fill_gradientn(colors = warming_stripe_colors) +\n  scale_y_continuous(expand = c(0,0)) +\n  scale_x_continuous(expand = c(0,0)) +\n  theme_void() +\n  theme(legend.position = \"none\")"
+  },
+  {
+    "objectID": "lectures/W02.html#warming-stripe",
+    "href": "lectures/W02.html#warming-stripe",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Warming Stripe",
+    "text": "Warming Stripe\nWarming Stripes\n\nData can be retrieved from https://www.metoffice.gov.uk/hadobs/hadcrut5/. HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period."
+  },
+  {
+    "objectID": "lectures/W08.html#doing-vs.-presenting-projects",
+    "href": "lectures/W08.html#doing-vs.-presenting-projects",
+    "title": "W#08 Main Insight",
+    "section": "Doing vs. Presenting Projects",
+    "text": "Doing vs. Presenting Projects\n\nLesson: How much time we spend on doing a project is not reflected in how much time we spend presenting a project.\n\n\nSource: https://x.com/ItaiYanai/status/1847127686612758569"
+  },
+  {
+    "objectID": "lectures/W08.html#milestones",
+    "href": "lectures/W08.html#milestones",
+    "title": "W#08 Main Insight",
+    "section": "Milestones",
+    "text": "Milestones\n2 Main insight 💡\nTarget Achievements:\n\nTarget audience described\nList of main insights in your report drafted (about 3-6 or more when the team is large)\nPrioritized what will be the main insights"
+  },
+  {
+    "objectID": "lectures/W08.html#milestones-1",
+    "href": "lectures/W08.html#milestones-1",
+    "title": "W#08 Main Insight",
+    "section": "Milestones",
+    "text": "Milestones\n2 Main insight 💡\nTarget Achievements:\n\nTarget audience described\nList of main insights in your report drafted (about 3-6 or more when the team is large)\nPrioritized what will be the main insights\n\n3 Visual Drafts 📊📈📉️\n\nTarget Achievements:\n\nFor each insight\n\na visuals drafted in the report or the presentation (a draft can be a first coded visual, or even photo of a sketch on paper)\nnotes and ideas for the final version"
+  },
+  {
+    "objectID": "lectures/W08.html#data-literacy",
+    "href": "lectures/W08.html#data-literacy",
+    "title": "W#08 Main Insight",
+    "section": "Data Literacy",
+    "text": "Data Literacy\nDefinition: The ability to understand and communicate data.\n\nData has no value for data illiterate people!\nPeople can be data literate without knowing much statistics or even programming.\n\n\n\nAs data scientists we are expected to\n\nknow some statistics and programming\ncommunicate data insights on a high level to data literate people\ncan communicate data insights to less data literate people\n\n\n\n\nThe challenge for your project: \n\nBring your main insights across to an audience with low and intermediate data literacy!\nSecond order challenge: Present this way in class, although you do not assume your class mates have low data literacy."
+  },
+  {
+    "objectID": "lectures/W08.html#what-is-an-insight",
+    "href": "lectures/W08.html#what-is-an-insight",
+    "title": "W#08 Main Insight",
+    "section": "What is an insight?",
+    "text": "What is an insight?\nEtymology: “inner sight” or “ sight with the ‘eyes’ of the mind”\nA Definition: an unexpected shift in the way we understand things\n\nHowever: Do not feel too much presured!\n\nThe insight need not be new.\nIt also does not need to be unexpected to you or everybody.\n\nIt is more an attitude of holding your main insight to be interesting and important for you and your audience."
+  },
+  {
+    "objectID": "lectures/W08.html#which-perspective-of-communication-shall-the-project-have",
+    "href": "lectures/W08.html#which-perspective-of-communication-shall-the-project-have",
+    "title": "W#08 Main Insight",
+    "section": "Which perspective of communication shall the project have?",
+    "text": "Which perspective of communication shall the project have?\nYou can communicate to the audience from the position of an\n\n\n\nInsider\n\n\nOutsider\n\n\nWhat is the story telling position in your project?"
+  },
+  {
+    "objectID": "lectures/W08.html#path-to-value",
+    "href": "lectures/W08.html#path-to-value",
+    "title": "W#08 Main Insight",
+    "section": "Path to value",
+    "text": "Path to value\n\n\nThink about a potential role your project report could have for your audience."
+  },
+  {
+    "objectID": "lectures/W08.html#task-1-audience",
+    "href": "lectures/W08.html#task-1-audience",
+    "title": "W#08 Main Insight",
+    "section": "Task 1: Audience",
+    "text": "Task 1: Audience\nThink about the audience of your report: The people you imagine to view your presentation or read your report.\n\nDescribe three different potential individuals in your audience.\nImagine a broader audience than our class!\nAnswer for example:\n\nWho are they?\nWhy are they interested?\nWhat is their connection to the topic?\n\n\nIn class: Describe one individual.\n\n\nThis is called the Persona method coming from Design thinking. Personas help to empathize with users by giving abstract data a human face. Instead of designing for “users aged 25-40,” you design for “Sarah, a 32-year-old marketing manager who commutes 90 minutes daily and needs to manage projects on her phone.”"
+  },
+  {
+    "objectID": "lectures/W08.html#task-2-short-version-of-story",
+    "href": "lectures/W08.html#task-2-short-version-of-story",
+    "title": "W#08 Main Insight",
+    "section": "Task 2: Short Version of Story",
+    "text": "Task 2: Short Version of Story\nAbstract\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nExample Abstract for the Data Story CoViD Pandemic and Summerbreaks on the website.\n\nOne Sentence\nWrite a one-sentence version of the abstract which contains the main point of your report.\nExample for the Data Story CoViD Pandemic and Summerbreaks:\n\nSchool holidays and summer vacation made the spread of CoViD19 faster, probably because prevention measures at school and in the work place worked better than those for leisure activites and those taken with relatives and friends.\n\nIn class: Describe one individual."
+  },
+  {
+    "objectID": "lectures/W08.html#task-3-main-insights",
+    "href": "lectures/W08.html#task-3-main-insights",
+    "title": "W#08 Main Insight",
+    "section": "Task 3: Main Insights",
+    "text": "Task 3: Main Insights\nWhat can be main insights of your Data Story?\nActivity: In teams Option: Work on Whiteboards in Teams.\n\nList at least 3 potential main insights/story points, better more\n(It’s okay if the insights are uncertain for now because you do not know yet)\n\nNext: Activity: In groups of teams"
+  },
+  {
+    "objectID": "lectures/W08.html#task-4-prioritize-main-insight",
+    "href": "lectures/W08.html#task-4-prioritize-main-insight",
+    "title": "W#08 Main Insight",
+    "section": "Task 4: Prioritize Main Insight",
+    "text": "Task 4: Prioritize Main Insight\nDiscuss and select main insight of your Data Story?\nActivity: In groups of teams\n\nDiscuss each Data Story in your group and\n\n\nselect a tentative main insight (not binding)\nalso list other insights\nlist also essential information/concepts you want to communicate\n\nRole of other project members: Ask questions\n\nWhat is important to know as an outsider?\nWhat is most interesting as main insight? Why?\n\nIn class: Show your Notes/Whiteboard?"
+  },
+  {
+    "objectID": "lectures/W03.html#brexit-opinions-in-the-uk",
+    "href": "lectures/W03.html#brexit-opinions-in-the-uk",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Brexit Opinions in the UK",
+    "text": "Brexit Opinions in the UK\nHistory:\n\nIn 2016, the UK voted to leave the EU in a referendum with 51.8% for leaving and 48.1% for remaining.\nIn 2020, the UK formally left the EU after long negotiations about the exact condition.\nInbetween, there were elections, changes in government and a heated debate.\nIn 2019, a YouGov survey asked people whether they think leaving the EU was the right or wrong decision.\n\nLet us work with this data to illustrate principles of effective visualizations."
+  },
+  {
+    "objectID": "lectures/W03.html#brexit-survey-data",
+    "href": "lectures/W03.html#brexit-survey-data",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Brexit Survey Data",
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository VisCom_Playground.\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"../data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      rest_of_south \n 2 Wrong      london        \n 3 Wrong      scot          \n 4 Wrong      north         \n 5 Wrong      rest_of_south \n 6 Don't know north         \n 7 Wrong      rest_of_south \n 8 Wrong      scot          \n 9 Wrong      rest_of_south \n10 Wrong      midlands_wales"
+  },
+  {
+    "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
+    "href": "lectures/W03.html#first-basic-visuals-with-geom_bar",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "First basic visuals with geom_bar",
+    "text": "First basic visuals with geom_bar\n\n\n\n\nCode\nggplot(brexit, aes(x = opinion)) +\n  geom_bar()\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nggplot(brexit, aes(x = region)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "lectures/W03.html#geom_bar-vs.-geom_col",
+    "href": "lectures/W03.html#geom_bar-vs.-geom_col",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "geom_bar vs. geom_col",
+    "text": "geom_bar vs. geom_col\n\ngeom_bar() counts the number of occurrences of each category in the data and creates bars based on these counts.\n\nIt is a geom which also does some data transformation! (Here counting)\n\ngeom_col() requires you to provide the heights of the bars explicitly. It uses the values in the data to determine the height of each bar.\n\nIt is the basic building block for bar plots"
+  },
+  {
+    "objectID": "lectures/W03.html#geom_bar-vs.-geom_col-1",
+    "href": "lectures/W03.html#geom_bar-vs.-geom_col-1",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "geom_bar vs. geom_col",
+    "text": "geom_bar vs. geom_col\n\n\nWith geom_bar\n\n\nCode\nbrexit |&gt;\n  ggplot(aes(x = opinion)) +\n  geom_bar()\n\n\n\n\n\n\n\n\n\n\nFor geom_col we need to count first\n\n\nCode\nbrexit |&gt;\n  count(opinion)\n\n\n# A tibble: 3 × 2\n  opinion        n\n  &lt;chr&gt;      &lt;int&gt;\n1 Don't know   188\n2 Right        664\n3 Wrong        787\n\n\n\nWith geom_col we must specify x and y\n\n\nCode\nbrexit |&gt;\n  count(opinion) |&gt;\n  ggplot(aes(x = opinion, y = n)) +\n  geom_col()\n\n\n\n\n\n\n\n\n\n\n\nAlphabetical order is rarely what you want! Do we really want “Don’t know” first?"
+  },
+  {
+    "objectID": "lectures/W03.html#order-matters",
+    "href": "lectures/W03.html#order-matters",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Order Matters",
+    "text": "Order Matters\nOften good: Order by frequency\n\n\nCode\nggplot(brexit, aes(x = fct_infreq(opinion))) +\n  geom_bar()\n\n\n\n\nfct_infreq: (Creates and) reorders a factor by the frequency."
+  },
+  {
+    "objectID": "lectures/W03.html#clean-up-labels",
+    "href": "lectures/W03.html#clean-up-labels",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Clean up labels",
+    "text": "Clean up labels\n\n\nCode\nggplot(brexit, aes(x = fct_infreq(opinion))) +\n  geom_bar() +\n  labs(\n    x = \"Opinion\",\n    y = \"Count\"\n  )"
+  },
+  {
+    "objectID": "lectures/W03.html#order-matters-inherent-levels",
+    "href": "lectures/W03.html#order-matters-inherent-levels",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Order Matters: Inherent levels",
+    "text": "Order Matters: Inherent levels\nReorder manually with a custom order\nfct_relevel: Reorders the levels of a factor as specified\n\n\nCode\nbrexit &lt;- brexit |&gt;\n  mutate(\n    region = fct_relevel(\n      region,\n      \"london\",\n      \"rest_of_south\",\n      \"midlands_wales\",\n      \"north\",\n      \"scot\"\n    )\n  )\n\n\n\n\nCode\nggplot(brexit, aes(x = region)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "lectures/W03.html#clean-factor-labels",
+    "href": "lectures/W03.html#clean-factor-labels",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Clean factor labels",
+    "text": "Clean factor labels\nReorder manually with a custom order\nfct_recode: Change factor levels by hand\n\n\nCode\nbrexit &lt;- brexit |&gt;\n  mutate(\n    region = fct_recode(\n      region,\n      London = \"london\",\n      `Rest of South` = \"rest_of_south\",\n      `Midlands / Wales` = \"midlands_wales\",\n      North = \"north\",\n      Scotland = \"scot\"\n    )\n  )\n\n\n\n\nCode\nggplot(brexit, aes(x = region)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "lectures/W03.html#long-categories-names-on-the-y-axis",
+    "href": "lectures/W03.html#long-categories-names-on-the-y-axis",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Long categories names on the y-axis!",
+    "text": "Long categories names on the y-axis!\n\n\nCode\nggplot(brexit, aes(y = region)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "lectures/W03.html#reverse-the-order-of-levels-to-start-with-the-top",
+    "href": "lectures/W03.html#reverse-the-order-of-levels-to-start-with-the-top",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Reverse the order of levels to start with the top",
+    "text": "Reverse the order of levels to start with the top\n\n\nCode\nggplot(brexit, aes(y = fct_rev(region))) +\n  geom_bar()"
+  },
+  {
+    "objectID": "lectures/W03.html#clean-up-axis-lables",
+    "href": "lectures/W03.html#clean-up-axis-lables",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Clean up axis lables",
+    "text": "Clean up axis lables\n\n\nCode\nggplot(brexit, aes(y = fct_rev(region))) +\n  geom_bar() +\n  labs(\n    x = \"Count\",\n    y = \"\"\n  )\n\n\n\nDo we really need “Region” on the y-axis?"
+  },
+  {
+    "objectID": "lectures/W03.html#pick-a-purpose",
+    "href": "lectures/W03.html#pick-a-purpose",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Pick a purpose!",
+    "text": "Pick a purpose!\nWhat is the (main) purpose of the visualization?\n\nPurpose: Show how support for Brexit differs regionally"
+  },
+  {
+    "objectID": "lectures/W03.html#first-try-segmented-stacked-barplot",
+    "href": "lectures/W03.html#first-try-segmented-stacked-barplot",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "First try: Segmented stacked barplot",
+    "text": "First try: Segmented stacked barplot\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = region)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "lectures/W03.html#or-the-other-way-round",
+    "href": "lectures/W03.html#or-the-other-way-round",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Or “the other way round”?",
+    "text": "Or “the other way round”?\n\n\nCode\nggplot(brexit, aes(y = region, fill = opinion)) +\n  geom_bar()\n\n\n\n\nThey are both hard to read."
+  },
+  {
+    "objectID": "lectures/W03.html#use-facets",
+    "href": "lectures/W03.html#use-facets",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Use facets",
+    "text": "Use facets\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = region)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1)"
+  },
+  {
+    "objectID": "lectures/W03.html#avoid-redundancy",
+    "href": "lectures/W03.html#avoid-redundancy",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Avoid redundancy?",
+    "text": "Avoid redundancy?\n\n\nCode\nggplot(brexit, aes(y = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1)"
+  },
+  {
+    "objectID": "lectures/W03.html#redundancy-can-help-to-tell-a-story.",
+    "href": "lectures/W03.html#redundancy-can-help-to-tell-a-story.",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Redundancy can help to tell a story.",
+    "text": "Redundancy can help to tell a story.\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1)"
+  },
+  {
+    "objectID": "lectures/W03.html#be-selective-with-redundancy",
+    "href": "lectures/W03.html#be-selective-with-redundancy",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Be selective with redundancy",
+    "text": "Be selective with redundancy\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1) +\n  guides(fill = \"none\")\n\n\n\nWe do not need a legend when the colors are also y-labels."
+  },
+  {
+    "objectID": "lectures/W03.html#use-informative-labels",
+    "href": "lectures/W03.html#use-informative-labels",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Use informative labels",
+    "text": "Use informative labels\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1) +\n  guides(fill = \"none\") +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    x = NULL,\n    y = NULL\n  )"
+  },
+  {
+    "objectID": "lectures/W03.html#more-information-survey-and-source",
+    "href": "lectures/W03.html#more-information-survey-and-source",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "More information (Survey and Source)",
+    "text": "More information (Survey and Source)\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1) +\n  guides(fill = \"none\") +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = NULL,\n    y = NULL\n  )"
+  },
+  {
+    "objectID": "lectures/W03.html#select-meaningful-colors",
+    "href": "lectures/W03.html#select-meaningful-colors",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Select meaningful colors",
+    "text": "Select meaningful colors\nAre the default rainbow colors meaningful? Another option: Pick colors manually\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1) +\n  guides(fill = \"none\") +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = NULL,\n    y = NULL\n  ) +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"red\",\n      \"Right\" = \"green\",\n      \"Don't know\" = \"gray\"\n    )\n  )"
+  },
+  {
+    "objectID": "lectures/W03.html#choose-better-colors",
+    "href": "lectures/W03.html#choose-better-colors",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Choose better colors",
+    "text": "Choose better colors\ncolorbrewer2.org"
+  },
+  {
+    "objectID": "lectures/W03.html#use-better-colors",
+    "href": "lectures/W03.html#use-better-colors",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Use better colors",
+    "text": "Use better colors\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1) +\n  guides(fill = \"none\") +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = NULL,\n    y = NULL\n  ) +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  )"
+  },
+  {
+    "objectID": "lectures/W03.html#choose-a-theme",
+    "href": "lectures/W03.html#choose-a-theme",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Choose a theme",
+    "text": "Choose a theme\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1) +\n  guides(fill = \"none\") +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = NULL,\n    y = NULL\n  ) +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  ) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "lectures/W03.html#adjust-the-general-text-size",
+    "href": "lectures/W03.html#adjust-the-general-text-size",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Adjust the general text size",
+    "text": "Adjust the general text size\n\n\nCode\nggplot(brexit, aes(y = opinion, fill = opinion)) +\n  geom_bar() +\n  facet_wrap(\"region\", nrow = 1) +\n  guides(fill = \"none\") +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = NULL,\n    y = NULL\n  ) +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  ) +\n  theme_minimal(base_size = 14)"
+  },
+  {
+    "objectID": "lectures/W03.html#general-principles-applied-before",
+    "href": "lectures/W03.html#general-principles-applied-before",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "General principles applied before",
+    "text": "General principles applied before\n\nOrder matters\nPut long categories on the y-axis\nUse meaningful labels\nPick a purpose\nSelect meaningful colors"
+  },
+  {
+    "objectID": "lectures/W03.html#what-about-percentages",
+    "href": "lectures/W03.html#what-about-percentages",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "What about percentages?",
+    "text": "What about percentages?\nLet us first compute percentages. But what percentages?\n\n\n\nbrexit |&gt;\n  count(opinion, region)\n\n# A tibble: 15 × 3\n   opinion    region               n\n   &lt;chr&gt;      &lt;fct&gt;            &lt;int&gt;\n 1 Don't know London              24\n 2 Don't know Rest of South       49\n 3 Don't know Midlands / Wales    57\n 4 Don't know North               48\n 5 Don't know Scotland            10\n 6 Right      London              63\n 7 Right      Rest of South      241\n 8 Right      Midlands / Wales   145\n 9 Right      North              176\n10 Right      Scotland            39\n11 Wrong      London             110\n12 Wrong      Rest of South      257\n13 Wrong      Midlands / Wales   152\n14 Wrong      North              176\n15 Wrong      Scotland            92\n\n\n\n\nbrexit |&gt;\n  count(region, opinion)\n\n# A tibble: 15 × 3\n   region           opinion        n\n   &lt;fct&gt;            &lt;chr&gt;      &lt;int&gt;\n 1 London           Don't know    24\n 2 London           Right         63\n 3 London           Wrong        110\n 4 Rest of South    Don't know    49\n 5 Rest of South    Right        241\n 6 Rest of South    Wrong        257\n 7 Midlands / Wales Don't know    57\n 8 Midlands / Wales Right        145\n 9 Midlands / Wales Wrong        152\n10 North            Don't know    48\n11 North            Right        176\n12 North            Wrong        176\n13 Scotland         Don't know    10\n14 Scotland         Right         39\n15 Scotland         Wrong         92\n\n\n\n\nSensible would be percentages within each region."
+  },
+  {
+    "objectID": "lectures/W03.html#compute-percentages-within-regions",
+    "href": "lectures/W03.html#compute-percentages-within-regions",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Compute percentages within regions",
+    "text": "Compute percentages within regions\n\nbrexit |&gt;\n  count(region, opinion) |&gt;\n  mutate(pct = n / sum(n) * 100, .by = region)\n\n# A tibble: 15 × 4\n   region           opinion        n   pct\n   &lt;fct&gt;            &lt;chr&gt;      &lt;int&gt; &lt;dbl&gt;\n 1 London           Don't know    24 12.2 \n 2 London           Right         63 32.0 \n 3 London           Wrong        110 55.8 \n 4 Rest of South    Don't know    49  8.96\n 5 Rest of South    Right        241 44.1 \n 6 Rest of South    Wrong        257 47.0 \n 7 Midlands / Wales Don't know    57 16.1 \n 8 Midlands / Wales Right        145 41.0 \n 9 Midlands / Wales Wrong        152 42.9 \n10 North            Don't know    48 12   \n11 North            Right        176 44   \n12 North            Wrong        176 44   \n13 Scotland         Don't know    10  7.09\n14 Scotland         Right         39 27.7 \n15 Scotland         Wrong         92 65.2"
+  },
+  {
+    "objectID": "lectures/W03.html#stacked-bar-plot-with-percentages",
+    "href": "lectures/W03.html#stacked-bar-plot-with-percentages",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Stacked bar plot with percentages",
+    "text": "Stacked bar plot with percentages\n\n\nCode\nbrexit |&gt;\n  count(region, opinion) |&gt;\n  mutate(pct = n / sum(n) * 100, .by = region) |&gt;\n  ggplot(aes(y = fct_rev(region), x = pct, fill = opinion)) +\n  geom_col() +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = \"Percentage\",\n    y = NULL\n  ) +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  ) +\n  theme_minimal(base_size = 14)\n\n\n\nIs the order of Wrong/Right/Don’t know good here?"
+  },
+  {
+    "objectID": "lectures/W03.html#stacked-bar-plot-with-percentages-1",
+    "href": "lectures/W03.html#stacked-bar-plot-with-percentages-1",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Stacked bar plot with percentages",
+    "text": "Stacked bar plot with percentages\n\n\nCode\nbrexit |&gt;\n  count(region, opinion) |&gt;\n  mutate(opinion = fct_relevel(opinion, \"Right\", \"Don't know\", \"Wrong\")) |&gt;\n  mutate(pct = n / sum(n) * 100, .by = region) |&gt;\n  ggplot(aes(y = fct_rev(region), x = pct, fill = opinion)) +\n  geom_col() +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = \"Percentage\",\n    y = NULL\n  ) +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  ) +\n  guides(fill = \"none\") +\n  theme_minimal(base_size = 14)"
+  },
+  {
+    "objectID": "lectures/W03.html#elegant-percentages-with-scales",
+    "href": "lectures/W03.html#elegant-percentages-with-scales",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Elegant percentages with scales",
+    "text": "Elegant percentages with scales\nAlso make bars a bit thinner.\n\n\nCode\nlibrary(scales)\nbrexit |&gt;\n  count(region, opinion) |&gt;\n  mutate(opinion = fct_relevel(opinion, \"Right\", \"Don't know\", \"Wrong\")) |&gt;\n  mutate(pct = n / sum(n), .by = region) |&gt;\n  ggplot(aes(y = fct_rev(region), x = pct, fill = opinion)) +\n  geom_col(width = 0.75) +\n  scale_x_continuous(labels = label_percent(accuracy = 1)) +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = \"\",\n    y = NULL\n  ) +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  ) +\n  guides(fill = \"none\") +\n  theme_minimal(base_size = 14)"
+  },
+  {
+    "objectID": "lectures/W03.html#bar-plots-vs.-pie-charts",
+    "href": "lectures/W03.html#bar-plots-vs.-pie-charts",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Bar plots vs. Pie Charts",
+    "text": "Bar plots vs. Pie Charts\n\n\n\n\nCode\nbrexit |&gt;\n  count(opinion) |&gt;\n  ggplot(aes(x = \"\", y = n, fill = fct_rev(opinion))) +\n  geom_col() +\n  coord_polar(theta = \"y\") +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  ) +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = NULL,\n    y = NULL,\n    fill = \"Opinion\"\n  ) +\n  theme_void(base_size = 16)\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nbrexit |&gt;\n  count(opinion) |&gt;\n  ggplot(aes(x = fct_rev(opinion), y = n, fill = fct_rev(opinion))) +\n  geom_col() +\n  scale_fill_manual(\n    values = c(\n      \"Wrong\" = \"#ef8a62\",\n      \"Right\" = \"#67a9cf\",\n      \"Don't know\" = \"gray\"\n    )\n  ) +\n  labs(\n    title = \"Was Britain right/wrong to vote to leave EU?\",\n    subtitle = \"YouGov Survey Results, 2-3 September 2019\",\n    x = NULL,\n    y = NULL,\n    fill = \"Opinion\"\n  ) +\n  theme_minimal(base_size = 16)\n\n\n\n\n\n\n\n\n\n\nWhat is easier to read for what purpose?"
+  },
+  {
+    "objectID": "lectures/W03.html#barbarplots",
+    "href": "lectures/W03.html#barbarplots",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "#barbarplots",
+    "text": "#barbarplots\n\n\n\nhttps://barbarplots.github.io/index.html"
+  },
+  {
+    "objectID": "lectures/W03.html#visualize-all-data-before-aggreagteing",
+    "href": "lectures/W03.html#visualize-all-data-before-aggreagteing",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Visualize all data before aggreagteing",
+    "text": "Visualize all data before aggreagteing\nLets test the dogs and cats example with self created data.\n\n\nCode\nset.seed(1234)\nanimals &lt;- tibble(\n  animal = c(rep(c(\"Small cat\", \"Big cat\"), each = 250), rep(\"Dog\", 500))\n) |&gt;\n  mutate(\n    weight = case_when(\n      animal == \"Small cat\" ~ rnorm(n(), 20, 5),\n      animal == \"Big cat\" ~ rnorm(n(), 60, 5),\n      animal == \"Dog\" ~ rnorm(n(), 40, 10)\n    )\n  ) |&gt;\n  mutate(animal_type = ifelse(str_detect(animal, \"cat\"), \"Cats\", \"Dogs\"))\n\nanimals_mean &lt;- animals |&gt;\n  group_by(animal_type) |&gt;\n  summarize(avg_weight = mean(weight))\n\nggplot(animals_mean, aes(x = animal_type, y = avg_weight, fill = animal_type)) +\n  geom_col() +\n  labs(x = NULL, y = \"Weight\") +\n  guides(fill = \"none\")"
+  },
+  {
+    "objectID": "lectures/W03.html#show-all-data-with-jitter-plots",
+    "href": "lectures/W03.html#show-all-data-with-jitter-plots",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Show all data with jitter plots",
+    "text": "Show all data with jitter plots\n\n\nCode\nggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +\n  geom_jitter() +\n  geom_point(\n    data = animals_mean,\n    aes(y = avg_weight),\n    color = \"black\",\n    size = 5\n  ) +\n  labs(x = NULL, y = \"Weight\") +\n  guides(color = \"none\")"
+  },
+  {
+    "objectID": "lectures/W03.html#add-the-averages-and-make-points-transparent",
+    "href": "lectures/W03.html#add-the-averages-and-make-points-transparent",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Add the averages and make points transparent",
+    "text": "Add the averages and make points transparent\n\n\nCode\nggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +\n  geom_jitter(alpha = 0.5) +\n  geom_point(data = animals_mean, aes(y = avg_weight), size = 10) +\n  labs(x = NULL, y = \"Weight\") +\n  guides(color = \"none\")\n\n\n\nNote: We include a different dataset for the averages with data = animals_mean in geom_point()"
+  },
+  {
+    "objectID": "lectures/W03.html#show-all-data-with-beeswarm-plots",
+    "href": "lectures/W03.html#show-all-data-with-beeswarm-plots",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Show all data with beeswarm plots",
+    "text": "Show all data with beeswarm plots\n\n\nCode\nlibrary(ggbeeswarm)\n\nggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +\n  geom_beeswarm(size = 1) +\n  # Or try this too:\n  # geom_quasirandom() +\n  labs(x = NULL, y = \"Weight\") +\n  guides(color = \"none\")"
+  },
+  {
+    "objectID": "lectures/W03.html#combine-boxplots-with-points",
+    "href": "lectures/W03.html#combine-boxplots-with-points",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Combine boxplots with points",
+    "text": "Combine boxplots with points\n\n\nCode\nggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +\n  geom_boxplot(width = 0.5) +\n  geom_point(position = position_jitter(height = 0), size = 1, alpha = 0.5) +\n  labs(x = NULL, y = \"Weight\") +\n  guides(color = \"none\")"
+  },
+  {
+    "objectID": "lectures/W03.html#combine-violins-with-points",
+    "href": "lectures/W03.html#combine-violins-with-points",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Combine violins with points",
+    "text": "Combine violins with points\n\n\nCode\nggplot(animals, aes(x = animal_type, y = weight, color = animal_type)) +\n  geom_violin(width = 0.5) +\n  geom_point(position = position_jitter(height = 0), size = 1, alpha = 0.5) +\n  labs(x = NULL, y = \"Weight\") +\n  guides(color = \"none\")"
+  },
+  {
+    "objectID": "lectures/W03.html#overlapping-ridgeplots",
+    "href": "lectures/W03.html#overlapping-ridgeplots",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Overlapping ridgeplots",
+    "text": "Overlapping ridgeplots\n\n\nCode\nlibrary(ggridges)\n\nggplot(animals, aes(x = weight, y = animal_type, fill = animal_type)) +\n  geom_density_ridges() +\n  labs(x = \"Weight\", y = NULL) +\n  guides(fill = \"none\")"
+  },
+  {
+    "objectID": "lectures/W03.html#more-information-is-better",
+    "href": "lectures/W03.html#more-information-is-better",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "More information is better",
+    "text": "More information is better\n\nAvoid ploting single numbers when there is a whole range behind it\n\nOK, you may do it in a longer data story after making clear how the variation looks like"
+  },
+  {
+    "objectID": "lectures/W03.html#practice-distribution-visualization",
+    "href": "lectures/W03.html#practice-distribution-visualization",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Practice: Distribution Visualization",
+    "text": "Practice: Distribution Visualization\nDo some of visualizations of distributions using the country dataset in the VisCom_Playground repository.\nCreate a new slidedeck with some trials.\nFor example: Use Life Expectancy and compare the distribution of countries’ value between continents. You can also visualize how a distribution changes over time."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "",
+    "text": "MDSSSB-MET-03 Visual Communication and Data Story-telling (Methods area, 5 credits)\n\nOffered in the Master program: Data Science for Society and Business (DSSB). See the module description in the DSSB Handbook and DSSB Handbook online program.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#module-names",
+    "href": "index.html#module-names",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "",
+    "text": "MDSSSB-MET-03 Visual Communication and Data Story-telling (Methods area, 5 credits)\n\nOffered in the Master program: Data Science for Society and Business (DSSB). See the module description in the DSSB Handbook and DSSB Handbook online program.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#module-components",
+    "href": "index.html#module-components",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "2 Module Components",
+    "text": "2 Module Components\nThe courses is offered in the Fall term.\nRequirements: Data Science Concepts and Data Science Tools",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#class-meeting-information",
+    "href": "index.html#class-meeting-information",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "3 Class Meeting Information",
+    "text": "3 Class Meeting Information\nClasses are on Tuesdays\nSession 1 Tue 9:45 - 11:00\nSession 2 Tue 11:15 - 12:30\nLocation: IRC-Seminar Room III in-person\nVideo streaming and recording in Teams will be provided (but it does not work for all class activities perfectly): Team F26_MDSSB-MET-03_Visual Communication and Data Story-telling, General Channel",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#instructors",
+    "href": "index.html#instructors",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "4 Instructors",
+    "text": "4 Instructors\nJan Lorenz Email: jlorenz@constructor.univeristy",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#format-and-workload",
+    "href": "index.html#format-and-workload",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "5 Format and Workload",
+    "text": "5 Format and Workload\n17.5 hours Lectures (including class activities) 17.5 hours Tutorials (partly prepared by students) 90 hours Project Work outside Class",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#intended-learning-outcomes",
+    "href": "index.html#intended-learning-outcomes",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "6 Intended Learning Outcomes",
+    "text": "6 Intended Learning Outcomes\nThe module descriptions can be found in the DSSB Handbook and DSSB Handbook online program.\n\n6.1 From the handbook\nBy the end of this module, students will be able\n\nvisually represent various data sources\nchoose suitable visual representations for different data sets\nevaluate visual depictions of data\nassist users in visual data analysis\ntarget visual representations to different audiences\n\n\n\n6.2 Additional remark from the instructor\nYou will build on your experience\n\nthe small Data Science Project in Data Science Tools in the the 1st semester\nyour Data Science Lab Project in the 2nd semester (only for onsite students)\n\nYou will create another Data Science Project focusing on great graphics and telling a story with data! You will write the report such that a non Data Scientist can enjoy reading it and gain some insights about the datastory you tell.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#examination-and-assessment",
+    "href": "index.html#examination-and-assessment",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "7 Examination and Assessment",
+    "text": "7 Examination and Assessment\nFrom the Handbook:\nAssessment Type: Project Report (in article format + Slide deck) 3000 - 4000 words\nModule Achievement: Students must prepare and present a slide deck demonstrating the verbal storytelling skills developed in the module. The presentation may be delivered in class or submitted as a video. If the module achievement is not fulfilled on the first attempt, the slide deck may be submitted as a video at a later date.\nNote: 3000-4000 words is the official word count from the handbook. However, the instructor will not count words and will not assess the report based on fulfilling the word count. Essential parts of the submission will visuals.\nDetails about the project report: The project report is a website which tells a data story which is rendered with quarto.\nIt includes\n\na slide deck used to tell the story in a presentation,\na written report tells the story for readers and gives more details and more visuals, e.g. in Appendices.\n\nOptional the submission can also include a dashboard with interactive graphs which enables individual exploration by the reader.\nThe report must be reproducible. That means the source code must be provided.\nHowever, the report must be readable without reading code. The target audience is not a programmer and they should not see code while reading. Technical parts should be in the appendix. \nDelivery via GitHub.\n\n\n\n\n\n\nImportant\n\n\n\nYou can make your data story into a nice thing to show your competence to the outside world. It is not too difficult to publish the report as a website from your final repository. Make your report such that it is worth to publish and show it!",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-stud-contrib",
+    "href": "index.html#sec-stud-contrib",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "8 Module Policies and expected student engagement and contributions",
+    "text": "8 Module Policies and expected student engagement and contributions\nIn this course we work with different methods and most of them require student engagement such as\n\nreading a chapter before class to discuss it in class\npreparing something to show to others\npitch your project idea to the class\nengage in a class room activity, like a joint storyboarding session\ndo a final project presentation\n\nFor all activities, participation in person is best.\nSome sessions may be streamed and recorded when some students have a valid excuse to not be present in person. However, there may be activities where this does not work well.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#academic-integrity",
+    "href": "index.html#academic-integrity",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "9 Academic Integrity",
+    "text": "9 Academic Integrity\nAll involved parties (professors and lecturers, instructors and students) are expected to abide by the word and spirit of the “Code of Academic Integrity”: https://constructor.university/student-life/student-services/university-policies/academic-policies/code-of-academic-integrity. Violations of the Code might be brought to the attention of the Academic Integrity Committee.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#artifical-intelligence-ai-use-policy",
+    "href": "index.html#artifical-intelligence-ai-use-policy",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "10 Artifical Intelligence (AI) Use Policy",
+    "text": "10 Artifical Intelligence (AI) Use Policy\nThis policy covers any generative AI tool, such as ChatGPT, Elicit, etc. This includes text, code, slides, artwork/graphics/video/audio and other products.\nWe instructors encouraged to using and exploring AI tools for these purposes:\n\nLearning by dialog with a chatbot. AI chatbots can be very helpful to explain you concepts on your desired level and get a feeling about how certain topics are treated. You can ask for an easier or more detailed explanation or focus on certain aspects. Note: The capabilities are limited and you likely receive a lot of false information! An AI chat can be a good entry point to learn about a specific topic but the more specific it gets the more likely it is that AI will start to deliver useless or wrong answers. Using chatbots should remain a small part of your learning process. Rule of thumb: Spend not more than 25% of the learning time with chatting. There is no way around reading textbooks, reading software documentation, learning and understanding concepts, searching for help online, asking instructors or fellow students.\nHave code snippets written. Tools like GitHub Copilot can be a great help in coding! You are encouraged to have them available and try them. The GitHub Copilot is free to use for students and teachers who joined GitHub Education), they can be integrated in your programming IDE like RStudio and VSCode. Copilots can speed up writing. However, they may deliver bad code. There is no way around understanding yourself what code is doing! Do not spend endless hours asking for new code with new prompts, spend time understanding a language and the functions and objects you are using! AI chatbots and Copilots can also help you to understand code. Copilots can be a great help to get a skeleton of code and an idea how your solution might look, they rarely deliver the complete code, expect that the code does not work, expect that the code seems to works but the results are wrong. You are 100% accountable for the code you produce, with or without the help of a copilot!\nHave a draft text snippet written. Formulating and describing research questions, describing data, documenting code, interpreting results, and deriving conclusion from the results is an essential part of data science not direclty related to coding but verbal text. Chatbots are good in writing text which often appears as well readable. You can use this to inspire you and to polish and improve your texts. However, you are 100% accountable for the text you deliver. You are expected to know what your text is about and to be able to answer questions about what your text means! With text generated purely by chatbots, it is oftenn evident for us that students do not understand. We consider such cases worse than incomplete but sensible self-written text. Text written by chatbots is often very generic and not specific. In general, we value more specific text higher than generic text. Large parts of very generic text is considered worse than a shorter more specific text.\nNote: Philosophical and legal questions around the training and use of chatbots and code copilots are controversially contested and re-examined constantly! We encourage to engage with such questions and become aware of arguments and debates.\n\nIf any part of this AI policy is confusing or uncertain, please reach out to us for a conversation before submitting your work.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "11 Schedule",
+    "text": "11 Schedule\nThe Schedule is on an extra page and will be updated continuously.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#literature",
+    "href": "index.html#literature",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "12 Literature",
+    "text": "12 Literature\nDuring the course we will work through this book:\nDykes, B. (2019). Effective Data Storytelling: How to Drive Change with Data, Narrative and Visuals. John Wiley & Sons.\nSee Readings.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#feedback-from-students",
+    "href": "index.html#feedback-from-students",
+    "title": "Visual Communication and Data Story-telling",
+    "section": "13 Feedback from Students",
+    "text": "13 Feedback from Students\nWe are eager to constantly improve the quality of our teaching. We would be glad to obtain your feedback at any time of the course to improve your learning experience.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "quarto.html",
+    "href": "quarto.html",
+    "title": "Delivery: Quarto Advice",
+    "section": "",
+    "text": "Here is advice and links to work with quarto to make beautiful and trustful Presentations and Reports with https://quarto.org/quarto.png.\nThe focus is on presentations using the revealjs framework and HTML output because they are well integrated in quarto and the default for the final report.\nYou can use the template repository DataStory_Template. (You need to be member of CU-F26-MDSSB-MET-03-VisCommDataStory and logged in at GitHub.)",
+    "crumbs": [
+      "Syllabus",
+      "Delivery: Quarto Advice"
+    ]
+  },
+  {
+    "objectID": "quarto.html#from-reports-to-presentations-and-vice-versa",
+    "href": "quarto.html#from-reports-to-presentations-and-vice-versa",
+    "title": "Delivery: Quarto Advice",
+    "section": "1 From Reports to Presentations (and vice versa)",
+    "text": "1 From Reports to Presentations (and vice versa)\nThese are two different formats for data storytelling. However, the markdown structure has some similarity:\n\n\n\n\n\n\n\n\n\nReport\nPresentation\n\n\n\n\nOutput format\nHTML\nrevealjs (HTML)\n\n\n#\nDefines a main Section and its header\nDefines a presentation Section with a title-like extra slide\n\n\n##\nDefines a Subsection and its header\nDefine a Slide and its header\n\n\n\nSo, a common workflow Presentation to Report or Report to Presention can be to copy the file and then adjust the format in the YAML and adjust the structure. Typically:\n\nShorten text, e.g. to list for presentation, make text paragraphs from text lists\nRefine the headers (#, ##, …) for the purpose\nCheck if visuals work well in the new format",
+    "crumbs": [
+      "Syllabus",
+      "Delivery: Quarto Advice"
+    ]
+  },
+  {
+    "objectID": "quarto.html#reading-the-quarto-documentation",
+    "href": "quarto.html#reading-the-quarto-documentation",
+    "title": "Delivery: Quarto Advice",
+    "section": "2 Reading the quarto Documentation",
+    "text": "2 Reading the quarto Documentation\nYou find almost everything in the quarto documentation Guide and the quarto documentation Reference. However, it is sometimes not so easy to find the right section to read for what problems.\n\nRead the Guide to understand subtopics of quarto holistically. For example:\n\nAuthoring with topics like Markdown Basics, how to embed images, make tables and other interesting sections to check out. The subsection Scholarly Writing is important for\n\nmaking an advanced front matter with more than title and author\nhow to work with citations (when you refer to references like articles in the text) and references (which appear at the end of the text)\nhow to make cross-references, e.g. links from your text to numbers figures with captions and links to other sections\n\nComputations explaining how to work with python and R code blocks\nTools for problems helping you to work within RStudio or VSCode\nDocuments for things related to the documents you want to render like your HTML-pages for project reports\nPresentations for making presentations, in particular using the revealjs framework\nMore advanced sections about making dashboards, or websites, books, and manuscripts, or other so called projects (which are multi-document directories, e.g. as stored in a GitHub repository)\n\nGo to the Reference if you need a particular option or customization for your document or code chunk. For example:\n\nWhat options are availbale to customize your HTML output or your revealjs Presentation\nWhat options are available to customize the size of figures created by code blocks. This is in the section Code Cells.\nImportant: look into Knitr (default) if you work from RStudio mainly in R, select Jupyter if you render from a Jupyter notebook\nWhat options are available about showing, fold or hide your code or other code execution output like warnings and message\nImportant: look into Knitr (default) if you work from RStudio mainly in R, select Jupyter if you render from a Jupyter notebook",
+    "crumbs": [
+      "Syllabus",
+      "Delivery: Quarto Advice"
+    ]
+  },
+  {
+    "objectID": "quarto.html#from-a-quick-report-to-a-beautiful-web-article",
+    "href": "quarto.html#from-a-quick-report-to-a-beautiful-web-article",
+    "title": "Delivery: Quarto Advice",
+    "section": "3 From a quick report to a beautiful web article",
+    "text": "3 From a quick report to a beautiful web article\nQuick report: A report produced fast for internal use for yourself or a few colleagues or outsiders you need to quickly share results with. Quick reports often have:\n\njust title and author, no sophisticated front matter with date, affiliation, contact information, funding information, …\ncode based figures just in place without captions and not being cross-referenced\ncode echo and code output (like warnings) appearing directly in the text, not nicely folded or removed/suppressed (after careful checks)\n\nWeb article: A well crafted report which is prepared to be readable by any outsider, e.g. as a web site published from GitHub pages. For a beautiful web article you:\n\nHave a sensible structure for Headers (#, ##, ###) which may also provide a sensible table of content (see toc related options for HTML)\nFold in Code (code-fold: true), and suppress any warnings (e.g., warnings: false) or other messages (e.g., messages: false) which are not relevant for the reader. If there was something relevant for the reader (like removed data points or whatever), write about it in your text.\nHave well adjusted code-based figures. No cut-off labels. Large enough labels. Appropriate size (adjust fig-width and/or fig-height in quarto).\nDo not show data frames as raw console out put but use a formatted table output. In R, use for example knitr::kable() (simple option) or advance table produced witht the gt package.\nUse inline code to show numbers from your analysis in the text!\nIf not very brief introduce Figures and Table by making them referable see sections on cross-referencing. By doing that Figures and Tables also get a caption.\nCite sources you use for your report by using Links, Citations, and a final References sections (read the docs on this)",
+    "crumbs": [
+      "Syllabus",
+      "Delivery: Quarto Advice"
+    ]
+  },
+  {
+    "objectID": "quarto.html#publish-your-project-from-github",
+    "href": "quarto.html#publish-your-project-from-github",
+    "title": "Delivery: Quarto Advice",
+    "section": "4 Publish your project from GitHub",
+    "text": "4 Publish your project from GitHub\nThe quarto docs provide details and different ways to publish your report. Check the check the Publishing section in the quarto Guide.\nAs you are working from GitHub anyway, look at the section about publishing using GitHub Pages. There are three ways: (1) render to docs, (2) use the quarto publish command, (3) use GitHub actions. All are fine and documented. Just follow the steps when you do it the first time. The different ways are different. (1) has lowest “overhead” using other tools but requires more systematic manual work when updating a lot of files, it is great for one file reports which you do not need to update a lot. (2) is better if you need to update more often like in a website. (3) is the most advanced using GitHub actions provided bny GitHub.",
+    "crumbs": [
+      "Syllabus",
+      "Delivery: Quarto Advice"
+    ]
+  },
+  {
+    "objectID": "quarto.html#optional-but-useful-citation-references-literature-management",
+    "href": "quarto.html#optional-but-useful-citation-references-literature-management",
+    "title": "Delivery: Quarto Advice",
+    "section": "5 (Optional but useful) Citation, References, Literature Management",
+    "text": "5 (Optional but useful) Citation, References, Literature Management\nSee above how to find guides in quarto on these topics. Additionally, it makes sense to think more about tools helping you to start a sustainable workflow for reading, archiving and citing scientific literature, for your future studies also beyond this course and beyond your studies going further in academia or industry jobs.\n\nFind a literature manager! A recommendation is zotero (free to use). You can use it to\n\nCollect literature you find browsing the internet or other literature. There are easy ways in zotero to import by just pasting in a DOI, are there a browser plugins that give you a button in your browser you can click when on the website of an article.\nRead and annotate articles. Zotero can easily also archive PDFs of articles on your local machine and a PDF viewer. You can also annotate PDF there and there are other tools to access such annotations automatically.\nOrganize your literature into collections of topics of interest. (Any item can be in more collections!)\nExport bibtex bibliographies (.bib-files) which you can use to embed them in your reports as references.bib to cite from (You need the BetterBibTex plugin for zotero for that!).\n\nLearn how to work with references and citations in quarto! You do not need a full workflow on it you can also start small for just one project. It will pay off to get into this!\nSearch for video tutorials on literature management. Be aware that there are several options, but many are connected through free standards like bibtex or csl.",
+    "crumbs": [
+      "Syllabus",
+      "Delivery: Quarto Advice"
+    ]
+  },
+  {
+    "objectID": "readings.html",
+    "href": "readings.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Tip\n\n\n\nThe Schedule lists when readings should be completed (feel free to read ahead!)\nWatch out for Tasks related to readings.",
+    "crumbs": [
+      "Syllabus",
+      "Readings"
+    ]
+  },
+  {
+    "objectID": "readings.html#book",
+    "href": "readings.html#book",
+    "title": "Readings",
+    "section": "Book: Dykes (2019)",
+    "text": "Book: Dykes (2019)\nThere are several good books on Data Storytelling. I use the following book as a main reference. While my own data story telling is mostly scientific, the book is written from a business perspective which is a good complement and many principles are the same.\nDykes, C. (2019). Effective Data Storytelling: How to Drive Change with Data, Narrative and Visuals. Wiley.\nThe book is available as an eBook through the University Library:\nhttps://ebookcentral.proquest.com/lib/constructor-university/detail.action?docID=5993965\n(You need to be on campus or login with your University M365 account.)\nAfter the course you will have read most of the book.",
+    "crumbs": [
+      "Syllabus",
+      "Readings"
+    ]
+  },
+  {
+    "objectID": "readings.html#r",
+    "href": "readings.html#r",
+    "title": "Readings",
+    "section": "Reading Remarks on Dykes",
+    "text": "Reading Remarks on Dykes\nThe purpose of reading is to apply the knowledge for doing your Data Story Project. To that end, some parts require closer reading than others.\n\nChapter 1: Introduction to Driving Change through Insight\nAll.\nA central concept in this chapter is Insight. Visual communication and data storytelling is about enabling insights for the audience. For your project you need to think about what insights you want to communicate. Focus on getting an idea what an insight is.\nChapter 2: Why Tell Stories with Data?\nAll.\nChapter 3: The Psychology of Data Storytelling\nThis Chapter is optional. Read it if you are interested in the psychology of human perception of facts. Consult the summary in Table 3.1.\nChapter 4: The Anatomy of a Data Story (21 pages intensive reading) Do an intensive reading of the Sections\n\nThe Chapter Introduction including Figure 4.2 The Analysis Journey: From Storyframing to Storytelling (pp. 105-110)\nThe Six Essential Elements of a Data Story (pp. 110-118)\nData Stories Come in All Shapes and Sizes (pp. 118-121)\nWhen It Makes Sense to Craft Data Stories and When It Doesn’t (pp. 139-143)\n\nYou can skim Every Story Needs a Storyteller and Know Your Audience Before Telling Your Story\nChapter 5: Data, The Foundation of Your Data Story (20 pages intensive reading)\nDo an intensive reading of the Sections\n\nThe Chapter Introduction (pp. 146-148)\nThe Analysis Process: Exploration to Explanation (pp. 161-168)\nAnalyzing and Communicating Data Demands Discipline (pp. 168-176)\n\nYou can skim Examine the Building Blocks of Your Data Stories, Every Data Story Needs a Central Insight, Do You Have an Actionable Insight?, and When Too Much of a Good Thing Is Bad\nChapter 6: Narrative, The Structure of Your Data Story (14 pages intensive reading) Do an intensive reading of the Sections\n\nDefining a Narrative Model for Data Stories (pp. 186-195)\nFleshing Out Your Narrative with Story Points (pp. 195-199)\n\nThe content of Storyboarding Your Data Story will be the basis for the classroom story boarding activity.\nYou can skim faster through When They Want Just the Facts, Uncovering the Heroes in Your Data Story, and Make Your Ideas More Digestible with Analogies.\nChapter 7: Visuals (Part 1): Setting the Scenes of Your Data Story\nAll\nChapter 8: Visuals (Part 2): Polishing the Scenes of Your Data Story\nAll\nChapter 9: Crafting Your Own Data Story\nOptional",
+    "crumbs": [
+      "Syllabus",
+      "Readings"
+    ]
+  },
+  {
+    "objectID": "tasks/03-week.html",
+    "href": "tasks/03-week.html",
+    "title": "Week 03",
+    "section": "",
+    "text": "Slides Direct Link\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/03-week.html#material",
+    "href": "tasks/03-week.html#material",
+    "title": "Week 03",
+    "section": "",
+    "text": "Slides Direct Link\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/03-week.html#assignments-readings",
+    "href": "tasks/03-week.html#assignments-readings",
+    "title": "Week 03",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 3 in Dykes (2019), consult the Reading Remarks for the Chapter.\nMake one visual where you visualize distributions of a numerical variable over different categories. Use the data you find in the VisCom_Playground in the CU-F26-MDSSB-MET-03-VisCommDataStory Repositories. You can also use data you find yourself. We want to share these in class."
+  },
+  {
+    "objectID": "tasks/03-week.html#additional-readings",
+    "href": "tasks/03-week.html#additional-readings",
+    "title": "Week 03",
+    "section": "Additional readings",
+    "text": "Additional readings\nChapter 6 in Fundamentals of Data Visualization: Visualizing amounts (Wilke 2018)\nChapter 7 in Fundamentals of Data Visualization: Visualizing distributions: Histograms and density plots (Wilke 2018)\nChapter 10 in Fundamentals of Data Visualization: Visualising proportions (Wilke 2018)"
+  },
+  {
+    "objectID": "tasks/03-week.html#checklist",
+    "href": "tasks/03-week.html#checklist",
+    "title": "Week 03",
+    "section": "Checklist",
+    "text": "Checklist\n\nPrepare the visual (see Assignment above) such that you can share it in class."
+  },
+  {
+    "objectID": "tasks/10-week.html",
+    "href": "tasks/10-week.html",
+    "title": "Week 10",
+    "section": "",
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/10-week.html#material",
+    "href": "tasks/10-week.html#material",
+    "title": "Week 10",
+    "section": "",
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/10-week.html#assignments-readings",
+    "href": "tasks/10-week.html#assignments-readings",
+    "title": "Week 10",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nCheck your project work against Milestone 4: Data story and storyboard 📖 and bring it to that level.\nPrepare a draft presentation of your project for the individual coaching to discuss the student presentation Milestone 5: Presentation 💬. To that end read:\n\nDelivery: Quarto Advice and check the DataStory_Template. (You need to be member of CU-F26-MDSSB-MET-03-VisCommDataStory and logged in at GitHub.)"
+  },
+  {
+    "objectID": "tasks/01-week.html",
+    "href": "tasks/01-week.html",
+    "title": "Week 01",
+    "section": "",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 1 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nComplete the corresponding reading assignment on Teams: Click the Assignments Tab and write your engagement comments in your personal class notebook there.\n\n\nMake a visual with the data in the Playground repository found in the Repository of the Course"
+  },
+  {
+    "objectID": "tasks/01-week.html#material",
+    "href": "tasks/01-week.html#material",
+    "title": "Week 01",
+    "section": "",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 1 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nComplete the corresponding reading assignment on Teams: Click the Assignments Tab and write your engagement comments in your personal class notebook there.\n\n\nMake a visual with the data in the Playground repository found in the Repository of the Course"
+  },
+  {
+    "objectID": "tasks/01-week.html#checklist",
+    "href": "tasks/01-week.html#checklist",
+    "title": "Week 01",
+    "section": "Checklist",
+    "text": "Checklist\nCheck the boxes when done, and feel the “done” 🙂.\n\nGet ready for your Playground repository\n\nAccept the invitation to join the GitHub-Organization CU-F26-MDSSB-MET-03-VisCommDataStory. Check your emails for the invitation, or go to the page while logged in and find the acceptance button.\nMake your tool ready for work with R, tidyverse, and quarto.\n\nRecommendation: Switch to Positron as a replacement for RStudio.\nCheck that you have R 4.5.1 and the tidyverse package installed.\n\n\nRead the syllabus, come up with clarification question.\nReadings and Assignment done."
+  },
+  {
+    "objectID": "tasks/07-week.html",
+    "href": "tasks/07-week.html",
+    "title": "Week 07",
+    "section": "",
+    "text": "Below is a tentative schedule. We will adjust it in class. There is a bit of buffer. If we do not need it, pitches can start earlier! We could also go over the break between session 1 and 2 and finish earlier.\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n09:50\nExoplanets\n\n\n10:00\nCrimeRates\n\n\n10:10\nIShowSpeed\n\n\n10:20\nGPUSentiment\n\n\n10:30\nBundesliga\n\n\n\n\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n11:15\nProgressParadox\n\n\n11:30\nClimateChange\n\n\n11:45\nFilterBubble\n\n\n12:00\nHousing"
+  },
+  {
+    "objectID": "tasks/07-week.html#material",
+    "href": "tasks/07-week.html#material",
+    "title": "Week 07",
+    "section": "",
+    "text": "Below is a tentative schedule. We will adjust it in class. There is a bit of buffer. If we do not need it, pitches can start earlier! We could also go over the break between session 1 and 2 and finish earlier.\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n09:50\nExoplanets\n\n\n10:00\nCrimeRates\n\n\n10:10\nIShowSpeed\n\n\n10:20\nGPUSentiment\n\n\n10:30\nBundesliga\n\n\n\n\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n11:15\nProgressParadox\n\n\n11:30\nClimateChange\n\n\n11:45\nFilterBubble\n\n\n12:00\nHousing"
+  },
+  {
+    "objectID": "tasks/07-week.html#assignments-readings",
+    "href": "tasks/07-week.html#assignments-readings",
+    "title": "Week 07",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019), consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”"
+  },
+  {
+    "objectID": "tasks/08-week.html",
+    "href": "tasks/08-week.html",
+    "title": "Week 08",
+    "section": "",
+    "text": "Input slides Direct Link\n\nThe slides also contain the activities in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/08-week.html#material",
+    "href": "tasks/08-week.html#material",
+    "title": "Week 08",
+    "section": "",
+    "text": "Input slides Direct Link\n\nThe slides also contain the activities in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/08-week.html#assignments-readings",
+    "href": "tasks/08-week.html#assignments-readings",
+    "title": "Week 08",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 8 in Dykes (2019), consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 2: Main insight 💡 and bring it to that level.\nPrepare for the classroom activities in Week 09\n\nMake one visual for your story with your actual data.\nBe ready to share the visual (e.g. screenshot) and the code (R or Python, also share the packages used) over Teams in class.\nBe ready to explain what story point you want to make with the visual.\nWhat improvements you would like to make (annotations, insets, labels, images, …)\n\nThe purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. So, the discussion should take the form of a peer consulting session."
+  },
+  {
+    "objectID": "tasks/12-week.html",
+    "href": "tasks/12-week.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/12-week.html#material",
+    "href": "tasks/12-week.html#material",
+    "title": "Week 12",
+    "section": "",
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/12-week.html#assignments-readings",
+    "href": "tasks/12-week.html#assignments-readings",
+    "title": "Week 12",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nPrepare your Presentation for Milestone 5: Presentation 💬!"
+  },
+  {
+    "objectID": "tasks/09-week.html",
+    "href": "tasks/09-week.html",
+    "title": "Week 09",
+    "section": "",
+    "text": "9:45 - 11:00\nInput slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nA special event! A talk by a leading data visualization expert.\n11:15 - 12:30 Room RLH 274 (as part of Current Topics Seminars)\nSpeaker: Moritz Stefaner\nTitle: The Art and Beauty of Data Visualization\nAbstract: As an independent Truth & Beauty Operator, Moritz Stefaner is constantly chasing the perfect shape for information — how can we create expressive, intriguing, and elegant data experiences? Drawing on high-profile projects for the German government, WHO, and OECD, as well as innovative creative explorations, he demonstrates how effective data visualization can achieve much more than simply making charts look nicer.\n\n\nShort Bio: With a background in Cognitive Science and Interface Design, his work beautifully balances analytical and aesthetic aspects in mapping complex phenomena to support data–driven decision making. Moritz has helped clients like the OECD, Google News Initiative, Salesforce, the World Economic Forum, Deutsche Bahn and the Max Planck Research Society to find insights and beauty in large and complex data sets. He is the record winner of the Kantar Information is Beautiful awards and his work has been exhibited at Venice Biennale of Architecture, SIGGRAPH, Max Planck Science Gallery, Fondation EDF, and Ars Electronica. As a writer, co-host of the Data Stories podcast, and sought-after keynote speaker and workshop facilitator, Moritz Stefaner continues to excite more and more people about the magic that can emerge when art and science connect deeply.\n\n\n\n\nSlide of Moritz Stefaner\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/09-week.html#material",
+    "href": "tasks/09-week.html#material",
+    "title": "Week 09",
+    "section": "",
+    "text": "9:45 - 11:00\nInput slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nA special event! A talk by a leading data visualization expert.\n11:15 - 12:30 Room RLH 274 (as part of Current Topics Seminars)\nSpeaker: Moritz Stefaner\nTitle: The Art and Beauty of Data Visualization\nAbstract: As an independent Truth & Beauty Operator, Moritz Stefaner is constantly chasing the perfect shape for information — how can we create expressive, intriguing, and elegant data experiences? Drawing on high-profile projects for the German government, WHO, and OECD, as well as innovative creative explorations, he demonstrates how effective data visualization can achieve much more than simply making charts look nicer.\n\n\nShort Bio: With a background in Cognitive Science and Interface Design, his work beautifully balances analytical and aesthetic aspects in mapping complex phenomena to support data–driven decision making. Moritz has helped clients like the OECD, Google News Initiative, Salesforce, the World Economic Forum, Deutsche Bahn and the Max Planck Research Society to find insights and beauty in large and complex data sets. He is the record winner of the Kantar Information is Beautiful awards and his work has been exhibited at Venice Biennale of Architecture, SIGGRAPH, Max Planck Science Gallery, Fondation EDF, and Ars Electronica. As a writer, co-host of the Data Stories podcast, and sought-after keynote speaker and workshop facilitator, Moritz Stefaner continues to excite more and more people about the magic that can emerge when art and science connect deeply.\n\n\n\n\nSlide of Moritz Stefaner\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/09-week.html#assignments",
+    "href": "tasks/09-week.html#assignments",
+    "title": "Week 09",
+    "section": "Assignments",
+    "text": "Assignments\n\nCheck your project work against Milestone 3: Visual Drafts 📊📈📉️ and bring it to that level.\nHave a list of story points and visual drafts ready for Milestone 4: Data story and storyboard 📖 next week.\nIf you need to follow next week’s Storyboarding online: Prepare a pile of 10-20 sheets of paper in small format (A6 or A7 = Postcard or half a postcard, also Post-its can work if not very small) and pens in 2-4 colors. You also need space on a table where you can order and shift around these sheets. My experience is that this is better than using online whiteboards. When your team colleagues are also remote, I suggest you both storyboard independently and exchange either in class occasionally or afterward."
+  },
+  {
+    "objectID": "tasks/11-week.html",
+    "href": "tasks/11-week.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "A meeting will be scheduled on MS Teamsin the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor."
+  },
+  {
+    "objectID": "tasks/11-week.html#no-class-but-individual-meeting-with-instructor-about-project-status-and-presentation",
+    "href": "tasks/11-week.html#no-class-but-individual-meeting-with-instructor-about-project-status-and-presentation",
+    "title": "Week 11",
+    "section": "",
+    "text": "A meeting will be scheduled on MS Teamsin the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor."
+  },
+  {
+    "objectID": "tasks/11-week.html#assignments-readings",
+    "href": "tasks/11-week.html#assignments-readings",
+    "title": "Week 11",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead the paper recommended by Moritz Stefaner: Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110–161. https://doi.org/10.1177/15291006211051956"
+  },
+  {
+    "objectID": "tasks/13-week.html",
+    "href": "tasks/13-week.html",
+    "title": "Week 13",
+    "section": "",
+    "text": "Below is a tentative schedule. We will adjust it in class. We could also go over the break between session 1 and 2 and finish earlier.\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n09:45\nExoplanets\n\n\n10:00\nLibraries\n\n\n10:15\nIShowSpeed\n\n\n10:30\nGPUSentiment\n\n\n10:45\nBundesliga\n\n\n\n\n\n\n(Please allow 5 min. over time of the session.)\n\n\n\nTime\nProject Name\n\n\n\n\n11:15\nProgressParadox\n\n\n11:35\nClimateChange\n\n\n11:55\nFilterBubble\n\n\n12:15\nHousing"
+  },
+  {
+    "objectID": "tasks/13-week.html#student-presentations",
+    "href": "tasks/13-week.html#student-presentations",
+    "title": "Week 13",
+    "section": "",
+    "text": "Below is a tentative schedule. We will adjust it in class. We could also go over the break between session 1 and 2 and finish earlier.\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n09:45\nExoplanets\n\n\n10:00\nLibraries\n\n\n10:15\nIShowSpeed\n\n\n10:30\nGPUSentiment\n\n\n10:45\nBundesliga\n\n\n\n\n\n\n(Please allow 5 min. over time of the session.)\n\n\n\nTime\nProject Name\n\n\n\n\n11:15\nProgressParadox\n\n\n11:35\nClimateChange\n\n\n11:55\nFilterBubble\n\n\n12:15\nHousing"
+  },
+  {
+    "objectID": "tasks/05-week.html",
+    "href": "tasks/05-week.html",
+    "title": "Week 05",
+    "section": "",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/05-week.html#material",
+    "href": "tasks/05-week.html#material",
+    "title": "Week 05",
+    "section": "",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
+  },
+  {
+    "objectID": "tasks/05-week.html#assignments-readings",
+    "href": "tasks/05-week.html#assignments-readings",
+    "title": "Week 05",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019), consult the Reading Remarks for the Chapter.\nThink about the data story you want to do and fill the Form: Project and Team Check-in by Friday, 2025-10-03. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)\n\nCheck the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story."
+  },
+  {
+    "objectID": "tasks/05-week.html#additional-readings",
+    "href": "tasks/05-week.html#additional-readings",
+    "title": "Week 05",
+    "section": "Additional readings",
+    "text": "Additional readings\nChapter 29 in Fundamentals of Data Visualization: Telling a story and making a point"
+  },
+  {
+    "objectID": "tasks/06-week.html",
+    "href": "tasks/06-week.html",
+    "title": "Week 06",
+    "section": "",
+    "text": "You have to fill out Form: Project and Team Check-in by Friday, 2025-10-03. (See Week #05 for details.)\nA meeting will be scheduled on MS Teams once you filled the form. It lies in the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor."
+  },
+  {
+    "objectID": "tasks/06-week.html#no-class-but-individual-meeting-with-instructor-about-project-check-in",
+    "href": "tasks/06-week.html#no-class-but-individual-meeting-with-instructor-about-project-check-in",
+    "title": "Week 06",
+    "section": "",
+    "text": "You have to fill out Form: Project and Team Check-in by Friday, 2025-10-03. (See Week #05 for details.)\nA meeting will be scheduled on MS Teams once you filled the form. It lies in the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor."
+  },
+  {
+    "objectID": "tasks/06-week.html#assignments-readings",
+    "href": "tasks/06-week.html#assignments-readings",
+    "title": "Week 06",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019), consult the Reading Remarks for the Chapter.\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. You can create it from the DataStory_Template.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.\nThis is an example project pitch presentation for the Data Story: CoviD Pandemic and Summerbreaks"
+  },
+  {
+    "objectID": "tasks/02-week.html",
+    "href": "tasks/02-week.html",
+    "title": "Week 02",
+    "section": "",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nComplete the corresponding reading assignment on Teams: Click the Assignments Tab and write your engagement comments in your personal class notebook there.\n\n\nMake one visual based on the data you find in the VisCom_Playground in the CU-F26-MDSSB-MET-03-VisCommDataStory Repositories\n\nComplete the corresponding assignment on Teams\n\nSearch the internet for a visual you find great. It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!\n\nComplete the corresponding assignment on Teams (same as above). Have it ready to be shared and discussed in class."
+  },
+  {
+    "objectID": "tasks/02-week.html#material",
+    "href": "tasks/02-week.html#material",
+    "title": "Week 02",
+    "section": "",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nComplete the corresponding reading assignment on Teams: Click the Assignments Tab and write your engagement comments in your personal class notebook there.\n\n\nMake one visual based on the data you find in the VisCom_Playground in the CU-F26-MDSSB-MET-03-VisCommDataStory Repositories\n\nComplete the corresponding assignment on Teams\n\nSearch the internet for a visual you find great. It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!\n\nComplete the corresponding assignment on Teams (same as above). Have it ready to be shared and discussed in class."
+  },
+  {
+    "objectID": "tasks/02-week.html#checklist",
+    "href": "tasks/02-week.html#checklist",
+    "title": "Week 02",
+    "section": "Checklist",
+    "text": "Checklist\nCheck the boxes when done, and feel the “done” 🙂.\n\nHave the repository VisCom_Playground cloned to your computer."
+  },
+  {
+    "objectID": "tasks/04-week.html",
+    "href": "tasks/04-week.html",
+    "title": "Week 04",
+    "section": "",
+    "text": "Instructor’s trials in VisCom_Playground GitHub Repo\n\n\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nCoviD Pandemic and Summerbreaks\nFollow the Direct Link to the slides!\nAnalyse the Data Story\n\nWhat is the main insight?\nWho is the target audience?\nWhat is the story structure?\nWhat are the data sources?\n\n\nList all what is necessary to reproduce the analysis\n\n\nWhat metrics are used?\n\n\nWhat new metrics are computed? Try to list all.\nHow is the raw data transformed mathematically?\n\n\nGot through the slides one by one\n\n\nWhat is the purpose of each slide?\nIs anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?\nDetailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?\nDetails about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)?\n\nGroup discussion."
+  },
+  {
+    "objectID": "tasks/04-week.html#material",
+    "href": "tasks/04-week.html#material",
+    "title": "Week 04",
+    "section": "",
+    "text": "Instructor’s trials in VisCom_Playground GitHub Repo\n\n\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nCoviD Pandemic and Summerbreaks\nFollow the Direct Link to the slides!\nAnalyse the Data Story\n\nWhat is the main insight?\nWho is the target audience?\nWhat is the story structure?\nWhat are the data sources?\n\n\nList all what is necessary to reproduce the analysis\n\n\nWhat metrics are used?\n\n\nWhat new metrics are computed? Try to list all.\nHow is the raw data transformed mathematically?\n\n\nGot through the slides one by one\n\n\nWhat is the purpose of each slide?\nIs anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?\nDetailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?\nDetails about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)?\n\nGroup discussion."
+  },
+  {
+    "objectID": "tasks/04-week.html#assignments-readings",
+    "href": "tasks/04-week.html#assignments-readings",
+    "title": "Week 04",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 4 in Dykes (2019), consult the Reading Remarks for the Chapter.\nPrepare things to share in class:\n\nPlease find a data story you find interesting and well-crafted on the internet and\n\nBe prepared to share the link on Teams on Tuesday, so that we can look at it in class.\nPrepare to walk us through the data story and explain what it is about and what you find well-crafted.\n\nFind a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea. Alternatively, if you do not find data, prepare a topic for a data story. We can then briefly discuss how to find out if data is available for it."
+  },
+  {
+    "objectID": "tasks/04-week.html#additional-readings",
+    "href": "tasks/04-week.html#additional-readings",
+    "title": "Week 04",
+    "section": "Additional readings",
+    "text": "Additional readings\nChapter 12 in Fundamentals of Data Visualization: Visualizing associations among two or more quantitative variables (Wilke 2018)\nChapter 13 in Fundamentals of Data Visualization: Visualizing time series and other functions of an independent variable (Wilke 2018)\nChapter 14 in Fundamentals of Data Visualization: Visualizing trends (Wilke 2018)"
+  },
+  {
+    "objectID": "milestones.html",
+    "href": "milestones.html",
+    "title": "Project Milestones",
+    "section": "",
+    "text": "The student project report is the central assessment item of the module for Examination and Grading.\nProjects can be done in teams or individually.\nThis list of milestones guides through the preparation, presentation and delivery of your report during the semester.\nGo through the checklists of the Milestones repeatedly. Of course, you can also go back to earlier Milestones past the planned week and improve your report material.",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#m0",
+    "href": "milestones.html#m0",
+    "title": "Project Milestones",
+    "section": "Milestone 0: Project teams and project topic fixed",
+    "text": "Milestone 0: Project teams and project topic fixed\n\nTeams can be one 🙎 or more persons 🙎‍♂️🙍‍♀️🙎. Teams with more members should have more story points and at the final presentation each member should present at least one story point.\nForm: Project and Team Check-in for project ideas filled.\nProject discussed in individual meeting with instructor.",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#m1",
+    "href": "milestones.html#m1",
+    "title": "Project Milestones",
+    "section": "Milestone 1: Project pitch",
+    "text": "Milestone 1: Project pitch\nFor each project: ~5 min presentation answering:\n\n🗃️ What is the data?\n💬 At least one story points/insights (max. 3 story points)\n📊 At least one visual created with the data (max. 2 visuals)\n\nFormat: Use the quarto/revealjs slide deck Template.\nPresentation over MS Teams in class.\nTarget Achievements:\n\nData and topic chosen\nTeams formed\nProject repository cloned, rendering of report and presentation tested\nProject pitch done",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#m2",
+    "href": "milestones.html#m2",
+    "title": "Project Milestones",
+    "section": "Milestone 2: Main insight 💡",
+    "text": "Milestone 2: Main insight 💡\nTarget Achievements:\n\nTarget audience described\nList of main insights in your report drafted (about 3-6 or more when the team is large)\nPrioritized what will be the main insights",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#m3",
+    "href": "milestones.html#m3",
+    "title": "Project Milestones",
+    "section": "Milestone 3: Visual Drafts 📊📈📉️",
+    "text": "Milestone 3: Visual Drafts 📊📈📉️\nTarget Achievements:\n\nFor each insight\n\na visual drafted in the report or the presentation (a draft can be a first coded visual, or even photo of a sketch on paper)\nnotes and ideas for the final version",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#m4",
+    "href": "milestones.html#m4",
+    "title": "Project Milestones",
+    "section": "Milestone 4: Data story and storyboard 📖",
+    "text": "Milestone 4: Data story and storyboard 📖\nTarget Achievements:\n\nHave all your story points (e.g. as post its) drafted as a story board on paper (or in a digital tool).\nDraft slide titles in the presentaton slidedeck.",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#m5",
+    "href": "milestones.html#m5",
+    "title": "Project Milestones",
+    "section": "Milestone 5: Presentation 💬",
+    "text": "Milestone 5: Presentation 💬\nTarget Achievements:\n\nFinalized your slidedeck as part of the project delivery. (Additional minor graphical improvements are allowed afterwards.)\nTold your data story with the help of your slidedeck in class!",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#m6",
+    "href": "milestones.html#m6",
+    "title": "Project Milestones",
+    "section": "Milestone 6: Final report 📄",
+    "text": "Milestone 6: Final report 📄\nTarget Achievements:\n\nFinalized your written report.\nChecked if the rendering works and the html-files opened and a appear as they should in a local browser.\nCleaned repository (removed unnecessary files etc.) and pushed a final commit by the deadline is set in the Academic Calendar.\nDecided if you want to publish your report on the web.",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "milestones.html#delivery",
+    "href": "milestones.html#delivery",
+    "title": "Project Milestones",
+    "section": "Delivery",
+    "text": "Delivery\nFor details about the project report the Examination and Grading in the Syllabus\nEssential parts of your delivery:\n\nReport\nSlidedeck\n\nOptional:\n\nDashboard if not included in website.\nReproduction code if not folded in the report or report appendix.",
+    "crumbs": [
+      "Syllabus",
+      "Project Milestones"
+    ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Projects Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nProject Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Tm\nSubmission\nFinal report and slidedeck\n\n6",
+    "crumbs": [
+      "Syllabus",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "grading.html",
+    "href": "grading.html",
+    "title": "Grading",
+    "section": "",
+    "text": "Visual Representation Quality (25 points)\n\n\nIntegration of diverse data sources\nClarity, accuracy, and effectiveness of visualizations\nApplication of design principles (color, typography, hierarchy)\nProper labeling (axes, legends, units)\n\n\nAppropriateness of Visual Choices (20 points)\n\n\nMatch between visualization type and data type\nEffective choices for analytical purpose (trends, comparisons, distributions, etc.)\nVariety and sophistication in chart selection\nManagement of data complexity\n\n\nCritical Evaluation and Analysis (20 points)\n\n\nCritical thinking about visual design decisions\nAwareness of strengths, limitations, and potential biases\nEvidence-based justifications for choices\nEffective guidance for users in visual data analysis\n\n\nAudience Targeting (15 points)\n\n\nClear identification and characterization of target audience\nAppropriate calibration of complexity and terminology\nEffective balance of accessibility and sophistication\nContext and framing suited to audience needs\n\n\nNarrative Structure - Slide Deck (10 points)\n\n\nCompelling story arc with climax positioned around 2/3 point\nSmooth transitions and logical flow\nStrategic pacing and information revelation\nEffective conclusion\n\n\nInverted Pyramid Structure - Written Report (10 points)\n\n\nKey findings and conclusions presented first\nProgressive detail from most to least important\nLogical organization allowing readers to stop at any point\nEffective use of sections\n\n\nIntegration and Coherence (10 points)\n\n\nComplementary relationship between slide deck and report\nConsistency of story and findings across formats\nAppropriate use of each medium’s strengths\nSeamless integration of text, visuals, and data"
+  },
+  {
+    "objectID": "grading.html#assessment-criteria-100-points-total",
+    "href": "grading.html#assessment-criteria-100-points-total",
+    "title": "Grading",
+    "section": "",
+    "text": "Visual Representation Quality (25 points)\n\n\nIntegration of diverse data sources\nClarity, accuracy, and effectiveness of visualizations\nApplication of design principles (color, typography, hierarchy)\nProper labeling (axes, legends, units)\n\n\nAppropriateness of Visual Choices (20 points)\n\n\nMatch between visualization type and data type\nEffective choices for analytical purpose (trends, comparisons, distributions, etc.)\nVariety and sophistication in chart selection\nManagement of data complexity\n\n\nCritical Evaluation and Analysis (20 points)\n\n\nCritical thinking about visual design decisions\nAwareness of strengths, limitations, and potential biases\nEvidence-based justifications for choices\nEffective guidance for users in visual data analysis\n\n\nAudience Targeting (15 points)\n\n\nClear identification and characterization of target audience\nAppropriate calibration of complexity and terminology\nEffective balance of accessibility and sophistication\nContext and framing suited to audience needs\n\n\nNarrative Structure - Slide Deck (10 points)\n\n\nCompelling story arc with climax positioned around 2/3 point\nSmooth transitions and logical flow\nStrategic pacing and information revelation\nEffective conclusion\n\n\nInverted Pyramid Structure - Written Report (10 points)\n\n\nKey findings and conclusions presented first\nProgressive detail from most to least important\nLogical organization allowing readers to stop at any point\nEffective use of sections\n\n\nIntegration and Coherence (10 points)\n\n\nComplementary relationship between slide deck and report\nConsistency of story and findings across formats\nAppropriate use of each medium’s strengths\nSeamless integration of text, visuals, and data"
+  },
+  {
+    "objectID": "lectures/W10.html#data-visuals-narrative",
+    "href": "lectures/W10.html#data-visuals-narrative",
+    "title": "W#10: Storyboarding!",
+    "section": "Data, Visuals, Narrative",
+    "text": "Data, Visuals, Narrative\n\n\nThe three essential elements of data stories.\n\nStoryboading is about a narrative and how it relates to data and visuals.\n\n\nExplain. Narrative coupled with data.\n\nWhat’s happening in the data?\nWhat is the context?\nGuide through the data structure!\nWhy is a particular insight important?\n\nEnlighten. Visuals applied to data.\n\nSome insights are hard with numbers only.\nShow patterns and outliers otherwise hidden.\n\nEngage. Narrative and visuals merged together.\n\nEngage (or even entertain) an audience.\nVisuals capture interest, only a story holds attention."
+  },
+  {
+    "objectID": "lectures/W10.html#data-story-continuum",
+    "href": "lectures/W10.html#data-story-continuum",
+    "title": "W#10: Storyboarding!",
+    "section": "Data Story Continuum",
+    "text": "Data Story Continuum\n\nWhile storyboarding, make your story points with attributes from the right side."
+  },
+  {
+    "objectID": "lectures/W10.html#storyframing-before",
+    "href": "lectures/W10.html#storyframing-before",
+    "title": "W#10: Storyboarding!",
+    "section": "Storyframing before",
+    "text": "Storyframing before\n\nBefore you communicate insight, you must find one!\nFocus on key dimensions and find key metrics\n\n\n\nWhile storyboarding, note open points for your storyframing.\nOpen points can be discussed in individual meetings next week"
+  },
+  {
+    "objectID": "lectures/W10.html#anatomy-of-a-data-story-1",
+    "href": "lectures/W10.html#anatomy-of-a-data-story-1",
+    "title": "W#10: Storyboarding!",
+    "section": "Anatomy of a Data Story",
+    "text": "Anatomy of a Data Story\n\nDifferent structure for two parts of your report\n\nNarrative structure for your slide deck and presentation\nInverted pyramid structure for the written report"
+  },
+  {
+    "objectID": "lectures/W10.html#six-essential-elements-of-data-stories",
+    "href": "lectures/W10.html#six-essential-elements-of-data-stories",
+    "title": "W#10: Storyboarding!",
+    "section": "Six essential elements of data stories",
+    "text": "Six essential elements of data stories\n\n\nYour project slide deck and presentation matches a Data Presentation\nYour project report matches a Curated Report (and Dashboard)"
+  },
+  {
+    "objectID": "lectures/W10.html#differences-in-communication",
+    "href": "lectures/W10.html#differences-in-communication",
+    "title": "W#10: Storyboarding!",
+    "section": "Differences in Communication",
+    "text": "Differences in Communication\n\n\nYour project slide deck and presentation is direct communication\nYour project report is indirect communication"
+  },
+  {
+    "objectID": "lectures/W10.html#data-storytelling-arc",
+    "href": "lectures/W10.html#data-storytelling-arc",
+    "title": "W#10: Storyboarding!",
+    "section": "Data Storytelling Arc",
+    "text": "Data Storytelling Arc"
+  },
+  {
+    "objectID": "lectures/W10.html#compared-to-other-communication-models",
+    "href": "lectures/W10.html#compared-to-other-communication-models",
+    "title": "W#10: Storyboarding!",
+    "section": "Compared to other communication models",
+    "text": "Compared to other communication models"
+  },
+  {
+    "objectID": "lectures/W10.html#examples-of-story-points",
+    "href": "lectures/W10.html#examples-of-story-points",
+    "title": "W#10: Storyboarding!",
+    "section": "Examples of story points",
+    "text": "Examples of story points\n\nActivity: Check if your ideas fit into one of the categories and then improve on that premise. Alternatively: Get inspired by these."
+  },
+  {
+    "objectID": "lectures/W10.html#storyboarding",
+    "href": "lectures/W10.html#storyboarding",
+    "title": "W#10: Storyboarding!",
+    "section": "Storyboarding",
+    "text": "Storyboarding\n\nDefinition: A story is an account of causally related or connected series of events.\nA narrative always has a one-dimensional linear sequence, but we can decide\n\nwhat is in and\nin which order.\n\nStoryboarding is a technique from the movie industry (invented at Disney’s in the 30’s, now part of pre-visualization) which can also be used for data presentations.\nMain purpose: Build the story, not the exact visualizations (rough ideas are enough)!\n\nActivity: Make a story board for your presentation. Follow the steps on the next slides."
+  },
+  {
+    "objectID": "lectures/W10.html#phase-a-story-points",
+    "href": "lectures/W10.html#phase-a-story-points",
+    "title": "W#10: Storyboarding!",
+    "section": "Phase A: Story points!",
+    "text": "Phase A: Story points!\nActivity\n\nWrite down story points and/or brief visual sketches on sticky notes or cards.\n\nThere is no limit on the initial number of story-point card to generate!\nSelect the best 6 to 10 ones\nKeep all, maybe you want to replace one\nYou can always create or refine one later\n\nAlready now you can play with your story points to search for a compelling story.\n\n\nArrange them in order\nReplace, combine, refine, and reshuffle them\nUse them to tell the story\nScrutinize and iterate your story"
+  },
+  {
+    "objectID": "lectures/W10.html#phase-b-storyboarding",
+    "href": "lectures/W10.html#phase-b-storyboarding",
+    "title": "W#10: Storyboarding!",
+    "section": "Phase B: Storyboarding!",
+    "text": "Phase B: Storyboarding!\nActivity: Realize these steps in your storyboard.\n\nStep 1: Identify your “Aha” moment (main insight)\nStep 2: Find your beginning (the setting and the “hook”)\nStep 3: Select your rising insights (narrative from the hook to the Aha moment)\nStep 4: Conclude with solutions, next steps, empowerment to action, …\n\nWhen your storyboard is fixed\n\nwrite the titles down in your slide deck and\nstart working on your final visuals such that they best support your story."
+  },
+  {
+    "objectID": "lectures/W09.html#milestone-3-visual-drafts",
+    "href": "lectures/W09.html#milestone-3-visual-drafts",
+    "title": "W#09 Making Visuals",
+    "section": "Milestone 3: Visual Drafts 📊📈📉️",
+    "text": "Milestone 3: Visual Drafts 📊📈📉️\nTarget Achievements:\n\nFor each insight\n\na visuals drafted in the report or the presentation (a draft can be a first coded visual, or even photo of a sketch on paper)\nnotes and ideas for the final version\n\n\n\nMake Visual Drafts ready for Milestone 4: Make Story Point ready for Story Boarding"
+  },
+  {
+    "objectID": "lectures/W09.html#example-storyboard",
+    "href": "lectures/W09.html#example-storyboard",
+    "title": "W#09 Making Visuals",
+    "section": "Example Storyboard",
+    "text": "Example Storyboard"
+  },
+  {
+    "objectID": "lectures/W09.html#terminology",
+    "href": "lectures/W09.html#terminology",
+    "title": "W#09 Making Visuals",
+    "section": "Terminology",
+    "text": "Terminology\n\n\n\n\n\n\n\n\n\nDefinition\nWhere?\n\n\n\n\nInsight\n(unexpected) shift in the way one understands things\nIn the audiences mind\n\n\nStory Point\nA part of a narrative. Something you communicate in words. Bringing across an insight needs at least one story point, maybe more building on each other.\nIn your narrative script for the presentation\n\n\nData Visual\nA graphical representation of data. In data storytelling most story points center around one or more visuals.\nOn a slide in your slidedeck and/or in a Figure in your report\n\n\nConceptual Visual\nA visual that is not based on data, but helps to explain story points about concepts, ideas, and processes. In visual communication also non-data story points use visuals.\nOn a slide in your slidedeck and/or in a Figure in your report"
+  },
+  {
+    "objectID": "lectures/W09.html#data-variations-to-consider-for-visuals",
+    "href": "lectures/W09.html#data-variations-to-consider-for-visuals",
+    "title": "W#09 Making Visuals",
+    "section": "Data Variations to Consider for Visuals",
+    "text": "Data Variations to Consider for Visuals\n\nActivity: (Consult the Dykes (2019) for details)\n\nThink about communicating Totals, Percentages and Variance. How important is which for your story?\n\nDo you need a Special Calculated Metric?\nWhat added context will help? (Aggregated data as main trend, or data from other sources for comparison.)"
+  },
+  {
+    "objectID": "lectures/W09.html#example-visual-story-points",
+    "href": "lectures/W09.html#example-visual-story-points",
+    "title": "W#09 Making Visuals",
+    "section": "Example (Visual) Story Points",
+    "text": "Example (Visual) Story Points\n\nActivity: Write down which of them you will use. Sketch how. Extend by some you could check out. (Consult the Dykes (2019) for details)"
+  },
+  {
+    "objectID": "lectures/W09.html#ideas-on-data-visuals",
+    "href": "lectures/W09.html#ideas-on-data-visuals",
+    "title": "W#09 Making Visuals",
+    "section": "Ideas on Data Visuals",
+    "text": "Ideas on Data Visuals\n\nActivity: Write down which of them you will use. Sketch how. Extend by some you could check out. (Consult the Dykes (2019) for details)"
+  },
+  {
+    "objectID": "lectures/W04.html#stop-eating-margarine",
+    "href": "lectures/W04.html#stop-eating-margarine",
+    "title": "W#04 Relationships - Spurious Correlations",
+    "section": "Stop eating margarine!",
+    "text": "Stop eating margarine!\n\n\nFrom Tyler Vigen’s famous Spurious Correlations\n\n\nRead: Why this works? On Spurious Scholar\n\n\nRecall: What does \\(p &lt; 0.05\\) mean?\n\n\nIf there was actually real no effect, you would see data this extreme only 5% of the time."
+  },
+  {
+    "objectID": "lectures/W04.html#dual-y-axes-give-several-options",
+    "href": "lectures/W04.html#dual-y-axes-give-several-options",
+    "title": "W#04 Relationships - Spurious Correlations",
+    "section": "Dual y-axes give several options!",
+    "text": "Dual y-axes give several options!\n\nYou choose where each y-axes starts and stops, which means …\n… you can force the two trends to line up in many different ways.\n\n\n\nOnly do it if the two axes are really measuring the same thing!\nOr if you can provide a convincing reason why the different y-axis should be related in the way you do it\n\n\n\nAlternatives:\n\nUse facets\nUse other aesthetics (color, shape, size)"
+  },
+  {
+    "objectID": "lectures/W05.html#visual-communication-to-tell-a-story",
+    "href": "lectures/W05.html#visual-communication-to-tell-a-story",
+    "title": "W#05 Data Stories",
+    "section": "Visual Communication \\(\\to\\) Tell a story",
+    "text": "Visual Communication \\(\\to\\) Tell a story\n\n\nCredit: Angela Zoss and Eric Monson, Duke DVS, from Data Science Box from Mine Cetinkaya-Rundel”"
+  },
+  {
+    "objectID": "lectures/W05.html#why-do-we-need-to-tell-a-story",
+    "href": "lectures/W05.html#why-do-we-need-to-tell-a-story",
+    "title": "W#05 Data Stories",
+    "section": "Why do we need to tell a story?",
+    "text": "Why do we need to tell a story?\n\nMost data visualization is done for the purpose of communication.\nWe have insights from data, and we have a potential audience for it.\nTo communicate successfully, we have to present a clear and exciting story.\nThe need for a story may seem disturbing to scientists and engineers, who may equate it with making things up, putting a spin on things, or overselling results.\nThis perspective misses the important role that stories play in reasoning and memory!\nMoreover, any communication creates a story in the audience’s minds. If we don’t provide a clear story ourselves, then our audience will make one up. In the best-case scenario, the story they make up is reasonably close to our own view of the material presented. However, it can be and often is much worse. The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent.\n\n\nSo, we have to do it, even we tend to not wanting to do it…\n\n\n\nFrom: Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point (Wilke 2018)"
+  },
+  {
+    "objectID": "lectures/W05.html#data-visuals-narrative",
+    "href": "lectures/W05.html#data-visuals-narrative",
+    "title": "W#05 Data Stories",
+    "section": "Data, Visuals, Narrative",
+    "text": "Data, Visuals, Narrative\n\n\nThe three essential elements of data stories.\n\n\n\nExplain. Narrative coupled with data.\n\nWhat’s happening in the data?\nWhat is the context?\nGuide through the data structure!\nWhy is a particular insight important?\n\nEnlighten. Visuals applied to data.\n\nSome insights are hard with numbers only.\nShow patterns and outliers otherwise hidden.\n\nEngage. Narrative and visuals merged together.\n\nEngage (or even entertain) an audience.\nVisuals capture interest, only a story holds attention."
+  },
+  {
+    "objectID": "lectures/W05.html#aristotles-rhetoric-perspectives-for-a-storyteller",
+    "href": "lectures/W05.html#aristotles-rhetoric-perspectives-for-a-storyteller",
+    "title": "W#05 Data Stories",
+    "section": "Aristotle’s rhetoric perspectives for a Storyteller",
+    "text": "Aristotle’s rhetoric perspectives for a Storyteller\n\n\n\n\n\nEthos an appeal to credibility\nLogos an appeal to logic or reason\nPathos an appeal to emotion\nTelos an appeal to purpose\nKairos an appeal to timeliness (opportune moment)"
+  },
+  {
+    "objectID": "lectures/W05.html#data-story-continuum",
+    "href": "lectures/W05.html#data-story-continuum",
+    "title": "W#05 Data Stories",
+    "section": "Data Story Continuum",
+    "text": "Data Story Continuum\n\nWith Data Storytelling you typically tend towards the right hand side."
+  },
+  {
+    "objectID": "lectures/W05.html#storyframing",
+    "href": "lectures/W05.html#storyframing",
+    "title": "W#05 Data Stories",
+    "section": "Storyframing",
+    "text": "Storyframing\n\nBefore you communicate insight, you must find one!\nFocus on key dimensions and find key metrics"
+  },
+  {
+    "objectID": "lectures/W05.html#anatomy-of-a-data-story",
+    "href": "lectures/W05.html#anatomy-of-a-data-story",
+    "title": "W#05 Data Stories",
+    "section": "Anatomy of a Data Story",
+    "text": "Anatomy of a Data Story"
+  },
+  {
+    "objectID": "lectures/W05.html#your-storytelling-project",
+    "href": "lectures/W05.html#your-storytelling-project",
+    "title": "W#05 Data Stories",
+    "section": "Your Storytelling Project",
+    "text": "Your Storytelling Project\nYou will tell the story in both formats with a focus on the Narrative Structure.\n\n\nYour report will have two parts:\n\nSlide deck and presentation: Narrative structure\nClassical Report as classical HTML page: Inverted pyramid structure"
+  },
+  {
+    "objectID": "lectures/W05.html#six-essential-elements-of-data-stories",
+    "href": "lectures/W05.html#six-essential-elements-of-data-stories",
+    "title": "W#05 Data Stories",
+    "section": "Six essential elements of data stories",
+    "text": "Six essential elements of data stories\n\n\nYour project slide deck and presentation matches a Data Presentation\nYour project report matches a Curated Report (and Dashboard)"
+  },
+  {
+    "objectID": "lectures/W05.html#differences-in-communication",
+    "href": "lectures/W05.html#differences-in-communication",
+    "title": "W#05 Data Stories",
+    "section": "Differences in Communication",
+    "text": "Differences in Communication\n\n\nYour project slide deck and presentation is direct communication\nYour project report is indirect communication"
+  },
+  {
+    "objectID": "lectures/W05.html#data-storytelling-arc",
+    "href": "lectures/W05.html#data-storytelling-arc",
+    "title": "W#05 Data Stories",
+    "section": "Data Storytelling Arc",
+    "text": "Data Storytelling Arc"
+  },
+  {
+    "objectID": "lectures/W05.html#compared-to-other-communication-models",
+    "href": "lectures/W05.html#compared-to-other-communication-models",
+    "title": "W#05 Data Stories",
+    "section": "Compared to other communication models",
+    "text": "Compared to other communication models"
+  },
+  {
+    "objectID": "lectures/W05.html#examples-of-story-points",
+    "href": "lectures/W05.html#examples-of-story-points",
+    "title": "W#05 Data Stories",
+    "section": "Examples of story points",
+    "text": "Examples of story points"
+  },
+  {
+    "objectID": "lectures/W05.html#storyboarding",
+    "href": "lectures/W05.html#storyboarding",
+    "title": "W#05 Data Stories",
+    "section": "Storyboarding",
+    "text": "Storyboarding\n\nDefinition: A story is an account of causally related or connected series of events.\nA narrative always has a one-dimensional linear sequence, but we can decide\n\nwhat is in and\nin which order.\n\nStoryboarding is a technique from the movie industry (invented at Disney’s in the 30’s, now part of pre-visualization) which can also be used for data presentations.\nMain purpose: Build the story, not the exact visualizations (rough ideas are enough)!\n\nA storyboard is Milestone 4"
+  },
+  {
+    "objectID": "lectures/W05.html#example-storyboard",
+    "href": "lectures/W05.html#example-storyboard",
+    "title": "W#05 Data Stories",
+    "section": "Example Storyboard",
+    "text": "Example Storyboard\n\nBefore you have to achieve milestones 0, 1, 2, and 3 …"
+  }
+]
