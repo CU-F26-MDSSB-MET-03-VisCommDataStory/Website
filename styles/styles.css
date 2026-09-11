@@ -4,3 +4,43 @@
 .green {
   color: darkgreen;
 }
+
+details {
+  margin-bottom: 0.35em;
+  font-size: 0.75em;
+  line-height: 1.25;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "▸ ";
+}
+
+details[open] summary::before {
+  content: "▾ ";
+}
+
+details p, details {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+}
+
+/* WebR editor and output font size */
+.cm-content,
+.cm-gutters {
+  font-size: 0.6em;
+}
+
+.qwebr-output-code-stdout,
+.qwebr-output-code-stderr {
+  font-size: 0.6em;
+}

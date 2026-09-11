@@ -389,7 +389,7 @@
     "href": "lectures/W02.html#stripes-what-is-this",
     "title": "W#02 Data Visualization: Grammar of Graphics",
     "section": "Stripes: What is this?",
-    "text": "Stripes: What is this?\n\n\nCode\nwarming_stripe_colors &lt;- c(\"#67000d\", \"#a50f15\", \"#cb181d\", \"#ef3b2c\", \"#fb6a4a\", \n                           \"#fc9272\", \"#fcbba1\", \"#fee0d2\", \"#FFFFFF\", \"#deebf7\", \"#c6dbef\", \n                           \"#9ecae1\", \"#6baed6\", \"#4292c6\", \"#2171b5\", \"#08519c\", \"#08306b\")\ntemperature &lt;- read_csv(\"../data/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv\") \ntemperature |&gt; \n  ggplot(aes(x = Time, y = 1, fill = `Anomaly (deg C)`)) +\n  geom_tile() +\n  scale_fill_gradientn(colors = warming_stripe_colors) +\n  scale_y_continuous(expand = c(0,0)) +\n  scale_x_continuous(expand = c(0,0)) +\n  theme_void() +\n  theme(legend.position = \"none\")"
+    "text": "Stripes: What is this?\n\n\nCode\nwarming_stripe_colors &lt;- c(\"#67000d\", \"#a50f15\", \"#cb181d\", \"#ef3b2c\", \"#fb6a4a\", \n                           \"#fc9272\", \"#fcbba1\", \"#fee0d2\", \"#FFFFFF\", \"#deebf7\", \"#c6dbef\", \n                           \"#9ecae1\", \"#6baed6\", \"#4292c6\", \"#2171b5\", \"#08519c\", \"#08306b\")\ntemperature &lt;- read_csv(\"data/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv\") \ntemperature |&gt; \n  ggplot(aes(x = Time, y = 1, fill = `Anomaly (deg C)`)) +\n  geom_tile() +\n  scale_fill_gradientn(colors = warming_stripe_colors) +\n  scale_y_continuous(expand = c(0,0)) +\n  scale_x_continuous(expand = c(0,0)) +\n  theme_void() +\n  theme(legend.position = \"none\")"
   },
   {
     "objectID": "lectures/W02.html#warming-stripe",
@@ -397,6 +397,27 @@
     "title": "W#02 Data Visualization: Grammar of Graphics",
     "section": "Warming Stripe",
     "text": "Warming Stripe\nWarming Stripes\n\nData can be retrieved from https://www.metoffice.gov.uk/hadobs/hadcrut5/. HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period."
+  },
+  {
+    "objectID": "lectures/W02.html#local-warming-stripes",
+    "href": "lectures/W02.html#local-warming-stripes",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Local Warming Stripes",
+    "text": "Local Warming Stripes\nCheck the version for your home city: #ShowYourStripes. This is Bremen"
+  },
+  {
+    "objectID": "lectures/W02.html#explore-bubble-plots",
+    "href": "lectures/W02.html#explore-bubble-plots",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Explore Bubble Plots",
+    "text": "Explore Bubble Plots\nWe have variables mostly from the World Bank and WHO. The data is in the file lectures/data/country_panel_wdi_who.csv. The variables are:\n\n\ncountry_name / country_code / year\n\nCountry name (WB standard), ISO3 code (join key), calendar year.\n\n\n\nregion (categorical)\n\nWorld Bank geographic region, e.g. “Sub-Saharan Africa”. Aggregates already excluded.\n\n\n\nincome_group (categorical)\n\nWB income classification: Low / Lower middle / Upper middle / High income, based on GNI per capita.\n\n\n\ntotal_population — SP.POP.TOTL\n\nTotal population, midyear estimate, counting all residents regardless of legal status or citizenship.\n\n\n\ngdp_total_usd — NY.GDP.MKTP.CD\n\nGross domestic product, current US$.\n\n\n\ngdp_per_capita_usd — NY.GDP.PCAP.CD\n\nGDP divided by midyear population, current US$.\n\n\n\nlife_expectancy_years — SP.DYN.LE00.IN\n\nYears a newborn would live under current mortality patterns.\n\n\n\nsecondary_enrollment_gross_pct — SE.SEC.ENRR\n\nGross secondary school enrollment, % of official secondary-age population (can exceed 100%).\n\n\n\nunemployment_rate_pct — SL.UEM.TOTL.ZS\n\nShare of labor force without work but available/seeking (modeled ILO estimate).\n\n\n\ninflation_cpi_pct — FP.CPI.TOTL.ZG\n\nAnnual % change in consumer price index.\n\n\n\nfuel_exports_pct_merch_exports — TX.VAL.FUEL.ZS.UN\n\nMineral fuels (oil, gas, coal) as % of total merchandise exports — not petroleum-only.\n\n\n\nfuel_imports_pct_merch_imports — TM.VAL.FUEL.ZS.UN\n\nMineral fuels (oil, gas, coal) as % of total merchandise imports — not petroleum-only.\n\n\n\nvoice_accountability_index — GOV_WGI_VA.EST\n\nDemocracy/governance perception estimate (~ -2.5 weak to 2.5 strong). Starts 1996, biennial pre-2002.\n\n\n\nobesity_prevalence_pct — NCD_BMI_30C (WHO GHO)\n\n% of adults (18+) with BMI ≥ 30, crude estimate, both sexes. Modeled, irregular update years."
+  },
+  {
+    "objectID": "lectures/W02.html#explore-bubble-plots-1",
+    "href": "lectures/W02.html#explore-bubble-plots-1",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Explore Bubble Plots",
+    "text": "Explore Bubble Plots"
   },
   {
     "objectID": "lectures/W08.html#doing-vs.-presenting-projects",
@@ -487,7 +508,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository VisCom_Playground.\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"../data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      north         \n 2 Wrong      scot          \n 3 Right      rest_of_south \n 4 Wrong      north         \n 5 Don't know midlands_wales\n 6 Right      rest_of_south \n 7 Wrong      rest_of_south \n 8 Wrong      scot          \n 9 Wrong      london        \n10 Don't know rest_of_south"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository VisCom_Playground.\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion region        \n   &lt;chr&gt;   &lt;chr&gt;         \n 1 Wrong   london        \n 2 Wrong   north         \n 3 Right   north         \n 4 Wrong   rest_of_south \n 5 Right   rest_of_south \n 6 Right   midlands_wales\n 7 Wrong   london        \n 8 Right   london        \n 9 Right   midlands_wales\n10 Wrong   rest_of_south"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1280,21 +1301,36 @@
     "href": "tasks/02-week.html",
     "title": "Week 02",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nComplete the corresponding reading assignment on Teams: Click the Assignments Tab and write your engagement comments in your personal class notebook there.\n\n\nMake one visual based on the data you find in the VisCom_Playground in the CU-F26-MDSSB-MET-03-VisCommDataStory Repositories\n\nComplete the corresponding assignment on Teams\n\nSearch the internet for a visual you find great. It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!\n\nComplete the corresponding assignment on Teams (same as above). Have it ready to be shared and discussed in class."
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 2\nExplore different bubble plot using different variables on x, y, size, and color and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel “Bubble Plots”.\nSearch the internet for a data visual you find interesting and well-crafted. It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W02"
+    ]
   },
   {
     "objectID": "tasks/02-week.html#material",
     "href": "tasks/02-week.html#material",
     "title": "Week 02",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nComplete the corresponding reading assignment on Teams: Click the Assignments Tab and write your engagement comments in your personal class notebook there.\n\n\nMake one visual based on the data you find in the VisCom_Playground in the CU-F26-MDSSB-MET-03-VisCommDataStory Repositories\n\nComplete the corresponding assignment on Teams\n\nSearch the internet for a visual you find great. It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!\n\nComplete the corresponding assignment on Teams (same as above). Have it ready to be shared and discussed in class."
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 2\nExplore different bubble plot using different variables on x, y, size, and color and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel “Bubble Plots”.\nSearch the internet for a data visual you find interesting and well-crafted. It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W02"
+    ]
   },
   {
     "objectID": "tasks/02-week.html#checklist",
     "href": "tasks/02-week.html#checklist",
     "title": "Week 02",
     "section": "Checklist",
-    "text": "Checklist\nCheck the boxes when done, and feel the “done” 🙂.\n\nHave the repository VisCom_Playground cloned to your computer."
+    "text": "Checklist\nCheck the boxes when done, and feel the “done” 🙂.\n\nReading Comments for Chapter 2 submitted.\nInteresting data visual found on the internet and submitted in the Team Channel “Interesting Data Visuals”",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W02"
+    ]
   },
   {
     "objectID": "tasks/04-week.html",
