@@ -6,7 +6,7 @@ title: "Visual Communication and Data Story-telling"
 
 - MDSSSB-MET-03 Visual Communication and Data Story-telling (Methods area, 5 credits)
 
-Offered in the [Master program: Data Science for Society and Business (DSSB)](https://constructor.university/programs/graduate-education/data-science-for-society-business). See the module description in the [DSSB Handbook](). 
+Offered in the Master program: Data Science for Society and Business (DSSB). See the module description in the [DSSB Handbook]({{< var link.handbook_onsite >}}) and [DSSB Handbook online program]({{< var link.handbook_online >}}). 
 
 
 ## Module Components
@@ -19,9 +19,9 @@ Requirements: **Data Science Concepts** and **Data Science Tools**
 
 Classes are on **Tuesdays**  
 Session 1 **{{< var session1 >}}**   
-Session 2 **{{< var session1 >}}**    
+Session 2 **{{< var session2 >}}**    
 Location: **{{< var room >}}** in-person  
-Video streaming and recording in Teams will be provided, it does not work for all class activities perfectly: Team **F25_MDSSB-MET-03_Visual Communication and Data Story-telling**, General Channel
+Video streaming and recording in Teams will be provided (but it does not work for all class activities perfectly): Team **{{< var teams.name >}}**, [General Channel]({{< var teams.link_general >}})
 
 ## Instructors
 
@@ -30,14 +30,14 @@ Video streaming and recording in Teams will be provided, it does not work for al
 
 ## Format and Workload
 
-17.5 hours Lectures (including class activities)
-17.5 hours Tutorials (partly prepared by students)
+17.5 hours Lectures 
+17.5 hours Tutorials 
 90 hours Project Work outside Class
 
 
 ## Intended Learning Outcomes
 
-The module descriptions can be found in the [DSSB Handbook](https://constructor.university/sites/default/files/2023-09/DSSB_MSc_Handbook_16-08-2023_Track%20changes%20.pdf)  
+The module descriptions can be found in the [DSSB Handbook]({{< var link.handbook_onsite >}}) and [DSSB Handbook online program]({{< var link.handbook_online >}}). 
 
 ### From the handbook
 
@@ -54,16 +54,20 @@ By the end of this module, students will be able
 You will build on your experience 
 
 - the small **Data Science Project** in Data Science Tools in the the **1st semester**
-- your **Data Science Lab Project** in the **2nd semester**
+- your **Data Science Lab Project** in the **2nd semester** (only for onsite students)
 
 You will create another Data Science Project focusing on *great graphics* and *telling a story with data*! You will write the report such that a non Data Scientist can enjoy reading it and gain some insights about the datastory you tell. 
 
 
 ## Examination and Assessment
 
-From the Handbook:\
-Assessment Type: **Project Report** (6000 - 8000 words)    
-This is the official word count from the handbook. However, the instructor will not count words and will not assess the report based on fulfilling the word count. Essential parts the submissions will be visual anyway. 
+From the Handbook: 
+
+**Assessment Type:** Project Report (in article format + Slide deck) 3000 - 4000 words  
+
+**Module Achievement:** Students must prepare and present a slide deck demonstrating the verbal storytelling skills developed in the module. The presentation may be delivered in class or submitted as a video. If the module achievement is not fulfilled on the first attempt, the slide deck may be submitted as a video at a later date.
+
+Note: 3000-4000 words is the official word count from the handbook. However, the instructor will not count words and will not assess the report based on fulfilling the word count. Essential parts of the submission will visuals. 
 
 **Details about the project report:** The project report is a website
 which tells a data story which is rendered with quarto.   

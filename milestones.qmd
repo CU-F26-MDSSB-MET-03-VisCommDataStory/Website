@@ -7,30 +7,27 @@ format:
 
 The student project report is the central assessment item of the module for [Examination and Grading](index.qmd#examination).
 
-Projects can be done in **teams** or **individually**.
+Projects shall be done in **teams**.
 
 This list of milestones guides through the preparation, presentation and delivery of your report during the semester.
 
-Go through the checklists of the Milestones repeatedly. 
-Of course, you can also go back to earlier Milestones past the planned week and improve your report material.
 
 ## Milestone 0: Project teams and project topic fixed {#m0}
 
-- Teams can be one 🙎 or more persons 🙎‍♂️🙍‍♀️🙎. Teams with more members should have more story points and at the final presentation each member should present at least one story point. 
+- Teams shall be 🙍‍♀️🙎 to 🙎🙍‍♀️🙎‍♂️🙍‍♀️🙎. Teams with more members should have more story points and at the final presentation each member should present at least one story point. 
 - [Form: Project and Team Check-in](https://forms.office.com/e/UZb7NFxLZB) for project ideas filled. 
 - Project discussed in individual meeting with instructor.
 
 
 ## Milestone 1: **Project pitch** {#m1}
 
-**For each project:** ~5 min presentation answering: 
+**For each project:** <5 min presentation answering: 
 
 - 🗃️ What is the data?
 - 💬 At least one story points/insights (max. 3 story points)
 - 📊 At least one visual created with the data (max. 2 visuals)
 
-Format: Use the quarto/revealjs slide deck Template.  
-Presentation over MS Teams in class. 
+Mode of presentation will be specified later. 
 
 **Target Achievements:** 
 
@@ -67,7 +64,7 @@ Presentation over MS Teams in class.
 
 **Target Achievements:** 
 
--   Finalized your slidedeck as part of the project delivery. (Additional minor graphical improvements are allowed afterwards.)
+-   Finalized your slidedeck as part of the project delivery. (Improvements are allowed afterwards.)
 -   [Told your data story with the help of your slidedeck in class!]{style="color:red;"}
 
 ## Milestone 6: **Final report** 📄  {#m6}

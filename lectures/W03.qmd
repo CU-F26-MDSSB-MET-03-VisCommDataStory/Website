@@ -43,7 +43,7 @@ The file `brexit_opinions.csv` in the  dataset in the repository [VisCom_Playgro
 Look at the first 10 rows
 ```{r}
 library(tidyverse)
-brexit <- read_csv("../data/brexit_opinions.csv")
+brexit <- read_csv("data/brexit_opinions.csv")
 brexit
 ```
 

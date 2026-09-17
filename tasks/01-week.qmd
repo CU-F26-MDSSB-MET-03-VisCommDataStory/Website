@@ -7,28 +7,27 @@ format:
 
 ## Material
 
-Slides [Direct Link](https://docs.google.com/presentation/d/e/2PACX-1vQHA-VAX_GPn1q1elwQt8OOwT3OdQgX3ky76CH4wz84xC8ByDXBMrbUcYhGn3IEZWgExImBipT6ZeyI/pub?start=false&loop=false&delayms=3000&slide=id.g27b4bb0a919_0_0)
+Slides [Direct Link](https://docs.google.com/presentation/d/e/2PACX-1vT2iNNjCRUAGoM2wqTM2OcdKeb7plHU_AUwWnLbXFFk-VZSMokDpXVKRq6JCM5VEI1ufmbPd423-sqL/pub?start=false&loop=false&delayms=3000)
 
 ```{=html}
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHA-VAX_GPn1q1elwQt8OOwT3OdQgX3ky76CH4wz84xC8ByDXBMrbUcYhGn3IEZWgExImBipT6ZeyI/pubembed?start=false&loop=false&delayms=3000" frameborder="1" width="800" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2iNNjCRUAGoM2wqTM2OcdKeb7plHU_AUwWnLbXFFk-VZSMokDpXVKRq6JCM5VEI1ufmbPd423-sqL/pubembed?start=false&loop=false&delayms=3000" frameborder="1" width="800" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
-Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+Find the live recording in the Teams Recording Folder of the course<!--[Course's Team's Recording Folder]({{< var teams.recording_folder_link >}})-->. 
 
 ### Assigments / Readings
 
 - **Read Chapter 1 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
-    - Complete the corresponding reading assignment on [Teams]({{< var teams.link >}}): Click the Assignments Tab and write your engagement comments in your personal class notebook there.  
-- Make a visual with the data in the Playground repository found in the [Repository of the Course]()
+- Enter your reading comments in the Form [My Comments: Chapter 1](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=PpeO9wtcuEq715iHyVqOvWY2_0g0xmdMnWy3R6Eqe89UOUJHN0tSUjVXNUNXUDJLQ1AxU1FaNENHVy4u)
 
 ## Checklist
 
 Check the boxes when done, and feel the "done" 🙂.
 
-- [ ] Get ready for your Playground repository
+- [ ] Get ready for your repositories
     - [ ] Accept the invitation to join the GitHub-Organization [{{< var org.name >}}]({{< var org.link >}}). Check your emails for the invitation, or go to the page while logged in and find the acceptance button.
     - [ ] Make your tool ready for work with R, tidyverse, and quarto. 
-        - [ ] [Recommendation]{.red}: Switch to [**Positron**](https://positron.posit.co/) as a replacement for RStudio. 
-        - [ ] Check that you have R 4.5.1 and the `tidyverse` package installed.
+        - [ ] Check that you have R 4.6.1 and the `tidyverse` package installed.
 - [ ] Read the [syllabus](../index.qmd), come up with clarification question. 
-- [ ] Readings and Assignment done. 
+- [ ] Readings done. 
+- [ ] Reading comments submitted. 

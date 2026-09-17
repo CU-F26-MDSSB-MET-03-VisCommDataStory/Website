@@ -1,0 +1,14 @@
+{
+  "permission": {
+    "bash": {
+      "quarto render *": "allow",
+      "grep *": "allow",
+      "head *": "allow",
+      "awk *": "allow",
+      "sed *": "allow",
+      "quarto inspect *": "allow",
+      "echo *": "allow",
+      "quarto add *": "allow"
+    }
+  }
+}

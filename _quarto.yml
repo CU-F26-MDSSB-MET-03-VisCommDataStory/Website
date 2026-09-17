@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - lectures/data/country_panel_wdi_who.csv
 
 website:
   title: "Visual Communication and Data Storytelling"
@@ -27,19 +29,34 @@ website:
       - title: Schedule
         href: schedule.qmd
         contents:
-          - tasks/01-week.qmd
-          - tasks/02-week.qmd
-          - tasks/03-week.qmd
-          - tasks/04-week.qmd
-          - tasks/05-week.qmd
-          - tasks/06-week.qmd
-          - tasks/07-week.qmd
-          - tasks/08-week.qmd
-          - tasks/09-week.qmd
-          - tasks/10-week.qmd
-          - tasks/11-week.qmd
-          - tasks/12-week.qmd
-          - tasks/13-week.qmd
+          - text: "#W01"
+            href: tasks/01-week.qmd
+          - text: "#W02"
+            href: tasks/02-week.qmd
+          - text: "#W03"
+          # - tasks/03-week.qmd
+          - text: "#W04"
+          # - tasks/04-week.qmd
+          - text: "#W05"
+          # - tasks/05-week.qmd
+          - text: "#W06"
+          # - tasks/06-week.qmd
+          - text: "#W07"
+          # - tasks/07-week.qmd
+          - text: "#W08"
+          # - tasks/08-week.qmd
+          - text: "#W09"
+          # - tasks/09-week.qmd
+          - text: "#W10"
+          # - tasks/10-week.qmd
+          - text: "#W11"
+          # - tasks/11-week.qmd
+          - text: "#W12"
+          # - tasks/12-week.qmd
+          - text: "#W13"
+          # - tasks/13-week.qmd
+          - text: "#W14"
+          # - tasks/13-week.qmd
       - readings.qmd
       - milestones.qmd
       - quarto.qmd

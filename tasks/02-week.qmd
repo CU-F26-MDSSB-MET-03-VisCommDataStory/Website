@@ -18,15 +18,26 @@ Find the live recording in the [Course's Team's Recording Folder]({{< var teams.
 
 ### Assigments / Readings
 
-- **Read Chapter 2 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
-    - Complete the corresponding reading assignment on [Teams]({{< var teams.link >}}): Click the Assignments Tab and write your engagement comments in your personal class notebook there.  
-- **Make one visual** based on the data you find in the [VisCom_Playground](https://github.com/{{< var org.name >}}/VisCom_Playground) in the {{< var org.name >}} Repositories
-    - Complete the corresponding assignment on [Teams]({{< var teams.link >}})
-- **Search the internet for a visual you find great.** It can be anything which shows some insight through data visualization. Hopefully we receive a lot of different graphs to discuss what is great about them!
-    - Complete the corresponding assignment on [Teams]({{< var teams.link >}}) (same as above). Have it ready to be shared and discussed in class.
+1. **Read Chapter 2 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+    - Enter your reading comments in the Form [My Comments: Chapter 2](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=PpeO9wtcuEq715iHyVqOvWY2_0g0xmdMnWy3R6Eqe89UOUNMOTJKWDcwWTNFNURPQVhMSkIzRTBCSC4u)
+2. **Explore different bubble plot** using different variables on `x`, `y`, `size`, and `color` and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel "Bubble Plots".
+    1. Explore some option in the interface of the last slides in this week's slides
+    2. Make your own repository from the [template repository VisCom_Playground](https://github.com/CU-F26-MDSSB-MET-03-VisCommDataStory/VisCom_Playground). Use the green button "Use this template". After creation, clone it to your computer, and start working in the script `CountryBubbles.R`. 
+    3. Work own visual. Improve it such that it is on the level you would like to see it when it would be posted on social media. For example:
+        - Interesting selection of variables and year(s)
+        - Good title
+        - Descriptive axis labels
+        - Nice legend(s) if needed
+        - Selected data point annotations
+        - Caption with more information and your name
+    4. Make the aspect ratio nice. Copy the figure and post it in the **Teams Channel "Bubble Plots"**
+3. **Search the internet for a data visual you find interesting and well-crafted.** It can be anything which shows some insight through data visualization. Copy it and post it in the **Teams Channel "Interesting Data Visuals"**
+4. (Optional) Familiarize yourself with HTML (revealjs) presentations with quarto: Render `Presentation_Datasaurus.qmd` in the Playground repo with quarto and understand how slides and so on are made.  
 
 ## Checklist
 
 Check the boxes when done, and feel the "done" 🙂.
 
-- [ ] Have the repository [VisCom_Playground](https://github.com/{{< var org.name >}}/VisCom_Playground) cloned to your computer.
+- [ ] Reading Comments for Chapter 2 submitted. 
+- [ ] Bubble Plot posted in the Teams Channel "Bubble Plots"
+- [ ] Interesting data visual found on the internet and submitted in the Team Channel "Interesting Data Visuals"

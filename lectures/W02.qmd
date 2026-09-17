@@ -3,7 +3,7 @@ title: "W#02 Data Visualization: Grammar of Graphics"
 subtitle: "With inspiration from the Data Visualization Courses of Andrew Heiss"
 author: Jan Lorenz
 format: 
-  revealjs: 
+  live-revealjs: 
     slide-number: true
     preview-links: false
     logo: img/ConstructorUniversity.png
@@ -11,20 +11,21 @@ format:
     smaller: true
     code-fold: true
     echo: true
+    css: ../styles/styles.css
+engine: knitr
+webr:
+  packages:
+    - dplyr
+    - ggplot2
+    - readr
+  resources:
+    - data/country_panel_wdi_who.csv
+  show-startup-message: true
 ---
 
+{{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
+
 # Data Visualization: Why?
-
-## Truth, Beauty, Facts, and Data
-
-::: {.incremental}
-- Professionals in data visualization often care about **truth** and **beauty**.
-- This may appear surprising at first glance because it should be about **facts** and **data**.
-- Believes behind this are   
-    - **Facts require beauty to become true.**
-    - **Beauty is necessary to see patterns.**
-- There is no "Just show me the data!", there is always some crafting involved in showing data. 
-:::
 
 ## The Data Saurus
 
@@ -93,6 +94,18 @@ datasaurus_dozen |>
 :::
 :::
 
+
+## Truth, Beauty, Facts, and Data
+
+::: {.incremental}
+- Professionals in data visualization often care about **truth** and **beauty**.
+- This may appear surprising at first glance because it should be about **facts** and **data**.
+- Believes behind this are   
+    - **Facts require beauty to become true.**
+    - **Beauty is necessary to see patterns.**
+- There is no "Just show me the data!", there is always some crafting involved in showing data. 
+:::
+
 ## What makes a good visual?
 
 > "Graphical excellence is the **well-designed presentation of interesting data**—a matter of substance, of statistics, and of design … [It] consists of complex ideas communicated with clarity, precision, and efficiency. … [It] is that which gives to the viewer the **greatest number of ideas** in the **shortest time** with the **least ink** in the **smallest space** … [It] is nearly always multivariate … And graphical excellence requires **telling the truth about the data**."
@@ -137,8 +150,20 @@ Mapping data to aesthetic attributes of geometric objects.
     Data = Column in a data frame   
     Aesthetics = Visual attributes (x, y, color, size, shape, ...)
 
+::: {.fragment}
+More aesthetics
+:::
+
 2. **Use geometric objects to represent data points**  
     Geometric objects = Points, lines, bars, ...
+
+
+<!-- Add examples for aesthetcis -->
+
+## More aesthetics 
+
+<!-- To Do: z, alpha, a color biscale, labels
+With interactive graphs: Time as slider, extensive labels not only for names, also for additional data, more conplex shapes with fill and border color-->
 
 ## Gapminder
 
@@ -161,7 +186,7 @@ gdpPercap | `x = gdpPercap` | `geom_point`
 lifeExp | `y = lifeExp`  | `geom_point`
 continent | `color = continent` | `geom_point`
 pop | `size = pop` | `geom_point`
-
+year | - | use for filtering and facetting
 ## Grammatical Layers
 
 1. Data
@@ -263,7 +288,9 @@ gapminder |>
   theme_minimal(base_size = 14)
 ```
 
-## More things: Labels
+## More things: Axis labels 
+
+Here with the help of a new variable. 
 
 ```{r} 
 gapminder |> 
@@ -284,9 +311,10 @@ gapminder |>
   theme_minimal(base_size = 14)
 ```
 
-## More things: Plot Labels
+## More things: Final touch Aspect Ratio
 
-Changing the Figure width in the quarto output with `#| fig-width: 10`
+Should the figure be wider, more square or even horizontal (for phones)?   
+Changing the Figure width in the quarto output with `#| fig-width: 7`
 
 ```{r} 
 #| echo: fenced
@@ -515,6 +543,7 @@ gapminder |>
 ```
 
 
+# Rethink Aesthetics and Scope on the same data
 
 ## Another Example: Line plot
 
@@ -590,28 +619,153 @@ gapminder |>
   theme_minimal()
 ```
 
+# Example: Data as Message and Design
+
 ## Stripes: What is this?
 
 ```{r}
 warming_stripe_colors <- c("#67000d", "#a50f15", "#cb181d", "#ef3b2c", "#fb6a4a", 
                            "#fc9272", "#fcbba1", "#fee0d2", "#FFFFFF", "#deebf7", "#c6dbef", 
                            "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#08519c", "#08306b")
-temperature <- read_csv("../data/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv") 
+temperature <- read_csv("data/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv") 
 temperature |> 
   ggplot(aes(x = Time, y = 1, fill = `Anomaly (deg C)`)) +
   geom_tile() +
-  scale_fill_gradientn(colors = warming_stripe_colors) +
+  scale_fill_gradientn(colors = rev(warming_stripe_colors)) +
   scale_y_continuous(expand = c(0,0)) +
   scale_x_continuous(expand = c(0,0)) +
   theme_void() +
   theme(legend.position = "none")
 ```
 
-## Warming Stripe
+## Warming Stripes
 
 [Warming Stripes](https://en.wikipedia.org/wiki/Warming_stripes)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/20181204_Warming_stripes_%28global%2C_WMO%2C_1850-2018%29_-_Climate_Lab_Book_%28Ed_Hawkins%29.svg/2560px-20181204_Warming_stripes_%28global%2C_WMO%2C_1850-2018%29_-_Climate_Lab_Book_%28Ed_Hawkins%29.svg.png){height=100px}
+![](https://upload.wikimedia.org/wikipedia/commons/9/9b/GLOBAL-STRIPES-1850-2025-hires.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original){height=200px}
 
 Data can be retrieved from <https://www.metoffice.gov.uk/hadobs/hadcrut5/>. 
 HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. 
+
+## With a Line Polt
+
+```{r}
+temperature |> 
+  ggplot(aes(x = Time, y = `Anomaly (deg C)`, color = `Anomaly (deg C)`)) +
+  geom_point(size = 2.5) +
+  geom_line() +
+  scale_color_gradientn(colors = rev(warming_stripe_colors)) +
+  scale_y_continuous(expand = c(0,0)) +
+  scale_x_continuous(expand = c(0,0)) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+- Better quantitative understanding, less decorative 
+
+
+## Local Warming Stripes
+
+Check the version for your home city: [#ShowYourStripes](https://showyourstripes.info). This is Bremen
+
+![](img/EUROPE-Germany-Bremen-1850-2025-BK.png)
+
+
+# Back to Bubbles with more Variables
+
+## Explore Bubble Plots 
+
+We have variables mostly from the World Bank and WHO. The data is in the file `lectures/data/country_panel_wdi_who.csv`. The variables are:
+
+<details><summary><code>country_name</code> / <code>country_code</code> / <code>year</code></summary>
+Country name (WB standard), ISO3 code (join key), calendar year.
+</details>
+
+<details><summary><code>region</code> <em>(categorical)</em></summary>
+World Bank geographic region, e.g. "Sub-Saharan Africa". Aggregates already excluded.
+</details>
+
+<details><summary><code>income_group</code> <em>(categorical)</em></summary>
+WB income classification: Low / Lower middle / Upper middle / High income, based on GNI per capita.
+</details>
+
+<details><summary><code>total_population</code> — SP.POP.TOTL</summary>
+Total population, midyear estimate, counting all residents regardless of legal status or citizenship.
+</details>
+
+<details><summary><code>gdp_total_usd</code> — NY.GDP.MKTP.CD</summary>
+Gross domestic product, current US$.
+</details>
+
+<details><summary><code>gdp_per_capita_usd</code> — NY.GDP.PCAP.CD</summary>
+GDP divided by midyear population, current US$.
+</details>
+
+<details><summary><code>life_expectancy_years</code> — SP.DYN.LE00.IN</summary>
+Years a newborn would live under current mortality patterns.
+</details>
+
+<details><summary><code>secondary_enrollment_gross_pct</code> — SE.SEC.ENRR</summary>
+Gross secondary school enrollment, % of official secondary-age population (can exceed 100%).
+</details>
+
+<details><summary><code>unemployment_rate_pct</code> — SL.UEM.TOTL.ZS</summary>
+Share of labor force without work but available/seeking (modeled ILO estimate).
+</details>
+
+<details><summary><code>inflation_cpi_pct</code> — FP.CPI.TOTL.ZG</summary>
+Annual % change in consumer price index.
+</details>
+
+<details><summary><code>fuel_exports_pct_merch_exports</code> — TX.VAL.FUEL.ZS.UN</summary>
+Mineral fuels (oil, gas, coal) as % of total merchandise exports — not petroleum-only.
+</details>
+
+<details><summary><code>fuel_imports_pct_merch_imports</code> — TM.VAL.FUEL.ZS.UN</summary>
+Mineral fuels (oil, gas, coal) as % of total merchandise imports — not petroleum-only.
+</details>
+
+<details><summary><code>voice_accountability_index</code> — GOV_WGI_VA.EST</summary>
+Democracy/governance perception estimate (~ -2.5 weak to 2.5 strong). Starts 1996, biennial pre-2002.
+</details>
+
+<details><summary><code>obesity_prevalence_pct</code> — NCD_BMI_30C (WHO GHO)</summary>
+% of adults (18+) with BMI ≥ 30, crude estimate, both sexes. Modeled, irregular update years.
+</details>
+
+
+## Explore Bubble Plots {.scrollable}
+
+```{webr}
+#| context: setup
+#| echo: false
+#| message: false
+library(dplyr)
+library(ggplot2)
+library(readr)
+gapminder <- read_csv("data/country_panel_wdi_who.csv", show_col_types = FALSE)
+```
+
+```{webr}
+#| warning: false
+y <- 2020
+gapminder |>
+  filter(year == y) |>
+  ggplot(aes(x = gdp_per_capita_usd, y = life_expectancy_years, 
+             color = region, size = total_population)) +
+  geom_point() +
+  scale_x_log10(labels = scales::label_number(big.mark = ",")) +
+  scale_size_area(max_size = 15) +
+  labs(title = y) +
+  theme_minimal(base_size = 14) +
+  theme(legend.position = "bottom") +
+  guides(
+    size = "none",
+    color = guide_legend(ncol = 2, override.aes = list(size = 4), title = NULL)
+  )
+```
+
+
+## Do your own!
+
+Now, move over to your own repository, using the template repo **"VisCom_Playground"**. 
