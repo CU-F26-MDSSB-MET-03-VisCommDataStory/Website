@@ -218,19 +218,6 @@ Jan Lorenz
 <h1>Data Visualization: Why?</h1>
 
 </section>
-<section id="truth-beauty-facts-and-data" class="slide level2">
-<h2>Truth, Beauty, Facts, and Data</h2>
-<ul>
-<li class="fragment">Professionals in data visualization often care about <strong>truth</strong> and <strong>beauty</strong>.</li>
-<li class="fragment">This may appear surprising at first glance because it should be about <strong>facts</strong> and <strong>data</strong>.</li>
-<li class="fragment">Believes behind this are
-<ul>
-<li class="fragment"><strong>Facts require beauty to become true.</strong></li>
-<li class="fragment"><strong>Beauty is necessary to see patterns.</strong></li>
-</ul></li>
-<li class="fragment">There is no “Just show me the data!”, there is always some crafting involved in showing data.</li>
-</ul>
-</section>
 <section id="the-data-saurus" class="slide level2">
 <h2>The Data Saurus</h2>
 <div class="columns">
@@ -355,6 +342,19 @@ Jan Lorenz
 <p><img data-src="img/DinoSequentialSmaller.gif"></p>
 </div></div>
 </section>
+<section id="truth-beauty-facts-and-data" class="slide level2">
+<h2>Truth, Beauty, Facts, and Data</h2>
+<ul>
+<li class="fragment">Professionals in data visualization often care about <strong>truth</strong> and <strong>beauty</strong>.</li>
+<li class="fragment">This may appear surprising at first glance because it should be about <strong>facts</strong> and <strong>data</strong>.</li>
+<li class="fragment">Believes behind this are
+<ul>
+<li class="fragment"><strong>Facts require beauty to become true.</strong></li>
+<li class="fragment"><strong>Beauty is necessary to see patterns.</strong></li>
+</ul></li>
+<li class="fragment">There is no “Just show me the data!”, there is always some crafting involved in showing data.</li>
+</ul>
+</section>
 <section id="what-makes-a-good-visual" class="slide level2">
 <h2>What makes a good visual?</h2>
 <blockquote>
@@ -395,12 +395,23 @@ It is a good book, available online for free: <a href="https://socviz.co/" class
 <section id="basic-ideas" class="slide level2">
 <h2>Basic Ideas</h2>
 <ol type="1">
-<li><p><strong>Map data to aesthetics.</strong><br>
+<li><strong>Map data to aesthetics.</strong><br>
 Data = Column in a data frame<br>
-Aesthetics = Visual attributes (x, y, color, size, shape, …)</p></li>
-<li><p><strong>Use geometric objects to represent data points</strong><br>
-Geometric objects = Points, lines, bars, …</p></li>
+Aesthetics = Visual attributes (x, y, color, size, shape, …)</li>
 </ol>
+<div class="fragment">
+<p>More aesthetics</p>
+</div>
+<ol start="2" type="1">
+<li><strong>Use geometric objects to represent data points</strong><br>
+Geometric objects = Points, lines, bars, …</li>
+</ol>
+<!-- Add examples for aesthetcis -->
+</section>
+<section id="more-aesthetics" class="slide level2">
+<h2>More aesthetics</h2>
+<!-- To Do: z, alpha, a color biscale, labels
+With interactive graphs: Time as slider, extensive labels not only for names, also for additional data, more conplex shapes with fill and border color-->
 </section>
 <section id="gapminder" class="slide level2">
 <h2>Gapminder</h2>
@@ -453,6 +464,12 @@ Geometric objects = Points, lines, bars, …</p></li>
 <td>pop</td>
 <td><code>size = pop</code></td>
 <td><code>geom_point</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>year</td>
+<td>-</td>
+<td>use for filtering and facetting</td>
 <td></td>
 </tr>
 </tbody>
@@ -600,8 +617,9 @@ Geometric objects = Points, lines, bars, …</p></li>
 
 </div>
 <img data-src="W02_files/figure-revealjs/unnamed-chunk-14-1.png" width="960" class="r-stretch"></section>
-<section id="more-things-labels-1" class="slide level2">
-<h2>More things: Labels</h2>
+<section id="more-things-axis-labels" class="slide level2">
+<h2>More things: Axis labels</h2>
+<p>Here with the help of a new variable.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -625,9 +643,10 @@ Geometric objects = Points, lines, bars, …</p></li>
 
 </div>
 <img data-src="W02_files/figure-revealjs/unnamed-chunk-15-1.png" width="960" class="r-stretch"></section>
-<section id="more-things-plot-labels" class="slide level2">
-<h2>More things: Plot Labels</h2>
-<p>Changing the Figure width in the quarto output with <code>#| fig-width: 10</code></p>
+<section id="more-things-final-touch-aspect-ratio" class="slide level2">
+<h2>More things: Final touch Aspect Ratio</h2>
+<p>Should the figure be wider, more square or even horizontal (for phones)?<br>
+Changing the Figure width in the quarto output with <code>#| fig-width: 7</code></p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -884,7 +903,12 @@ Geometric objects = Points, lines, bars, …</p></li>
 </details>
 
 </div>
-<img data-src="W02_files/figure-revealjs/unnamed-chunk-22-1.png" width="960" class="r-stretch"></section>
+<img data-src="W02_files/figure-revealjs/unnamed-chunk-22-1.png" width="960" class="r-stretch"></section></section>
+<section>
+<section id="rethink-aesthetics-and-scope-on-the-same-data" class="title-slide slide level1 center">
+<h1>Rethink Aesthetics and Scope on the same data</h1>
+
+</section>
 <section id="another-example-line-plot" class="slide level2">
 <h2>Another Example: Line plot</h2>
 <div class="cell">
@@ -975,7 +999,12 @@ Geometric objects = Points, lines, bars, …</p></li>
 </details>
 
 </div>
-<img data-src="W02_files/figure-revealjs/unnamed-chunk-27-1.png" width="960" class="r-stretch"></section>
+<img data-src="W02_files/figure-revealjs/unnamed-chunk-27-1.png" width="960" class="r-stretch"></section></section>
+<section>
+<section id="example-data-as-message-and-design" class="title-slide slide level1 center">
+<h1>Example: Data as Message and Design</h1>
+
+</section>
 <section id="stripes-what-is-this" class="slide level2">
 <h2>Stripes: What is this?</h2>
 <div class="cell">
@@ -988,7 +1017,7 @@ Geometric objects = Points, lines, bars, …</p></li>
 <span id="cb31-5"><a></a>temperature <span class="sc">|&gt;</span> </span>
 <span id="cb31-6"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Time, <span class="at">y =</span> <span class="dv">1</span>, <span class="at">fill =</span> <span class="st">`</span><span class="at">Anomaly (deg C)</span><span class="st">`</span>)) <span class="sc">+</span></span>
 <span id="cb31-7"><a></a>  <span class="fu">geom_tile</span>() <span class="sc">+</span></span>
-<span id="cb31-8"><a></a>  <span class="fu">scale_fill_gradientn</span>(<span class="at">colors =</span> warming_stripe_colors) <span class="sc">+</span></span>
+<span id="cb31-8"><a></a>  <span class="fu">scale_fill_gradientn</span>(<span class="at">colors =</span> <span class="fu">rev</span>(warming_stripe_colors)) <span class="sc">+</span></span>
 <span id="cb31-9"><a></a>  <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>)) <span class="sc">+</span></span>
 <span id="cb31-10"><a></a>  <span class="fu">scale_x_continuous</span>(<span class="at">expand =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>)) <span class="sc">+</span></span>
 <span id="cb31-11"><a></a>  <span class="fu">theme_void</span>() <span class="sc">+</span></span>
@@ -997,17 +1026,43 @@ Geometric objects = Points, lines, bars, …</p></li>
 
 </div>
 <img data-src="W02_files/figure-revealjs/unnamed-chunk-28-1.png" width="960" class="r-stretch"></section>
-<section id="warming-stripe" class="slide level2">
-<h2>Warming Stripe</h2>
+<section id="warming-stripes" class="slide level2">
+<h2>Warming Stripes</h2>
 <p><a href="https://en.wikipedia.org/wiki/Warming_stripes">Warming Stripes</a></p>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/9/9b/GLOBAL-STRIPES-1850-2025-hires.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original" height="100"></p>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/9/9b/GLOBAL-STRIPES-1850-2025-hires.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original" height="200"></p>
 <p>Data can be retrieved from <a href="https://www.metoffice.gov.uk/hadobs/hadcrut5/" class="uri">https://www.metoffice.gov.uk/hadobs/hadcrut5/</a>. HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period.</p>
+</section>
+<section id="with-a-line-polt" class="slide level2">
+<h2>With a Line Polt</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a></a>temperature <span class="sc">|&gt;</span> </span>
+<span id="cb32-2"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Time, <span class="at">y =</span> <span class="st">`</span><span class="at">Anomaly (deg C)</span><span class="st">`</span>, <span class="at">color =</span> <span class="st">`</span><span class="at">Anomaly (deg C)</span><span class="st">`</span>)) <span class="sc">+</span></span>
+<span id="cb32-3"><a></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="fl">2.5</span>) <span class="sc">+</span></span>
+<span id="cb32-4"><a></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb32-5"><a></a>  <span class="fu">scale_color_gradientn</span>(<span class="at">colors =</span> <span class="fu">rev</span>(warming_stripe_colors)) <span class="sc">+</span></span>
+<span id="cb32-6"><a></a>  <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>)) <span class="sc">+</span></span>
+<span id="cb32-7"><a></a>  <span class="fu">scale_x_continuous</span>(<span class="at">expand =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>)) <span class="sc">+</span></span>
+<span id="cb32-8"><a></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb32-9"><a></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+
+</div>
+<img data-src="W02_files/figure-revealjs/unnamed-chunk-29-1.png" width="960" class="r-stretch"><ul>
+<li>Better quantitative understanding, less decorative</li>
+</ul>
 </section>
 <section id="local-warming-stripes" class="slide level2">
 <h2>Local Warming Stripes</h2>
 <p>Check the version for your home city: <a href="https://showyourstripes.info">#ShowYourStripes</a>. This is Bremen</p>
 
-<img data-src="img/EUROPE-Germany-Bremen-1850-2025-BK.png" class="r-stretch"></section>
+<img data-src="img/EUROPE-Germany-Bremen-1850-2025-BK.png" class="r-stretch"></section></section>
+<section>
+<section id="back-to-bubbles-with-more-variables" class="title-slide slide level1 center">
+<h1>Back to Bubbles with more Variables</h1>
+
+</section>
 <section id="explore-bubble-plots" class="slide level2">
 <h2>Explore Bubble Plots</h2>
 <p>We have variables mostly from the World Bank and WHO. The data is in the file <code>lectures/data/country_panel_wdi_who.csv</code>. The variables are:</p>

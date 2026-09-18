@@ -37,10 +37,10 @@ details p, details {
 /* WebR editor and output font size */
 .cm-content,
 .cm-gutters {
-  font-size: 0.6em;
+  font-size: 0.65em;
 }
 
 .qwebr-output-code-stdout,
 .qwebr-output-code-stderr {
-  font-size: 0.6em;
+  font-size: 0.65em;
 }

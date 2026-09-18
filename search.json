@@ -161,13 +161,6 @@
     "text": "7. Instill trust in numbers\n\nAvoid practices which maybe considered as deceptive. Be careful with or explain well:\n\nTruncated y-axis\nInconsistent date intervals\nInconsistent binning\n…\n\nYou may such things unconsciously! Even if not intended, it may look deceptive to your audience.\nAnother way to instill trust is providing source information in figure captions or slide bottom notes.\n\nHere smaller fonts are fine to make clear that this is not the main point but context information."
   },
   {
-    "objectID": "lectures/W02.html#truth-beauty-facts-and-data",
-    "href": "lectures/W02.html#truth-beauty-facts-and-data",
-    "title": "W#02 Data Visualization: Grammar of Graphics",
-    "section": "Truth, Beauty, Facts, and Data",
-    "text": "Truth, Beauty, Facts, and Data\n\nProfessionals in data visualization often care about truth and beauty.\nThis may appear surprising at first glance because it should be about facts and data.\nBelieves behind this are\n\nFacts require beauty to become true.\nBeauty is necessary to see patterns.\n\nThere is no “Just show me the data!”, there is always some crafting involved in showing data."
-  },
-  {
     "objectID": "lectures/W02.html#the-data-saurus",
     "href": "lectures/W02.html#the-data-saurus",
     "title": "W#02 Data Visualization: Grammar of Graphics",
@@ -187,6 +180,13 @@
     "title": "W#02 Data Visualization: Grammar of Graphics",
     "section": "What do the summary statistics say?",
     "text": "What do the summary statistics say?\n\n\n\n\nCode\ndatasaurus_dozen |&gt; \n  summarise(\n    mean_x = mean(x),\n    mean_y = mean(y),\n    sd_x = sd(x),\n    sd_y = sd(y),\n    cor_xy = cor(x, y),\n    .by = dataset\n  )\n\n\n# A tibble: 13 × 6\n   dataset    mean_x mean_y  sd_x  sd_y  cor_xy\n   &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;\n 1 dino         54.3   47.8  16.8  26.9 -0.0645\n 2 away         54.3   47.8  16.8  26.9 -0.0641\n 3 h_lines      54.3   47.8  16.8  26.9 -0.0617\n 4 v_lines      54.3   47.8  16.8  26.9 -0.0694\n 5 x_shape      54.3   47.8  16.8  26.9 -0.0656\n 6 star         54.3   47.8  16.8  26.9 -0.0630\n 7 high_lines   54.3   47.8  16.8  26.9 -0.0685\n 8 dots         54.3   47.8  16.8  26.9 -0.0603\n 9 circle       54.3   47.8  16.8  26.9 -0.0683\n10 bullseye     54.3   47.8  16.8  26.9 -0.0686\n11 slant_up     54.3   47.8  16.8  26.9 -0.0686\n12 slant_down   54.3   47.8  16.8  26.9 -0.0690\n13 wide_lines   54.3   47.8  16.8  26.9 -0.0666"
+  },
+  {
+    "objectID": "lectures/W02.html#truth-beauty-facts-and-data",
+    "href": "lectures/W02.html#truth-beauty-facts-and-data",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "Truth, Beauty, Facts, and Data",
+    "text": "Truth, Beauty, Facts, and Data\n\nProfessionals in data visualization often care about truth and beauty.\nThis may appear surprising at first glance because it should be about facts and data.\nBelieves behind this are\n\nFacts require beauty to become true.\nBeauty is necessary to see patterns.\n\nThere is no “Just show me the data!”, there is always some crafting involved in showing data."
   },
   {
     "objectID": "lectures/W02.html#what-makes-a-good-visual",
@@ -214,7 +214,14 @@
     "href": "lectures/W02.html#basic-ideas",
     "title": "W#02 Data Visualization: Grammar of Graphics",
     "section": "Basic Ideas",
-    "text": "Basic Ideas\n\nMap data to aesthetics.\nData = Column in a data frame\nAesthetics = Visual attributes (x, y, color, size, shape, …)\nUse geometric objects to represent data points\nGeometric objects = Points, lines, bars, …"
+    "text": "Basic Ideas\n\nMap data to aesthetics.\nData = Column in a data frame\nAesthetics = Visual attributes (x, y, color, size, shape, …)\n\n\nMore aesthetics\n\n\nUse geometric objects to represent data points\nGeometric objects = Points, lines, bars, …"
+  },
+  {
+    "objectID": "lectures/W02.html#more-aesthetics",
+    "href": "lectures/W02.html#more-aesthetics",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "More aesthetics",
+    "text": "More aesthetics"
   },
   {
     "objectID": "lectures/W02.html#gapminder",
@@ -228,7 +235,7 @@
     "href": "lectures/W02.html#gapminder-1",
     "title": "W#02 Data Visualization: Grammar of Graphics",
     "section": "Gapminder",
-    "text": "Gapminder\n\n\n\ncolumn\naesthetic aes()\ngeom\n\n\n\n\n\ngdpPercap\nx = gdpPercap\ngeom_point\n\n\n\nlifeExp\ny = lifeExp\ngeom_point\n\n\n\ncontinent\ncolor = continent\ngeom_point\n\n\n\npop\nsize = pop\ngeom_point"
+    "text": "Gapminder\n\n\n\ncolumn\naesthetic aes()\ngeom\n\n\n\n\n\ngdpPercap\nx = gdpPercap\ngeom_point\n\n\n\nlifeExp\ny = lifeExp\ngeom_point\n\n\n\ncontinent\ncolor = continent\ngeom_point\n\n\n\npop\nsize = pop\ngeom_point\n\n\n\nyear\n-\nuse for filtering and facetting"
   },
   {
     "objectID": "lectures/W02.html#grammatical-layers",
@@ -294,18 +301,18 @@
     "text": "More things: Labels\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\"\n  ) +\n  theme_minimal(base_size = 14)"
   },
   {
-    "objectID": "lectures/W02.html#more-things-labels-1",
-    "href": "lectures/W02.html#more-things-labels-1",
+    "objectID": "lectures/W02.html#more-things-axis-labels",
+    "href": "lectures/W02.html#more-things-axis-labels",
     "title": "W#02 Data Visualization: Grammar of Graphics",
-    "section": "More things: Labels",
-    "text": "More things: Labels\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop1M)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)"
+    "section": "More things: Axis labels",
+    "text": "More things: Axis labels\nHere with the help of a new variable.\n\n\nCode\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop1M)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)"
   },
   {
-    "objectID": "lectures/W02.html#more-things-plot-labels",
-    "href": "lectures/W02.html#more-things-plot-labels",
+    "objectID": "lectures/W02.html#more-things-final-touch-aspect-ratio",
+    "href": "lectures/W02.html#more-things-final-touch-aspect-ratio",
     "title": "W#02 Data Visualization: Grammar of Graphics",
-    "section": "More things: Plot Labels",
-    "text": "More things: Plot Labels\nChanging the Figure width in the quarto output with #| fig-width: 10\n\n\nCode\n```{r}\n#| fig-width: 7\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop1M)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
+    "section": "More things: Final touch Aspect Ratio",
+    "text": "More things: Final touch Aspect Ratio\nShould the figure be wider, more square or even horizontal (for phones)?\nChanging the Figure width in the quarto output with #| fig-width: 7\n\n\nCode\n```{r}\n#| fig-width: 7\ngapminder |&gt; \n  filter(year == 2007) |&gt; \n  mutate(pop1M = pop / 1000000) |&gt;\n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop1M)) +\n  geom_point() + \n  scale_x_log10() +\n  scale_size_area(max_size = 15) +\n  labs(\n    title = \"Gapminder 2007\",\n    subtitle = \"Life Expectancy vs. GDP per Capita\",\n    x = \"GDP per Capita (log scale)\",\n    y = \"Life Expectancy\",\n    color = \"Continent\",\n    size = \"Population\\nin Millions\"\n  ) +\n  theme_minimal(base_size = 14)\n```"
   },
   {
     "objectID": "lectures/W02.html#more-things-geom-labels",
@@ -389,14 +396,21 @@
     "href": "lectures/W02.html#stripes-what-is-this",
     "title": "W#02 Data Visualization: Grammar of Graphics",
     "section": "Stripes: What is this?",
-    "text": "Stripes: What is this?\n\n\nCode\nwarming_stripe_colors &lt;- c(\"#67000d\", \"#a50f15\", \"#cb181d\", \"#ef3b2c\", \"#fb6a4a\", \n                           \"#fc9272\", \"#fcbba1\", \"#fee0d2\", \"#FFFFFF\", \"#deebf7\", \"#c6dbef\", \n                           \"#9ecae1\", \"#6baed6\", \"#4292c6\", \"#2171b5\", \"#08519c\", \"#08306b\")\ntemperature &lt;- read_csv(\"data/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv\") \ntemperature |&gt; \n  ggplot(aes(x = Time, y = 1, fill = `Anomaly (deg C)`)) +\n  geom_tile() +\n  scale_fill_gradientn(colors = warming_stripe_colors) +\n  scale_y_continuous(expand = c(0,0)) +\n  scale_x_continuous(expand = c(0,0)) +\n  theme_void() +\n  theme(legend.position = \"none\")"
+    "text": "Stripes: What is this?\n\n\nCode\nwarming_stripe_colors &lt;- c(\"#67000d\", \"#a50f15\", \"#cb181d\", \"#ef3b2c\", \"#fb6a4a\", \n                           \"#fc9272\", \"#fcbba1\", \"#fee0d2\", \"#FFFFFF\", \"#deebf7\", \"#c6dbef\", \n                           \"#9ecae1\", \"#6baed6\", \"#4292c6\", \"#2171b5\", \"#08519c\", \"#08306b\")\ntemperature &lt;- read_csv(\"data/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv\") \ntemperature |&gt; \n  ggplot(aes(x = Time, y = 1, fill = `Anomaly (deg C)`)) +\n  geom_tile() +\n  scale_fill_gradientn(colors = rev(warming_stripe_colors)) +\n  scale_y_continuous(expand = c(0,0)) +\n  scale_x_continuous(expand = c(0,0)) +\n  theme_void() +\n  theme(legend.position = \"none\")"
   },
   {
-    "objectID": "lectures/W02.html#warming-stripe",
-    "href": "lectures/W02.html#warming-stripe",
+    "objectID": "lectures/W02.html#warming-stripes",
+    "href": "lectures/W02.html#warming-stripes",
     "title": "W#02 Data Visualization: Grammar of Graphics",
-    "section": "Warming Stripe",
-    "text": "Warming Stripe\nWarming Stripes\n\nData can be retrieved from https://www.metoffice.gov.uk/hadobs/hadcrut5/. HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period."
+    "section": "Warming Stripes",
+    "text": "Warming Stripes\nWarming Stripes\n\nData can be retrieved from https://www.metoffice.gov.uk/hadobs/hadcrut5/. HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period."
+  },
+  {
+    "objectID": "lectures/W02.html#with-a-line-polt",
+    "href": "lectures/W02.html#with-a-line-polt",
+    "title": "W#02 Data Visualization: Grammar of Graphics",
+    "section": "With a Line Polt",
+    "text": "With a Line Polt\n\n\nCode\ntemperature |&gt; \n  ggplot(aes(x = Time, y = `Anomaly (deg C)`, color = `Anomaly (deg C)`)) +\n  geom_point(size = 2.5) +\n  geom_line() +\n  scale_color_gradientn(colors = rev(warming_stripe_colors)) +\n  scale_y_continuous(expand = c(0,0)) +\n  scale_x_continuous(expand = c(0,0)) +\n  theme_minimal() +\n  theme(legend.position = \"none\")\n\n\n\n\nBetter quantitative understanding, less decorative"
   },
   {
     "objectID": "lectures/W02.html#local-warming-stripes",
@@ -504,6 +518,20 @@
     "text": "Task 4: Prioritize Main Insight\nDiscuss and select main insight of your Data Story?\nActivity: In groups of teams\n\nDiscuss each Data Story in your group and\n\n\nselect a tentative main insight (not binding)\nalso list other insights\nlist also essential information/concepts you want to communicate\n\nRole of other project members: Ask questions\n\nWhat is important to know as an outsider?\nWhat is most interesting as main insight? Why?\n\nIn class: Show your Notes/Whiteboard?"
   },
   {
+    "objectID": "lectures/W03.html#communication",
+    "href": "lectures/W03.html#communication",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Communication",
+    "text": "Communication\n\n\nKey question: What insight does a visual communicate using data?"
+  },
+  {
+    "objectID": "lectures/W03.html#what-is-an-insight",
+    "href": "lectures/W03.html#what-is-an-insight",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "What is an insight?",
+    "text": "What is an insight?\n\nIntuition is the use of patterns they’ve already learned, whereas insight is the discovery of new patterns.\n\n\nan unexpected shift in the way we understand things\n\n—Gary Klein, psychologist\n\n\nLet us strive for insights, but let us not pretend that we always find exciting new ones. Clear well-crafted data-findings can also be an insight.\nPhenomenon: When you worked a lot with a dataset, insights do not appear unexpected to you."
+  },
+  {
     "objectID": "lectures/W03.html#brexit-opinions-in-the-uk",
     "href": "lectures/W03.html#brexit-opinions-in-the-uk",
     "title": "W#03 Amounts Proportions Uncertainty",
@@ -515,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository VisCom_Playground.\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Wrong      midlands_wales\n 2 Right      midlands_wales\n 3 Don't know north         \n 4 Don't know north         \n 5 Right      north         \n 6 Right      north         \n 7 Wrong      midlands_wales\n 8 Right      scot          \n 9 Don't know midlands_wales\n10 Right      rest_of_south"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      north         \n 2 Wrong      london        \n 3 Right      rest_of_south \n 4 Wrong      rest_of_south \n 5 Right      rest_of_south \n 6 Don't know rest_of_south \n 7 Right      midlands_wales\n 8 Right      midlands_wales\n 9 Right      london        \n10 Right      rest_of_south"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -742,11 +770,18 @@
     "text": "#barbarplots\n\n\n\nhttps://barbarplots.github.io/index.html"
   },
   {
-    "objectID": "lectures/W03.html#visualize-all-data-before-aggreagteing",
-    "href": "lectures/W03.html#visualize-all-data-before-aggreagteing",
+    "objectID": "lectures/W03.html#cats-and-dogs-exampls",
+    "href": "lectures/W03.html#cats-and-dogs-exampls",
     "title": "W#03 Amounts Proportions Uncertainty",
-    "section": "Visualize all data before aggreagteing",
-    "text": "Visualize all data before aggreagteing\nLets test the dogs and cats example with self created data.\n\n\nCode\nset.seed(1234)\nanimals &lt;- tibble(\n  animal = c(rep(c(\"Small cat\", \"Big cat\"), each = 250), rep(\"Dog\", 500))\n) |&gt;\n  mutate(\n    weight = case_when(\n      animal == \"Small cat\" ~ rnorm(n(), 20, 5),\n      animal == \"Big cat\" ~ rnorm(n(), 60, 5),\n      animal == \"Dog\" ~ rnorm(n(), 40, 10)\n    )\n  ) |&gt;\n  mutate(animal_type = ifelse(str_detect(animal, \"cat\"), \"Cats\", \"Dogs\"))\n\nanimals_mean &lt;- animals |&gt;\n  group_by(animal_type) |&gt;\n  summarize(avg_weight = mean(weight))\n\nggplot(animals_mean, aes(x = animal_type, y = avg_weight, fill = animal_type)) +\n  geom_col() +\n  labs(x = NULL, y = \"Weight\") +\n  guides(fill = \"none\")"
+    "section": "Cats and Dogs Exampls",
+    "text": "Cats and Dogs Exampls\nLets test the dogs and cats example with self created data. Aggregated to #barbarplot\n\n\nCode\nset.seed(1234)\nanimals &lt;- tibble(\n  animal = c(rep(c(\"Small cat\", \"Big cat\"), each = 250), rep(\"Dog\", 500))\n) |&gt;\n  mutate(\n    weight = case_when(\n      animal == \"Small cat\" ~ rnorm(n(), 20, 5),\n      animal == \"Big cat\" ~ rnorm(n(), 60, 5),\n      animal == \"Dog\" ~ rnorm(n(), 40, 10)\n    )\n  ) |&gt;\n  mutate(animal_type = ifelse(str_detect(animal, \"cat\"), \"Cats\", \"Dogs\"))\n\nanimals_mean &lt;- animals |&gt;\n  group_by(animal_type) |&gt;\n  summarize(avg_weight = mean(weight))\n\nggplot(animals_mean, aes(x = animal_type, y = avg_weight, fill = animal_type)) +\n  geom_col() +\n  labs(x = NULL, y = \"Weight\") +\n  guides(fill = \"none\")"
+  },
+  {
+    "objectID": "lectures/W03.html#uncertainty-with-errorbars",
+    "href": "lectures/W03.html#uncertainty-with-errorbars",
+    "title": "W#03 Amounts Proportions Uncertainty",
+    "section": "Uncertainty with errorbars",
+    "text": "Uncertainty with errorbars\nUse stat_summary() to aggregate. Functions mean_se computes mean and standard error, while mean_sdl computes the mean and standard deviation. Know the difference.\n\n\nCode\n# Example with standard error\ng1 &lt;- animals |&gt;\n  ggplot(aes(animal_type, weight, fill = animal_type)) +\n  stat_summary(fun = mean, geom = \"col\") +\n  stat_summary(fun.data = mean_se, geom = \"errorbar\", width = 0.4) +\n  labs(title = \"Mean ± SE\") +\n  guides(fill = \"none\")\n\n# Example with standard deviation\ng2 &lt;- animals |&gt;\n  ggplot(aes(animal_type, weight, fill = animal_type)) +\n  stat_summary(fun = mean, geom = \"col\") +\n  stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = \"errorbar\", width = 0.4) +\n  # fun.args = list(mult = 1) means 1 standard deviation instead of default of two\n  labs(title = \"Mean ± SD\")\n\nlibrary(patchwork)\ng1 + g2\n\n\n\nThese are the classic #barbarplots."
   },
   {
     "objectID": "lectures/W03.html#show-all-data-with-jitter-plots",
@@ -802,7 +837,7 @@
     "href": "lectures/W03.html#practice-distribution-visualization",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Practice: Distribution Visualization",
-    "text": "Practice: Distribution Visualization\nDo some of visualizations of distributions using the country dataset in the VisCom_Playground repository.\nCreate a new slidedeck with some trials.\nFor example: Use Life Expectancy and compare the distribution of countries’ value between continents. You can also visualize how a distribution changes over time."
+    "text": "Practice: Distribution Visualization\nAssignment to come!"
   },
   {
     "objectID": "index.html",
@@ -1048,35 +1083,48 @@
     "href": "tasks/03-week.html",
     "title": "Week 03",
     "section": "",
-    "text": "Slides Direct Link\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Lecture Slides Direct Link\n\nGoogle Slides Direct Link to Slides File\n\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "Week 03"
+    ]
   },
   {
     "objectID": "tasks/03-week.html#material",
     "href": "tasks/03-week.html#material",
     "title": "Week 03",
     "section": "",
-    "text": "Slides Direct Link\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
-  },
-  {
-    "objectID": "tasks/03-week.html#assignments-readings",
-    "href": "tasks/03-week.html#assignments-readings",
-    "title": "Week 03",
-    "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 3 in Dykes (2019), consult the Reading Remarks for the Chapter.\nMake one visual where you visualize distributions of a numerical variable over different categories. Use the data you find in the VisCom_Playground in the CU-F26-MDSSB-MET-03-VisCommDataStory Repositories. You can also use data you find yourself. We want to share these in class."
+    "text": "Lecture Slides Direct Link\n\nGoogle Slides Direct Link to Slides File\n\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "Week 03"
+    ]
   },
   {
     "objectID": "tasks/03-week.html#additional-readings",
     "href": "tasks/03-week.html#additional-readings",
     "title": "Week 03",
     "section": "Additional readings",
-    "text": "Additional readings\nChapter 6 in Fundamentals of Data Visualization: Visualizing amounts (Wilke 2018)\nChapter 7 in Fundamentals of Data Visualization: Visualizing distributions: Histograms and density plots (Wilke 2018)\nChapter 10 in Fundamentals of Data Visualization: Visualising proportions (Wilke 2018)"
+    "text": "Additional readings\nChapter 6 in Fundamentals of Data Visualization: Visualizing amounts (Wilke 2018)\nChapter 7 in Fundamentals of Data Visualization: Visualizing distributions: Histograms and density plots (Wilke 2018)\nChapter 10 in Fundamentals of Data Visualization: Visualising proportions (Wilke 2018)",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "Week 03"
+    ]
   },
   {
-    "objectID": "tasks/03-week.html#checklist",
-    "href": "tasks/03-week.html#checklist",
+    "objectID": "tasks/03-week.html#assignments-readings",
+    "href": "tasks/03-week.html#assignments-readings",
     "title": "Week 03",
-    "section": "Checklist",
-    "text": "Checklist\n\nPrepare the visual (see Assignment above) such that you can share it in class."
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 3 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 3\n\nMake visuals: To be specified!",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "Week 03"
+    ]
   },
   {
     "objectID": "tasks/10-week.html",
@@ -1104,7 +1152,7 @@
     "href": "tasks/01-week.html",
     "title": "Week 01",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Teams Recording Folder of the course.\n\n\n\nRead Chapter 1 in Dykes (2019), consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 1",
+    "text": "Slides Direct Link\n\nFind the live recording in the Teams Recording Folder of the course.\n\n\n\nRead Chapter 1 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 1",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1116,7 +1164,7 @@
     "href": "tasks/01-week.html#material",
     "title": "Week 01",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Teams Recording Folder of the course.\n\n\n\nRead Chapter 1 in Dykes (2019), consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 1",
+    "text": "Slides Direct Link\n\nFind the live recording in the Teams Recording Folder of the course.\n\n\n\nRead Chapter 1 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 1",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1154,7 +1202,7 @@
     "href": "tasks/07-week.html#assignments-readings",
     "title": "Week 07",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019), consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”"
+    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”"
   },
   {
     "objectID": "tasks/08-week.html",
@@ -1175,7 +1223,7 @@
     "href": "tasks/08-week.html#assignments-readings",
     "title": "Week 08",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 8 in Dykes (2019), consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 2: Main insight 💡 and bring it to that level.\nPrepare for the classroom activities in Week 09\n\nMake one visual for your story with your actual data.\nBe ready to share the visual (e.g. screenshot) and the code (R or Python, also share the packages used) over Teams in class.\nBe ready to explain what story point you want to make with the visual.\nWhat improvements you would like to make (annotations, insets, labels, images, …)\n\nThe purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. So, the discussion should take the form of a peer consulting session."
+    "text": "Assignments / Readings\n\nRead Chapter 8 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 2: Main insight 💡 and bring it to that level.\nPrepare for the classroom activities in Week 09\n\nMake one visual for your story with your actual data.\nBe ready to share the visual (e.g. screenshot) and the code (R or Python, also share the packages used) over Teams in class.\nBe ready to explain what story point you want to make with the visual.\nWhat improvements you would like to make (annotations, insets, labels, images, …)\n\nThe purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. So, the discussion should take the form of a peer consulting session."
   },
   {
     "objectID": "tasks/12-week.html",
@@ -1273,7 +1321,7 @@
     "href": "tasks/05-week.html#assignments-readings",
     "title": "Week 05",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019), consult the Reading Remarks for the Chapter.\nThink about the data story you want to do and fill the Form: Project and Team Check-in by Friday, 2025-10-03. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)\n\nCheck the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story."
+    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nThink about the data story you want to do and fill the Form: Project and Team Check-in by Friday, 2025-10-03. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)\n\nCheck the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story."
   },
   {
     "objectID": "tasks/05-week.html#additional-readings",
@@ -1301,14 +1349,14 @@
     "href": "tasks/06-week.html#assignments-readings",
     "title": "Week 06",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019), consult the Reading Remarks for the Chapter.\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. You can create it from the DataStory_Template.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.\nThis is an example project pitch presentation for the Data Story: CoviD Pandemic and Summerbreaks"
+    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. You can create it from the DataStory_Template.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.\nThis is an example project pitch presentation for the Data Story: CoviD Pandemic and Summerbreaks"
   },
   {
     "objectID": "tasks/02-week.html",
     "href": "tasks/02-week.html",
     "title": "Week 02",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 2\n\nExplore different bubble plot using different variables on x, y, size, and color and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel “Bubble Plots”.\n\nExplore some option in the interface of the last slides in this week’s slides\nMake your own repository from the template repository VisCom_Playground. Use the green button “Use this template”. After creation, clone it to your computer, and start working in the script CountryBubbles.R.\nWork own visual. Improve it such that it is on the level you would like to see it when it would be posted on social media. For example:\n\nInteresting selection of variables and year(s)\nGood title\nDescriptive axis labels\nNice legend(s) if needed\nSelected data point annotations\nCaption with more information and your name\n\nMake the aspect ratio nice. Copy the figure and post it in the Teams Channel “Bubble Plots”\n\nSearch the internet for a data visual you find interesting and well-crafted. It can be anything which shows some insight through data visualization. Copy it and post it in the Teams Channel “Interesting Data Visuals”\n(Optional) Familiarize yourself with HTML (revealjs) presentations with quarto: Render Presentation_Datasaurus.qmd in the Playground repo with quarto and understand how slides and so on are made.",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 2\n\nExplore different bubble plot using different variables on x, y, size, and color and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel “Bubble Plots”.\n\nExplore some option in the interface of the last slides in this week’s slides\nMake your own repository from the template repository VisCom_Playground. Use the green button “Use this template”. After creation, clone it to your computer, and start working in the script CountryBubbles.R.\nWork own visual. Improve it such that it is on the level you would like to see it when it would be posted on social media. For example:\n\nInteresting selection of variables and year(s)\nGood title\nDescriptive axis labels\nNice legend(s) if needed\nSelected data point annotations\nCaption with more information and your name\n\nMake the aspect ratio nice. Copy the figure and post it in the Teams Channel “Bubble Plots”\n\nSearch the internet for a data visual you find interesting and well-crafted. It can be anything which shows some insight through data visualization. Copy it and post it in the Teams Channel “Interesting Data Visuals”\n(Optional) Familiarize yourself with HTML (revealjs) presentations with quarto: Render Presentation_Datasaurus.qmd in the Playground repo with quarto and understand how slides and so on are made.",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1320,7 +1368,7 @@
     "href": "tasks/02-week.html#material",
     "title": "Week 02",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019), consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 2\n\nExplore different bubble plot using different variables on x, y, size, and color and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel “Bubble Plots”.\n\nExplore some option in the interface of the last slides in this week’s slides\nMake your own repository from the template repository VisCom_Playground. Use the green button “Use this template”. After creation, clone it to your computer, and start working in the script CountryBubbles.R.\nWork own visual. Improve it such that it is on the level you would like to see it when it would be posted on social media. For example:\n\nInteresting selection of variables and year(s)\nGood title\nDescriptive axis labels\nNice legend(s) if needed\nSelected data point annotations\nCaption with more information and your name\n\nMake the aspect ratio nice. Copy the figure and post it in the Teams Channel “Bubble Plots”\n\nSearch the internet for a data visual you find interesting and well-crafted. It can be anything which shows some insight through data visualization. Copy it and post it in the Teams Channel “Interesting Data Visuals”\n(Optional) Familiarize yourself with HTML (revealjs) presentations with quarto: Render Presentation_Datasaurus.qmd in the Playground repo with quarto and understand how slides and so on are made.",
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nRead Chapter 2 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 2\n\nExplore different bubble plot using different variables on x, y, size, and color and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel “Bubble Plots”.\n\nExplore some option in the interface of the last slides in this week’s slides\nMake your own repository from the template repository VisCom_Playground. Use the green button “Use this template”. After creation, clone it to your computer, and start working in the script CountryBubbles.R.\nWork own visual. Improve it such that it is on the level you would like to see it when it would be posted on social media. For example:\n\nInteresting selection of variables and year(s)\nGood title\nDescriptive axis labels\nNice legend(s) if needed\nSelected data point annotations\nCaption with more information and your name\n\nMake the aspect ratio nice. Copy the figure and post it in the Teams Channel “Bubble Plots”\n\nSearch the internet for a data visual you find interesting and well-crafted. It can be anything which shows some insight through data visualization. Copy it and post it in the Teams Channel “Interesting Data Visuals”\n(Optional) Familiarize yourself with HTML (revealjs) presentations with quarto: Render Presentation_Datasaurus.qmd in the Playground repo with quarto and understand how slides and so on are made.",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1358,7 +1406,7 @@
     "href": "tasks/04-week.html#assignments-readings",
     "title": "Week 04",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 4 in Dykes (2019), consult the Reading Remarks for the Chapter.\nPrepare things to share in class:\n\nPlease find a data story you find interesting and well-crafted on the internet and\n\nBe prepared to share the link on Teams on Tuesday, so that we can look at it in class.\nPrepare to walk us through the data story and explain what it is about and what you find well-crafted.\n\nFind a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea. Alternatively, if you do not find data, prepare a topic for a data story. We can then briefly discuss how to find out if data is available for it."
+    "text": "Assignments / Readings\n\nRead Chapter 4 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nPrepare things to share in class:\n\nPlease find a data story you find interesting and well-crafted on the internet and\n\nBe prepared to share the link on Teams on Tuesday, so that we can look at it in class.\nPrepare to walk us through the data story and explain what it is about and what you find well-crafted.\n\nFind a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea. Alternatively, if you do not find data, prepare a topic for a data story. We can then briefly discuss how to find out if data is available for it."
   },
   {
     "objectID": "tasks/04-week.html#additional-readings",
@@ -1471,7 +1519,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Projects Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nProject Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Term\nSubmission\nFinal report and slidedeck\n\n6",
+    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Project Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nProject Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Term\nSubmission\nFinal report and slidedeck\n\n6",
     "crumbs": [
       "Syllabus",
       "Schedule"

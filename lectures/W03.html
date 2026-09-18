@@ -209,9 +209,42 @@ Jan Lorenz
 
 </section>
 <section>
+<section id="communicating-insights" class="title-slide slide level1 center">
+<h1>Communicating Insights</h1>
+
+</section>
+<section id="communication" class="slide level2">
+<h2>Communication</h2>
+
+<img data-src="img/InformingCommunicating.png" class="r-stretch"><ul>
+<li>Key question: What <strong>insight</strong> does a visual <strong>communicate</strong> using data?</li>
+</ul>
+</section>
+<section id="what-is-an-insight" class="slide level2">
+<h2>What is an insight?</h2>
+<blockquote>
+<p>Intuition is the use of patterns they’ve already learned, whereas insight is the discovery of new patterns.</p>
+</blockquote>
+<blockquote>
+<p>an unexpected shift in the way we understand things</p>
+</blockquote>
+<p>—Gary Klein, psychologist</p>
+<div class="fragment">
+<ul>
+<li class="fragment">Let us strive for insights, but let us not pretend that we always find exciting new ones. Clear well-crafted data-findings can also be an insight.</li>
+<li class="fragment">Phenomenon: When you worked a lot with a dataset, insights do not appear unexpected to you.<br>
+</li>
+</ul>
+</div>
+</section></section>
+<section>
 <section id="visualize-amounts-and-proportions-by-example" class="title-slide slide level1 center">
 <h1>Visualize Amounts and Proportions by Example</h1>
-
+<p>Let us walk through an example about Brexit.</p>
+<ul>
+<li>Discover and discuss different insights we can focus</li>
+<li>We discuss typical steps from good to great visual</li>
+</ul>
 </section>
 <section id="brexit-opinions-in-the-uk" class="slide level2">
 <h2>Brexit Opinions in the UK</h2>
@@ -231,7 +264,7 @@ Jan Lorenz
 <p><em>In hindsight, do you think Britain was right/wrong to vote to leave EU?</em><br>
 🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know</p>
 </div>
-<p>The file <code>brexit_opinions.csv</code> in the dataset in the repository <a href="https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground">VisCom_Playground</a>.</p>
+<p>The file <code>brexit_opinions.csv</code> in the dataset in the repository [VisCom_Playground].</p>
 <div class="columns">
 <div class="column">
 <p>Look at the first 10 rows</p>
@@ -270,15 +303,15 @@ Jan Lorenz
 <pre><code># A tibble: 10 × 2
    opinion    region        
    &lt;chr&gt;      &lt;chr&gt;         
- 1 Wrong      midlands_wales
- 2 Right      midlands_wales
- 3 Don't know north         
- 4 Don't know north         
- 5 Right      north         
- 6 Right      north         
- 7 Wrong      midlands_wales
- 8 Right      scot          
- 9 Don't know midlands_wales
+ 1 Right      north         
+ 2 Wrong      london        
+ 3 Right      rest_of_south 
+ 4 Wrong      rest_of_south 
+ 5 Right      rest_of_south 
+ 6 Don't know rest_of_south 
+ 7 Right      midlands_wales
+ 8 Right      midlands_wales
+ 9 Right      london        
 10 Right      rest_of_south </code></pre>
 </div>
 </div>
@@ -1007,6 +1040,11 @@ Jan Lorenz
 </div>
 </div></div>
 <p>What is easier to read for what purpose?</p>
+</section></section>
+<section>
+<section id="uncertainty-and-distributions" class="title-slide slide level1 center">
+<h1>Uncertainty and Distributions</h1>
+
 </section>
 <section id="barbarplots" class="slide level2">
 <h2>#barbarplots</h2>
@@ -1014,15 +1052,10 @@ Jan Lorenz
 
 <aside><div>
 <p><a href="https://barbarplots.github.io/index.html" class="uri">https://barbarplots.github.io/index.html</a></p>
-</div></aside></section></section>
-<section>
-<section id="uncertainty-and-distributions" class="title-slide slide level1 center">
-<h1>Uncertainty and Distributions</h1>
-
-</section>
-<section id="visualize-all-data-before-aggreagteing" class="slide level2">
-<h2>Visualize all data before aggreagteing</h2>
-<p>Lets test the dogs and cats example with self created data.</p>
+</div></aside></section>
+<section id="cats-and-dogs-exampls" class="slide level2">
+<h2>Cats and Dogs Exampls</h2>
+<p>Lets test the dogs and cats example with self created data. Aggregated to #barbarplot</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1051,78 +1084,93 @@ Jan Lorenz
 
 </div>
 <img data-src="W03_files/figure-revealjs/unnamed-chunk-37-1.png" width="960" class="r-stretch"></section>
+<section id="uncertainty-with-errorbars" class="slide level2">
+<h2>Uncertainty with errorbars</h2>
+<p>Use <code>stat_summary()</code> to aggregate. Functions <code>mean_se</code> computes mean and <em>standard error</em>, while <code>mean_sdl</code> computes the mean and <em>standard deviation</em>. <strong>Know the difference.</strong></p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb44"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a></a><span class="co"># Example with standard error</span></span>
+<span id="cb44-2"><a></a>g1 <span class="ot">&lt;-</span> animals <span class="sc">|&gt;</span></span>
+<span id="cb44-3"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(animal_type, weight, <span class="at">fill =</span> animal_type)) <span class="sc">+</span></span>
+<span id="cb44-4"><a></a>  <span class="fu">stat_summary</span>(<span class="at">fun =</span> mean, <span class="at">geom =</span> <span class="st">"col"</span>) <span class="sc">+</span></span>
+<span id="cb44-5"><a></a>  <span class="fu">stat_summary</span>(<span class="at">fun.data =</span> mean_se, <span class="at">geom =</span> <span class="st">"errorbar"</span>, <span class="at">width =</span> <span class="fl">0.4</span>) <span class="sc">+</span></span>
+<span id="cb44-6"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Mean ± SE"</span>) <span class="sc">+</span></span>
+<span id="cb44-7"><a></a>  <span class="fu">guides</span>(<span class="at">fill =</span> <span class="st">"none"</span>)</span>
+<span id="cb44-8"><a></a></span>
+<span id="cb44-9"><a></a><span class="co"># Example with standard deviation</span></span>
+<span id="cb44-10"><a></a>g2 <span class="ot">&lt;-</span> animals <span class="sc">|&gt;</span></span>
+<span id="cb44-11"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(animal_type, weight, <span class="at">fill =</span> animal_type)) <span class="sc">+</span></span>
+<span id="cb44-12"><a></a>  <span class="fu">stat_summary</span>(<span class="at">fun =</span> mean, <span class="at">geom =</span> <span class="st">"col"</span>) <span class="sc">+</span></span>
+<span id="cb44-13"><a></a>  <span class="fu">stat_summary</span>(<span class="at">fun.data =</span> mean_sdl, <span class="at">fun.args =</span> <span class="fu">list</span>(<span class="at">mult =</span> <span class="dv">1</span>), <span class="at">geom =</span> <span class="st">"errorbar"</span>, <span class="at">width =</span> <span class="fl">0.4</span>) <span class="sc">+</span></span>
+<span id="cb44-14"><a></a>  <span class="co"># fun.args = list(mult = 1) means 1 standard deviation instead of default of two</span></span>
+<span id="cb44-15"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Mean ± SD"</span>)</span>
+<span id="cb44-16"><a></a></span>
+<span id="cb44-17"><a></a><span class="fu">library</span>(patchwork)</span>
+<span id="cb44-18"><a></a>g1 <span class="sc">+</span> g2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+
+</div>
+<img data-src="W03_files/figure-revealjs/unnamed-chunk-38-1.png" width="960" class="r-stretch"><p>These are the classic #barbarplots.</p>
+</section>
 <section id="show-all-data-with-jitter-plots" class="slide level2">
 <h2>Show all data with jitter plots</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb44"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
-<span id="cb44-2"><a></a>  <span class="fu">geom_jitter</span>() <span class="sc">+</span></span>
-<span id="cb44-3"><a></a>  <span class="fu">geom_point</span>(</span>
-<span id="cb44-4"><a></a>    <span class="at">data =</span> animals_mean,</span>
-<span id="cb44-5"><a></a>    <span class="fu">aes</span>(<span class="at">y =</span> avg_weight),</span>
-<span id="cb44-6"><a></a>    <span class="at">color =</span> <span class="st">"black"</span>,</span>
-<span id="cb44-7"><a></a>    <span class="at">size =</span> <span class="dv">5</span></span>
-<span id="cb44-8"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb44-9"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
-<span id="cb44-10"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
+<span id="cb45-2"><a></a>  <span class="fu">geom_jitter</span>() <span class="sc">+</span></span>
+<span id="cb45-3"><a></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb45-4"><a></a>    <span class="at">data =</span> animals_mean,</span>
+<span id="cb45-5"><a></a>    <span class="fu">aes</span>(<span class="at">y =</span> avg_weight),</span>
+<span id="cb45-6"><a></a>    <span class="at">color =</span> <span class="st">"black"</span>,</span>
+<span id="cb45-7"><a></a>    <span class="at">size =</span> <span class="dv">5</span></span>
+<span id="cb45-8"><a></a>  ) <span class="sc">+</span></span>
+<span id="cb45-9"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
+<span id="cb45-10"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 
 </div>
-<img data-src="W03_files/figure-revealjs/unnamed-chunk-38-1.png" width="960" class="r-stretch"></section>
+<img data-src="W03_files/figure-revealjs/unnamed-chunk-39-1.png" width="960" class="r-stretch"></section>
 <section id="add-the-averages-and-make-points-transparent" class="slide level2">
 <h2>Add the averages and make points transparent</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
-<span id="cb45-2"><a></a>  <span class="fu">geom_jitter</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
-<span id="cb45-3"><a></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> animals_mean, <span class="fu">aes</span>(<span class="at">y =</span> avg_weight), <span class="at">size =</span> <span class="dv">10</span>) <span class="sc">+</span></span>
-<span id="cb45-4"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
-<span id="cb45-5"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb46"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
+<span id="cb46-2"><a></a>  <span class="fu">geom_jitter</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb46-3"><a></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> animals_mean, <span class="fu">aes</span>(<span class="at">y =</span> avg_weight), <span class="at">size =</span> <span class="dv">10</span>) <span class="sc">+</span></span>
+<span id="cb46-4"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
+<span id="cb46-5"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 
 </div>
-<img data-src="W03_files/figure-revealjs/unnamed-chunk-39-1.png" width="960" class="r-stretch"><p>Note: We include a different dataset for the averages with <code>data = animals_mean</code> in <code>geom_point()</code></p>
+<img data-src="W03_files/figure-revealjs/unnamed-chunk-40-1.png" width="960" class="r-stretch"><p>Note: We include a different dataset for the averages with <code>data = animals_mean</code> in <code>geom_point()</code></p>
 </section>
 <section id="show-all-data-with-beeswarm-plots" class="slide level2">
 <h2>Show all data with beeswarm plots</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb46"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a></a><span class="fu">library</span>(ggbeeswarm)</span>
-<span id="cb46-2"><a></a></span>
-<span id="cb46-3"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
-<span id="cb46-4"><a></a>  <span class="fu">geom_beeswarm</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
-<span id="cb46-5"><a></a>  <span class="co"># Or try this too:</span></span>
-<span id="cb46-6"><a></a>  <span class="co"># geom_quasirandom() +</span></span>
-<span id="cb46-7"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
-<span id="cb46-8"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a></a><span class="fu">library</span>(ggbeeswarm)</span>
+<span id="cb47-2"><a></a></span>
+<span id="cb47-3"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
+<span id="cb47-4"><a></a>  <span class="fu">geom_beeswarm</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb47-5"><a></a>  <span class="co"># Or try this too:</span></span>
+<span id="cb47-6"><a></a>  <span class="co"># geom_quasirandom() +</span></span>
+<span id="cb47-7"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
+<span id="cb47-8"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 
 </div>
-<img data-src="W03_files/figure-revealjs/unnamed-chunk-40-1.png" width="960" class="r-stretch"></section>
+<img data-src="W03_files/figure-revealjs/unnamed-chunk-41-1.png" width="960" class="r-stretch"></section>
 <section id="combine-boxplots-with-points" class="slide level2">
 <h2>Combine boxplots with points</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
-<span id="cb47-2"><a></a>  <span class="fu">geom_boxplot</span>(<span class="at">width =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
-<span id="cb47-3"><a></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">height =</span> <span class="dv">0</span>), <span class="at">size =</span> <span class="dv">1</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
-<span id="cb47-4"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
-<span id="cb47-5"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-
-</div>
-<img data-src="W03_files/figure-revealjs/unnamed-chunk-41-1.png" width="960" class="r-stretch"></section>
-<section id="combine-violins-with-points" class="slide level2">
-<h2>Combine violins with points</h2>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb48"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
-<span id="cb48-2"><a></a>  <span class="fu">geom_violin</span>(<span class="at">width =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb48-2"><a></a>  <span class="fu">geom_boxplot</span>(<span class="at">width =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
 <span id="cb48-3"><a></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">height =</span> <span class="dv">0</span>), <span class="at">size =</span> <span class="dv">1</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
 <span id="cb48-4"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
 <span id="cb48-5"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -1130,21 +1178,35 @@ Jan Lorenz
 
 </div>
 <img data-src="W03_files/figure-revealjs/unnamed-chunk-42-1.png" width="960" class="r-stretch"></section>
+<section id="combine-violins-with-points" class="slide level2">
+<h2>Combine violins with points</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> animal_type, <span class="at">y =</span> weight, <span class="at">color =</span> animal_type)) <span class="sc">+</span></span>
+<span id="cb49-2"><a></a>  <span class="fu">geom_violin</span>(<span class="at">width =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb49-3"><a></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">height =</span> <span class="dv">0</span>), <span class="at">size =</span> <span class="dv">1</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb49-4"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="st">"Weight"</span>) <span class="sc">+</span></span>
+<span id="cb49-5"><a></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+
+</div>
+<img data-src="W03_files/figure-revealjs/unnamed-chunk-43-1.png" width="960" class="r-stretch"></section>
 <section id="overlapping-ridgeplots" class="slide level2">
 <h2>Overlapping ridgeplots</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a></a><span class="fu">library</span>(ggridges)</span>
-<span id="cb49-2"><a></a></span>
-<span id="cb49-3"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> weight, <span class="at">y =</span> animal_type, <span class="at">fill =</span> animal_type)) <span class="sc">+</span></span>
-<span id="cb49-4"><a></a>  <span class="fu">geom_density_ridges</span>() <span class="sc">+</span></span>
-<span id="cb49-5"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Weight"</span>, <span class="at">y =</span> <span class="cn">NULL</span>) <span class="sc">+</span></span>
-<span id="cb49-6"><a></a>  <span class="fu">guides</span>(<span class="at">fill =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb50"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a></a><span class="fu">library</span>(ggridges)</span>
+<span id="cb50-2"><a></a></span>
+<span id="cb50-3"><a></a><span class="fu">ggplot</span>(animals, <span class="fu">aes</span>(<span class="at">x =</span> weight, <span class="at">y =</span> animal_type, <span class="at">fill =</span> animal_type)) <span class="sc">+</span></span>
+<span id="cb50-4"><a></a>  <span class="fu">geom_density_ridges</span>() <span class="sc">+</span></span>
+<span id="cb50-5"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Weight"</span>, <span class="at">y =</span> <span class="cn">NULL</span>) <span class="sc">+</span></span>
+<span id="cb50-6"><a></a>  <span class="fu">guides</span>(<span class="at">fill =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 
 </div>
-<img data-src="W03_files/figure-revealjs/unnamed-chunk-43-1.png" width="960" class="r-stretch"></section>
+<img data-src="W03_files/figure-revealjs/unnamed-chunk-44-1.png" width="960" class="r-stretch"></section>
 <section id="more-information-is-better" class="slide level2">
 <h2>More information is better</h2>
 <ul>
@@ -1161,9 +1223,12 @@ Jan Lorenz
 </section>
 <section id="practice-distribution-visualization" class="slide level2">
 <h2>Practice: Distribution Visualization</h2>
-<p>Do some of visualizations of distributions using the country dataset in the <a href="https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground">VisCom_Playground</a> repository.</p>
-<p>Create a new slidedeck with some trials.</p>
-<p>For example: Use Life Expectancy and compare the distribution of countries’ value between continents. You can also visualize how a distribution changes over time.</p>
+<p>Assignment to come!</p>
+<!-- Do some of visualizations of distributions using the country dataset in the [VisCom_Playground](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground) repository.
+
+**Create a new visual showing distributions.** 
+
+For example: Use Life Expectancy and compare the distribution of countries' value between continents. You can also visualize how a distribution changes over time. -->
 
 
 </section></section>
