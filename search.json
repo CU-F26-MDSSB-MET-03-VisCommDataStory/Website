@@ -543,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      rest_of_south \n 2 Right      midlands_wales\n 3 Wrong      london        \n 4 Don't know north         \n 5 Wrong      london        \n 6 Right      north         \n 7 Wrong      scot          \n 8 Wrong      london        \n 9 Right      midlands_wales\n10 Wrong      rest_of_south"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion region        \n   &lt;chr&gt;   &lt;chr&gt;         \n 1 Right   rest_of_south \n 2 Wrong   rest_of_south \n 3 Wrong   rest_of_south \n 4 Right   rest_of_south \n 5 Wrong   london        \n 6 Right   rest_of_south \n 7 Right   rest_of_south \n 8 Wrong   scot          \n 9 Right   midlands_wales\n10 Right   north"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -770,11 +770,11 @@
     "text": "#barbarplots\n\n\n\nhttps://barbarplots.github.io/index.html"
   },
   {
-    "objectID": "lectures/W03.html#cats-and-dogs-exampls",
-    "href": "lectures/W03.html#cats-and-dogs-exampls",
+    "objectID": "lectures/W03.html#cats-and-dogs-example",
+    "href": "lectures/W03.html#cats-and-dogs-example",
     "title": "W#03 Amounts Proportions Uncertainty",
-    "section": "Cats and Dogs Exampls",
-    "text": "Cats and Dogs Exampls\nLets test the dogs and cats example with self created data. Aggregated to #barbarplot\n\n\nCode\nset.seed(1234)\nanimals &lt;- tibble(\n  animal = c(rep(c(\"Small cat\", \"Big cat\"), each = 250), rep(\"Dog\", 500))\n) |&gt;\n  mutate(\n    weight = case_when(\n      animal == \"Small cat\" ~ rnorm(n(), 20, 5),\n      animal == \"Big cat\" ~ rnorm(n(), 60, 5),\n      animal == \"Dog\" ~ rnorm(n(), 40, 10)\n    )\n  ) |&gt;\n  mutate(animal_type = ifelse(str_detect(animal, \"cat\"), \"Cats\", \"Dogs\"))\n\nanimals_mean &lt;- animals |&gt;\n  group_by(animal_type) |&gt;\n  summarize(avg_weight = mean(weight))\n\nggplot(animals_mean, aes(x = animal_type, y = avg_weight, fill = animal_type)) +\n  geom_col() +\n  labs(x = NULL, y = \"Weight\") +\n  guides(fill = \"none\")"
+    "section": "Cats and Dogs Example",
+    "text": "Cats and Dogs Example\nLets test the dogs and cats example with self created data. Aggregated to #barbarplot\n\n\nCode\nset.seed(1234)\nanimals &lt;- tibble(\n  animal = c(rep(c(\"Small cat\", \"Big cat\"), each = 250), rep(\"Dog\", 500))\n) |&gt;\n  mutate(\n    weight = case_when(\n      animal == \"Small cat\" ~ rnorm(n(), 20, 5),\n      animal == \"Big cat\" ~ rnorm(n(), 60, 5),\n      animal == \"Dog\" ~ rnorm(n(), 40, 10)\n    )\n  ) |&gt;\n  mutate(animal_type = ifelse(str_detect(animal, \"cat\"), \"Cats\", \"Dogs\"))\n\nanimals_mean &lt;- animals |&gt;\n  group_by(animal_type) |&gt;\n  summarize(avg_weight = mean(weight))\n\nggplot(animals_mean, aes(x = animal_type, y = avg_weight, fill = animal_type)) +\n  geom_col() +\n  labs(x = NULL, y = \"Weight\") +\n  guides(fill = \"none\")"
   },
   {
     "objectID": "lectures/W03.html#uncertainty-with-errorbars",
@@ -1202,7 +1202,7 @@
     "href": "tasks/07-week.html#assignments-readings",
     "title": "Week 07",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”"
+    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/1KUx2DTZxu\n\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”"
   },
   {
     "objectID": "tasks/08-week.html",
@@ -1223,7 +1223,7 @@
     "href": "tasks/08-week.html#assignments-readings",
     "title": "Week 08",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 8 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nCheck your project work against Milestone 2: Main insight 💡 and bring it to that level.\nPrepare for the classroom activities in Week 09\n\nMake one visual for your story with your actual data.\nBe ready to share the visual (e.g. screenshot) and the code (R or Python, also share the packages used) over Teams in class.\nBe ready to explain what story point you want to make with the visual.\nWhat improvements you would like to make (annotations, insets, labels, images, …)\n\nThe purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. So, the discussion should take the form of a peer consulting session."
+    "text": "Assignments / Readings\n\nRead Chapter 8 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/KMXzW4PHwD\n\nCheck your project work against Milestone 2: Main insight 💡 and bring it to that level.\nPrepare for the classroom activities in Week 09\n\nMake one visual for your story with your actual data.\nBe ready to share the visual (e.g. screenshot) and the code (R or Python, also share the packages used) over Teams in class.\nBe ready to explain what story point you want to make with the visual.\nWhat improvements you would like to make (annotations, insets, labels, images, …)\n\nThe purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. So, the discussion should take the form of a peer consulting session."
   },
   {
     "objectID": "tasks/12-week.html",
@@ -1321,7 +1321,7 @@
     "href": "tasks/05-week.html#assignments-readings",
     "title": "Week 05",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nThink about the data story you want to do and fill the Form: Project and Team Check-in by Friday, 2025-10-03. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)\n\nCheck the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story."
+    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/aPDf54gDe2\n\nThink about the data story you want to do and fill the Form: Project and Team Check-in by Friday, 2025-10-03. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)\n\nCheck the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story."
   },
   {
     "objectID": "tasks/05-week.html#additional-readings",
@@ -1349,7 +1349,7 @@
     "href": "tasks/06-week.html#assignments-readings",
     "title": "Week 06",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. You can create it from the DataStory_Template.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.\nThis is an example project pitch presentation for the Data Story: CoviD Pandemic and Summerbreaks"
+    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/uPQpu0FX7W\n\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. You can create it from the DataStory_Template.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.\nThis is an example project pitch presentation for the Data Story: CoviD Pandemic and Summerbreaks"
   },
   {
     "objectID": "tasks/02-week.html",
@@ -1392,28 +1392,48 @@
     "href": "tasks/04-week.html",
     "title": "Week 04",
     "section": "",
-    "text": "Instructor’s trials in VisCom_Playground GitHub Repo\n\n\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nCoviD Pandemic and Summerbreaks\nFollow the Direct Link to the slides!\nAnalyse the Data Story\n\nWhat is the main insight?\nWho is the target audience?\nWhat is the story structure?\nWhat are the data sources?\n\n\nList all what is necessary to reproduce the analysis\n\n\nWhat metrics are used?\n\n\nWhat new metrics are computed? Try to list all.\nHow is the raw data transformed mathematically?\n\n\nGot through the slides one by one\n\n\nWhat is the purpose of each slide?\nIs anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?\nDetailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?\nDetails about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)?\n\nGroup discussion."
+    "text": "Slides Direct Link\n\n\n\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nCoviD Pandemic and Summerbreaks\nFollow the Direct Link to the slides!\nAnalyse the Data Story\n\nWhat is the main insight?\nWho is the target audience?\nWhat is the story structure?\nWhat are the data sources?\n\n\nList all what is necessary to reproduce the analysis\n\n\nWhat metrics are used?\n\n\nWhat new metrics are computed? Try to list all.\nHow is the raw data transformed mathematically?\n\n\nGot through the slides one by one\n\n\nWhat is the purpose of each slide?\nIs anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?\nDetailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?\nDetails about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)?\n\n\n\n\nVisCom_Playground GitHub Repo",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W04"
+    ]
   },
   {
     "objectID": "tasks/04-week.html#material",
     "href": "tasks/04-week.html#material",
     "title": "Week 04",
     "section": "",
-    "text": "Instructor’s trials in VisCom_Playground GitHub Repo\n\n\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nCoviD Pandemic and Summerbreaks\nFollow the Direct Link to the slides!\nAnalyse the Data Story\n\nWhat is the main insight?\nWho is the target audience?\nWhat is the story structure?\nWhat are the data sources?\n\n\nList all what is necessary to reproduce the analysis\n\n\nWhat metrics are used?\n\n\nWhat new metrics are computed? Try to list all.\nHow is the raw data transformed mathematically?\n\n\nGot through the slides one by one\n\n\nWhat is the purpose of each slide?\nIs anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?\nDetailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?\nDetails about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)?\n\nGroup discussion."
-  },
-  {
-    "objectID": "tasks/04-week.html#assignments-readings",
-    "href": "tasks/04-week.html#assignments-readings",
-    "title": "Week 04",
-    "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 4 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nPrepare things to share in class:\n\nPlease find a data story you find interesting and well-crafted on the internet and\n\nBe prepared to share the link on Teams on Tuesday, so that we can look at it in class.\nPrepare to walk us through the data story and explain what it is about and what you find well-crafted.\n\nFind a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea. Alternatively, if you do not find data, prepare a topic for a data story. We can then briefly discuss how to find out if data is available for it."
+    "text": "Slides Direct Link\n\n\n\n\nSlides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nCoviD Pandemic and Summerbreaks\nFollow the Direct Link to the slides!\nAnalyse the Data Story\n\nWhat is the main insight?\nWho is the target audience?\nWhat is the story structure?\nWhat are the data sources?\n\n\nList all what is necessary to reproduce the analysis\n\n\nWhat metrics are used?\n\n\nWhat new metrics are computed? Try to list all.\nHow is the raw data transformed mathematically?\n\n\nGot through the slides one by one\n\n\nWhat is the purpose of each slide?\nIs anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?\nDetailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?\nDetails about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)?\n\n\n\n\nVisCom_Playground GitHub Repo",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W04"
+    ]
   },
   {
     "objectID": "tasks/04-week.html#additional-readings",
     "href": "tasks/04-week.html#additional-readings",
     "title": "Week 04",
     "section": "Additional readings",
-    "text": "Additional readings\nChapter 12 in Fundamentals of Data Visualization: Visualizing associations among two or more quantitative variables (Wilke 2018)\nChapter 13 in Fundamentals of Data Visualization: Visualizing time series and other functions of an independent variable (Wilke 2018)\nChapter 14 in Fundamentals of Data Visualization: Visualizing trends (Wilke 2018)"
+    "text": "Additional readings\nChapter 12 in Fundamentals of Data Visualization: Visualizing associations among two or more quantitative variables (Wilke 2018)\nChapter 13 in Fundamentals of Data Visualization: Visualizing time series and other functions of an independent variable (Wilke 2018)\nChapter 14 in Fundamentals of Data Visualization: Visualizing trends (Wilke 2018)",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W04"
+    ]
+  },
+  {
+    "objectID": "tasks/04-week.html#assignments-readings",
+    "href": "tasks/04-week.html#assignments-readings",
+    "title": "Week 04",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 4 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 4\n\nPrepare things to share in class:\n\nPlease find a data story you find interesting and well-crafted on the internet and\n\nBe prepared to share the link on Teams on Tuesday, so that we can look at it in class.\nPrepare to walk us through the data story and explain what it is about and what you find well-crafted.\n\nFind a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea you do not want to pursue. Alternatively, prepare a topic for a data story.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W04"
+    ]
   },
   {
     "objectID": "milestones.html",

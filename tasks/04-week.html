@@ -126,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 04</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../schedule.html">Schedule</a></li><li class="breadcrumb-item"><a href="../tasks/04-week.html">#W04</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -180,8 +180,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">#W04</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../tasks/04-week.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">#W04</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
  <span class="menu-text">#W05</span>
   </li>
@@ -244,19 +247,20 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#material" id="toc-material" class="nav-link active" data-scroll-target="#material">Material</a>
   <ul class="collapse">
-  <li><a href="#assignments-for-visualizations-of-distributions" id="toc-assignments-for-visualizations-of-distributions" class="nav-link" data-scroll-target="#assignments-for-visualizations-of-distributions">Assignments for Visualizations of Distributions</a></li>
+  <li><a href="#example-visuals-discussion-continued" id="toc-example-visuals-discussion-continued" class="nav-link" data-scroll-target="#example-visuals-discussion-continued">Example Visuals Discussion Continued</a></li>
   <li><a href="#spurious-correlations" id="toc-spurious-correlations" class="nav-link" data-scroll-target="#spurious-correlations">Spurious Correlations</a></li>
   <li><a href="#data-story-example" id="toc-data-story-example" class="nav-link" data-scroll-target="#data-story-example">Data Story Example</a></li>
+  <li><a href="#exploring-the-playground-repository" id="toc-exploring-the-playground-repository" class="nav-link" data-scroll-target="#exploring-the-playground-repository">Exploring the Playground Repository</a></li>
   </ul></li>
-  <li><a href="#assignments-readings" id="toc-assignments-readings" class="nav-link" data-scroll-target="#assignments-readings">Assignments / Readings</a></li>
   <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional readings</a></li>
+  <li><a href="#assignments-readings" id="toc-assignments-readings" class="nav-link" data-scroll-target="#assignments-readings">Assignments / Readings</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../schedule.html">Schedule</a></li><li class="breadcrumb-item"><a href="../tasks/04-week.html">#W04</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Week 04</h1>
 </div>
@@ -277,9 +281,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="material" class="level2">
 <h2 class="anchored" data-anchor-id="material">Material</h2>
-<section id="assignments-for-visualizations-of-distributions" class="level3">
-<h3 class="anchored" data-anchor-id="assignments-for-visualizations-of-distributions">Assignments for Visualizations of Distributions</h3>
-<p>Instructor’s trials in VisCom_Playground <a href="https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground">GitHub Repo</a></p>
+<section id="example-visuals-discussion-continued" class="level3">
+<h3 class="anchored" data-anchor-id="example-visuals-discussion-continued">Example Visuals Discussion Continued</h3>
+<p>Slides <a href="https://docs.google.com/presentation/d/e/2PACX-1vTtIfC_OTv-tcblXt_5vQ0po2lLvdOLg5S1nwTFtQt-jeLRZ6Pe0X7ebjRi0syfmsMZqQidWV0bt7Yg/pubembed?start=false&amp;loop=false&amp;delayms=3000">Direct Link</a></p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtIfC_OTv-tcblXt_5vQ0po2lLvdOLg5S1nwTFtQt-jeLRZ6Pe0X7ebjRi0syfmsMZqQidWV0bt7Yg/pubembed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="800" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </section>
 <section id="spurious-correlations" class="level3">
 <h3 class="anchored" data-anchor-id="spurious-correlations">Spurious Correlations</h3>
@@ -317,13 +322,25 @@ ul.task-list li input[type="checkbox"] {
 <li>Detailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?</li>
 <li>Details about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)?</li>
 </ul>
-<p><em>Group discussion.</em></p>
 </section>
+<section id="exploring-the-playground-repository" class="level3">
+<h3 class="anchored" data-anchor-id="exploring-the-playground-repository">Exploring the Playground Repository</h3>
+<p>VisCom_Playground <a href="https://github.com/CU-F26-MDSSB-MET-03-VisCommDataStory/VisCom_Playground">GitHub Repo</a></p>
+</section>
+</section>
+<section id="additional-readings" class="level2">
+<h2 class="anchored" data-anchor-id="additional-readings">Additional readings</h2>
+<p><a href="https://clauswilke.com/dataviz/visualizing-associations.html">Chapter 12 in Fundamentals of Data Visualization: Visualizing associations among two or more quantitative variables</a> (Wilke 2018)<br>
+<a href="https://clauswilke.com/dataviz/time-series.html">Chapter 13 in Fundamentals of Data Visualization: Visualizing time series and other functions of an independent variable</a> (Wilke 2018)<br>
+<a href="https://clauswilke.com/dataviz/visualizing-trends.html">Chapter 14 in Fundamentals of Data Visualization: Visualizing trends</a> (Wilke 2018)</p>
 </section>
 <section id="assignments-readings" class="level2">
 <h2 class="anchored" data-anchor-id="assignments-readings">Assignments / Readings</h2>
+<ol type="1">
+<li><strong>Read Chapter 4 in Dykes (2019) <a href="https://ebookcentral.proquest.com/lib/constructor-university/detail.action?docID=5993965">Lib</a> <a href="https://github.com/CU-F26-MDSSB-MET-03-VisCommDataStory/Course-Organization-Resources/blob/main/Dykes%2C%20Brent%20(2019).%20Effective%20Data%20Storytelling.pdf">Repo</a></strong>, consult the <a href="../readings.html">Reading Remarks</a> for the Chapter.
 <ul>
-<li><strong>Read Chapter 4 in Dykes (2019) <a href="https://ebookcentral.proquest.com/lib/constructor-university/detail.action?docID=5993965">Lib</a> <a href="https://github.com/CU-F26-MDSSB-MET-03-VisCommDataStory/Course-Organization-Resources/blob/main/Dykes%2C%20Brent%20(2019).%20Effective%20Data%20Storytelling.pdf">Repo</a></strong>, consult the <a href="../readings.html">Reading Remarks</a> for the Chapter.</li>
+<li>Enter your reading comments in the Form <a href="https://forms.cloud.microsoft/e/F7A5cJGG2i">My Comments: Chapter 4</a></li>
+</ul></li>
 <li>Prepare things to share in class:
 <ol type="1">
 <li>Please find a data story you find interesting and well-crafted on the internet and
@@ -331,15 +348,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Be prepared to share the link on Teams on Tuesday, so that we can look at it in class.</li>
 <li>Prepare to walk us through the data story and explain what it is about and what you find well-crafted.</li>
 </ol></li>
-<li>Find a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea. Alternatively, if you do not find data, prepare a topic for a data story. We can then briefly discuss how to find out if data is available for it.</li>
+<li>Find a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea you do not want to pursue. Alternatively, prepare a topic for a data story.</li>
 </ol></li>
-</ul>
-</section>
-<section id="additional-readings" class="level2">
-<h2 class="anchored" data-anchor-id="additional-readings">Additional readings</h2>
-<p><a href="https://clauswilke.com/dataviz/visualizing-associations.html">Chapter 12 in Fundamentals of Data Visualization: Visualizing associations among two or more quantitative variables</a> (Wilke 2018)<br>
-<a href="https://clauswilke.com/dataviz/time-series.html">Chapter 13 in Fundamentals of Data Visualization: Visualizing time series and other functions of an independent variable</a> (Wilke 2018)<br>
-<a href="https://clauswilke.com/dataviz/visualizing-trends.html">Chapter 14 in Fundamentals of Data Visualization: Visualizing trends</a> (Wilke 2018)</p>
+</ol>
 
 
 </section>
