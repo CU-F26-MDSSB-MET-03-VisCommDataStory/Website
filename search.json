@@ -543,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Don't know london        \n 2 Wrong      north         \n 3 Right      midlands_wales\n 4 Right      rest_of_south \n 5 Right      north         \n 6 Wrong      scot          \n 7 Wrong      rest_of_south \n 8 Right      london        \n 9 Wrong      north         \n10 Wrong      london"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Wrong      north         \n 2 Wrong      rest_of_south \n 3 Don't know rest_of_south \n 4 Wrong      north         \n 5 Wrong      rest_of_south \n 6 Wrong      scot          \n 7 Right      midlands_wales\n 8 Right      north         \n 9 Wrong      rest_of_south \n10 Right      north"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -914,7 +914,7 @@
     "href": "index.html#examination-and-assessment",
     "title": "Visual Communication and Data Story-telling",
     "section": "7 Examination and Assessment",
-    "text": "7 Examination and Assessment\nFrom the Handbook:\nAssessment Type: Project Report (in article format + Slide deck) 3000 - 4000 words\nModule Achievement: Students must prepare and present a slide deck demonstrating the verbal storytelling skills developed in the module. The presentation may be delivered in class or submitted as a video. If the module achievement is not fulfilled on the first attempt, the slide deck may be submitted as a video at a later date.\nNote: 3000-4000 words is the official word count from the handbook. However, the instructor will not count words and will not assess the report based on fulfilling the word count. Essential parts of the submission will visuals.\nDetails about the project report: The project report is a website which tells a data story which is rendered with quarto.\nIt includes\n\na slide deck used to tell the story in a presentation,\na written report tells the story for readers and gives more details and more visuals, e.g. in Appendices.\n\nOptional the submission can also include a dashboard with interactive graphs which enables individual exploration by the reader.\nThe report must be reproducible. That means the source code must be provided.\nHowever, the report must be readable without reading code. The target audience is not a programmer and they should not see code while reading. Technical parts should be in the appendix. \nDelivery via GitHub.\n\n\n\n\n\n\nImportant\n\n\n\nYou can make your data story into a nice thing to show your competence to the outside world. It is not too difficult to publish the report as a website from your final repository. Make your report such that it is worth to publish and show it!",
+    "text": "7 Examination and Assessment\nFrom the Handbook:\nAssessment Type: Project Report (in article format + slide deck) 3000 - 4000 words\nModule Achievement: Students must prepare and present a slide deck demonstrating the verbal storytelling skills developed in the module. The presentation may be delivered in class or submitted as a video. If the module achievement is not fulfilled on the first attempt, the slide deck may be submitted as a video at a later date.\nNote: 3000-4000 words is the official word count from the handbook. However, the instructor will not count words and will not assess the report based on fulfilling the word count. Essential parts of the submission will visuals.\nDetails about the project report: The project report is a website which tells a data story which is rendered with quarto.\nIt must include\n\na slide deck used to tell the story in a presentation (narrative form), and\na written report tells the story for readers and gives more details and more visuals (news article form).\n\nOptionally, the submission can also include a dashboard with interactive graphs which enables individual exploration by the reader.\nAlternatively, the narrative form can also be delivered as a scrollytelling report instead of a slide deck.\nThe report must be reproducible. That means the source code must be provided.\nHowever, the report must be readable without reading code. The target audience is not a programmer and they should not see code while reading. Technical parts should be in the appendix. \nDelivery via GitHub.\n\n\n\n\n\n\nImportant\n\n\n\nYou can make your data story into a nice thing to show your competence to the outside world. It is not too difficult to publish the report as a website from your final repository. Make your report such that it is worth to publish and show it!",
     "crumbs": [
       "Syllabus"
     ]
@@ -1307,28 +1307,48 @@
     "href": "tasks/05-week.html",
     "title": "Week 05",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W05"
+    ]
   },
   {
     "objectID": "tasks/05-week.html#material",
     "href": "tasks/05-week.html#material",
     "title": "Week 05",
     "section": "",
-    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder."
-  },
-  {
-    "objectID": "tasks/05-week.html#assignments-readings",
-    "href": "tasks/05-week.html#assignments-readings",
-    "title": "Week 05",
-    "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/aPDf54gDe2\n\nThink about the data story you want to do and fill the Form: Project and Team Check-in by Friday, 2025-10-03. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)\n\nCheck the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story."
+    "text": "Slides Direct Link\n\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W05"
+    ]
   },
   {
     "objectID": "tasks/05-week.html#additional-readings",
     "href": "tasks/05-week.html#additional-readings",
     "title": "Week 05",
     "section": "Additional readings",
-    "text": "Additional readings\nChapter 29 in Fundamentals of Data Visualization: Telling a story and making a point"
+    "text": "Additional readings\nChapter 29 in Fundamentals of Data Visualization: Telling a story and making a point",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W05"
+    ]
+  },
+  {
+    "objectID": "tasks/05-week.html#assignments-readings",
+    "href": "tasks/05-week.html#assignments-readings",
+    "title": "Week 05",
+    "section": "Assignments / Readings",
+    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 4\nThink about your data story. Contact fellow students to form a team and fill the Form: Project and Team Check-in 2 days before the week class time.\n\nRead the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W05"
+    ]
   },
   {
     "objectID": "tasks/06-week.html",
@@ -1711,7 +1731,7 @@
     "href": "lectures/W05.html#why-do-we-need-to-tell-a-story",
     "title": "W#05 Data Stories",
     "section": "Why do we need to tell a story?",
-    "text": "Why do we need to tell a story?\n\nMost data visualization is done for the purpose of communication.\nWe have insights from data, and we have a potential audience for it.\nTo communicate successfully, we have to present a clear and exciting story.\nThe need for a story may seem disturbing to scientists and engineers, who may equate it with making things up, putting a spin on things, or overselling results.\nThis perspective misses the important role that stories play in reasoning and memory!\nMoreover, any communication creates a story in the audience’s minds. If we don’t provide a clear story ourselves, then our audience will make one up. In the best-case scenario, the story they make up is reasonably close to our own view of the material presented. However, it can be and often is much worse. The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent.\n\n\nSo, we have to do it, even we tend to not wanting to do it…\n\n\n\nFrom: Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point (Wilke 2018)"
+    "text": "Why do we need to tell a story?\n\nMost data visualization is done for the purpose of communication.\nWe have insights from data, and we have a potential audience for it.\nTo communicate successfully, we have to present a clear and exciting story.\nThe need for a story may seem disturbing to scientists and engineers, who may equate it with making things up, putting a spin on things, or overselling results.\nThis perspective misses the important role that stories play in reasoning and memory!\nMoreover, any communication creates a story in the audience’s minds. If we don’t provide a clear story ourselves, then our audience will make one up. In the best-case scenario, the story they make up is reasonably close to our own view of the material presented. However, it can be and often is much worse. The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent”.\n\n\nSo, we have to do it, even we tend to not wanting to do it…\n\n\n\nFrom: Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point (Wilke 2018)"
   },
   {
     "objectID": "lectures/W05.html#data-visuals-narrative",
