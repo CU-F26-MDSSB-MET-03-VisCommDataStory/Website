@@ -543,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion region       \n   &lt;chr&gt;   &lt;chr&gt;        \n 1 Wrong   scot         \n 2 Wrong   london       \n 3 Right   rest_of_south\n 4 Right   north        \n 5 Right   rest_of_south\n 6 Wrong   rest_of_south\n 7 Wrong   london       \n 8 Right   london       \n 9 Wrong   north        \n10 Right   rest_of_south"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Don't know midlands_wales\n 2 Wrong      rest_of_south \n 3 Right      midlands_wales\n 4 Wrong      london        \n 5 Wrong      midlands_wales\n 6 Wrong      london        \n 7 Right      midlands_wales\n 8 Right      rest_of_south \n 9 Right      rest_of_south \n10 Right      london"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1343,7 +1343,7 @@
     "href": "tasks/05-week.html#assignments-readings",
     "title": "Week 05",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 4\nThink about your data story. Contact fellow students to form a team and fill the Form: Project and Team Check-in 2 days before the week class time.\n\nRead the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story.",
+    "text": "Assignments / Readings\n\nRead Chapter 5 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\nEnter your reading comments in the Form My Comments: Chapter 5\nThink about your data story. Contact fellow students to form a team and fill the Form: Project and Team Check-in 2 days before the week class time.\n\nRead the Milestones.\nMilestone 1 is the project pitch in class!\nCheck the Schedule for the dates of the milestones.\nNext week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story.",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1355,7 +1355,7 @@
     "href": "tasks/06-week.html",
     "title": "Week 06",
     "section": "",
-    "text": "You have to fill out Form: Project and Team Check-in by Friday, 2025-10-03. (See Week #05 for details.)\nA meeting will be scheduled on MS Teams once you filled the form. It is supposed to lie in in class time 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor.",
+    "text": "You have to fill out Form: Project and Team Check-in by Two days before the class day. (See Week #05 for details.)\nA meeting will be scheduled on MS Teams once you filled the form. It is supposed to lie in in class time 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor.",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1367,7 +1367,7 @@
     "href": "tasks/06-week.html#no-class-but-individual-meeting-with-instructor-about-project-check-in",
     "title": "Week 06",
     "section": "",
-    "text": "You have to fill out Form: Project and Team Check-in by Friday, 2025-10-03. (See Week #05 for details.)\nA meeting will be scheduled on MS Teams once you filled the form. It is supposed to lie in in class time 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor.",
+    "text": "You have to fill out Form: Project and Team Check-in by Two days before the class day. (See Week #05 for details.)\nA meeting will be scheduled on MS Teams once you filled the form. It is supposed to lie in in class time 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor.",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1379,7 +1379,7 @@
     "href": "tasks/06-week.html#assignments-readings",
     "title": "Week 06",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 4\n\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. You can create it from the DataStory_Template.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.\nThis is an example project pitch presentation for the Data Story: CoviD Pandemic and Summerbreaks",
+    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Lib Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 6\n\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.",
     "crumbs": [
       "Syllabus",
       "Schedule",
