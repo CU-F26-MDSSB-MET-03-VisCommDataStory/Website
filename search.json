@@ -543,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion region        \n   &lt;chr&gt;   &lt;chr&gt;         \n 1 Wrong   midlands_wales\n 2 Right   north         \n 3 Wrong   rest_of_south \n 4 Wrong   rest_of_south \n 5 Wrong   north         \n 6 Wrong   rest_of_south \n 7 Right   midlands_wales\n 8 Right   rest_of_south \n 9 Right   north         \n10 Wrong   london"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion region       \n   &lt;chr&gt;   &lt;chr&gt;        \n 1 Wrong   scot         \n 2 Wrong   london       \n 3 Right   rest_of_south\n 4 Right   north        \n 5 Right   rest_of_south\n 6 Wrong   rest_of_south\n 7 Wrong   london       \n 8 Right   london       \n 9 Wrong   north        \n10 Right   rest_of_south"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1746,6 +1746,13 @@
     "href": "lectures/W05.html#why-do-we-need-to-tell-a-story",
     "title": "W#05 Data Stories",
     "section": "Why do we need to tell a story?",
+    "text": "Why do we need to tell a story?\n\nI’m still a bit unsure about when I should use storytelling and when it’s better to just present the data and findings directly."
+  },
+  {
+    "objectID": "lectures/W05.html#why-do-we-need-to-tell-a-story-1",
+    "href": "lectures/W05.html#why-do-we-need-to-tell-a-story-1",
+    "title": "W#05 Data Stories",
+    "section": "Why do we need to tell a story?",
     "text": "Why do we need to tell a story?\n\nMost data visualization is done for the purpose of communication.\nWe have insights from data, and we have a potential audience for it.\nTo communicate successfully, we have to present a clear and exciting story.\nThe need for a story may seem disturbing to scientists and engineers, who may equate it with making things up, putting a spin on things, or overselling results.\nThis perspective misses the important role that stories play in reasoning and memory!\nMoreover, any communication creates a story in the audience’s minds. If we don’t provide a clear story ourselves, then our audience will make one up. In the best-case scenario, the story they make up is reasonably close to our own view of the material presented. However, it can be and often is much worse. The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent”.\n\n\nSo, we have to do it, even we tend to not wanting to do it…\n\n\n\nFrom: Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point (Wilke 2018)"
   },
   {
@@ -1795,7 +1802,7 @@
     "href": "lectures/W05.html#six-essential-elements-of-data-stories",
     "title": "W#05 Data Stories",
     "section": "Six essential elements of data stories",
-    "text": "Six essential elements of data stories\n\n\nYour project slide deck and presentation matches a Data Presentation\nYour project report matches a Curated Report (and Dashboard)"
+    "text": "Six essential elements of data stories\n\n\nYour project slide deck and presentation matches a Data Presentation\nYour project report matches a Curated Report"
   },
   {
     "objectID": "lectures/W05.html#differences-in-communication",
@@ -1838,5 +1845,19 @@
     "title": "W#05 Data Stories",
     "section": "Example Storyboard",
     "text": "Example Storyboard\n\nBefore you have to achieve milestones 0, 1, 2, and 3 …"
+  },
+  {
+    "objectID": "lectures/W05.html#your-data-story",
+    "href": "lectures/W05.html#your-data-story",
+    "title": "W#05 Data Stories",
+    "section": "Your Data Story",
+    "text": "Your Data Story\nYou will start to work on your data story now!\nImportant points:\n\nWhat data source?\nWhat can be the main point?\n\n\nMilestones:\n\nProject Team and Topic\nProject Pitch: Data source, one story point, one visual\nMain insight (drafted)\nDrafts for some visuals"
+  },
+  {
+    "objectID": "lectures/W05.html#questions",
+    "href": "lectures/W05.html#questions",
+    "title": "W#05 Data Stories",
+    "section": "Questions",
+    "text": "Questions\n\nI am not sure if it is necessary or important to choose one main point when the data shows several interesting insights for example.\nWhere is the middle ground with an audience with various levels of data literacy, where you don’t end up “losing” some of the audience due to the level you pitch.\n\n\nPracticing with Story-boarding.\n\nI would like to understand better how to choose the right chart or visual for different types of data, especially when there are many options to choose from.\nI am still not completely clear on how to decide which visualization is best when several different chart types could communicate the same data.\nI found it difficult to understand how much context should be included in a data story without overwhelming the audience with too much information\n\n\n\nPractice, discuss and test."
   }
 ]
