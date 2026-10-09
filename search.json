@@ -543,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      rest_of_south \n 2 Right      midlands_wales\n 3 Right      north         \n 4 Right      rest_of_south \n 5 Wrong      north         \n 6 Don't know midlands_wales\n 7 Right      midlands_wales\n 8 Right      north         \n 9 Wrong      rest_of_south \n10 Right      north"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      midlands_wales\n 2 Right      rest_of_south \n 3 Wrong      london        \n 4 Don't know north         \n 5 Wrong      midlands_wales\n 6 Right      north         \n 7 Right      rest_of_south \n 8 Right      rest_of_south \n 9 Wrong      north         \n10 Wrong      midlands_wales"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1188,21 +1188,36 @@
     "href": "tasks/07-week.html",
     "title": "Week 07",
     "section": "",
-    "text": "Below is a tentative schedule. We will adjust it in class. There is a bit of buffer. If we do not need it, pitches can start earlier! We could also go over the break between session 1 and 2 and finish earlier.\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n09:50\nExoplanets\n\n\n10:00\nCrimeRates\n\n\n10:10\nIShowSpeed\n\n\n10:20\nGPUSentiment\n\n\n10:30\nBundesliga\n\n\n\n\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n11:15\nProgressParadox\n\n\n11:30\nClimateChange\n\n\n11:45\nFilterBubble\n\n\n12:00\nHousing"
+    "text": "Below a schedule with Data Story Keyword will be published. We go through the Data Story pitches in this order:\nDraft of those were the Keyword is already clear:\n\nDataStory_BikeSharing\nDataStory_BremenTransit\nDataStory_BusinessDynamics\nDataStory_DigitalSkills\nDataStory_Energy\nDataStory_TechChurn\n… (to be updated!)",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W07"
+    ]
   },
   {
     "objectID": "tasks/07-week.html#material",
     "href": "tasks/07-week.html#material",
     "title": "Week 07",
     "section": "",
-    "text": "Below is a tentative schedule. We will adjust it in class. There is a bit of buffer. If we do not need it, pitches can start earlier! We could also go over the break between session 1 and 2 and finish earlier.\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n09:50\nExoplanets\n\n\n10:00\nCrimeRates\n\n\n10:10\nIShowSpeed\n\n\n10:20\nGPUSentiment\n\n\n10:30\nBundesliga\n\n\n\n\n\n\n\n\n\nTime\nProject Name\n\n\n\n\n11:15\nProgressParadox\n\n\n11:30\nClimateChange\n\n\n11:45\nFilterBubble\n\n\n12:00\nHousing"
+    "text": "Below a schedule with Data Story Keyword will be published. We go through the Data Story pitches in this order:\nDraft of those were the Keyword is already clear:\n\nDataStory_BikeSharing\nDataStory_BremenTransit\nDataStory_BusinessDynamics\nDataStory_DigitalSkills\nDataStory_Energy\nDataStory_TechChurn\n… (to be updated!)",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W07"
+    ]
   },
   {
     "objectID": "tasks/07-week.html#assignments-readings",
     "href": "tasks/07-week.html#assignments-readings",
     "title": "Week 07",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/1KUx2DTZxu\n\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”"
+    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/1KUx2DTZxu\n\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story [CoViD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!). So, probably prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W07"
+    ]
   },
   {
     "objectID": "tasks/08-week.html",
@@ -1475,7 +1490,7 @@
     "href": "milestones.html",
     "title": "Project Milestones",
     "section": "",
-    "text": "The student project report is the central assessment item of the module for Examination and Grading.\nProjects shall be done in teams.\nThis list of milestones guides through the preparation, presentation and delivery of your report during the semester.",
+    "text": "The student Data Story is the central assessment item of the module for Examination and Grading.\nData Stories shall be done in teams.\nThis list of milestones guides through the preparation, presentation and delivery of your report during the semester.",
     "crumbs": [
       "Syllabus",
       "Project Milestones"
@@ -1485,8 +1500,8 @@
     "objectID": "milestones.html#m0",
     "href": "milestones.html#m0",
     "title": "Project Milestones",
-    "section": "Milestone 0: Project teams and project topic fixed",
-    "text": "Milestone 0: Project teams and project topic fixed\n\nTeams shall be 🙍‍♀️🙎 to 🙎🙍‍♀️🙎‍♂️🙍‍♀️🙎. Teams with more members should have more story points and at the final presentation each member should present at least one story point.\nForm: Project and Team Check-in for project ideas filled.\nProject discussed in individual meeting with instructor.",
+    "section": "Milestone 0: Data Story teams and Data Story topic fixed",
+    "text": "Milestone 0: Data Story teams and Data Story topic fixed\n\nTeams shall be 🙍‍♀️🙎 to 🙎🙍‍♀️🙎‍♂️🙍‍♀️🙎. Teams with more members should have more story points and at the final presentation each member should present at least one story point.\nForm: Project and Team Check-in for project ideas filled.\nProject discussed in individual meeting with instructor.",
     "crumbs": [
       "Syllabus",
       "Project Milestones"
@@ -1496,8 +1511,8 @@
     "objectID": "milestones.html#m1",
     "href": "milestones.html#m1",
     "title": "Project Milestones",
-    "section": "Milestone 1: Project pitch",
-    "text": "Milestone 1: Project pitch\nFor each project: &lt;5 min presentation answering:\n\n🗃️ What is the data?\n💬 At least one story points/insights (max. 3 story points)\n📊 At least one visual created with the data (max. 2 visuals)\n\nMode of presentation will be specified later.\nTarget Achievements:\n\nData and topic chosen\nTeams formed\nProject repository cloned, rendering of report and presentation tested\nProject pitch done",
+    "section": "Milestone 1: Data Story pitch",
+    "text": "Milestone 1: Data Story pitch\nFor each Data Story: &lt;5 min presentation answering:\n\nWhat shall your data story be about?\n🗃️ What is the data?\n💬 At least one story points/insight. This could also be be enlighted with a motivating image or conceptual diagram (max. 3 story points)\n📊 At least one (preliminary) visual created with the data (max. 2 visuals)\n\nMode of presentation:\n\nA short stand-up talk without slides like: “Out data story shall be about THIS INTERESTING TOPIC … We want to use data from … The main point shall be about … Here you see …”.\nYou underpin your pitch with images which you post in the Team’s General Channel directly before your pitch. Prepare a post with the images/screenshots you want to share. Also write the names of Team members and the Keyword of your Data Story in the post.\n\nTarget Achievements:\n\nData and topic chosen\nTeams formed\nData Story repository created\nData Story pitch done",
     "crumbs": [
       "Syllabus",
       "Project Milestones"
@@ -1574,7 +1589,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Project Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nProject Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Term\nSubmission\nFinal report and slidedeck\n\n6",
+    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Project Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nData Story Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Term\nSubmission\nFinal report and slidedeck\n\n6",
     "crumbs": [
       "Syllabus",
       "Schedule"
