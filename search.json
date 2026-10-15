@@ -543,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      rest_of_south \n 2 Wrong      scot          \n 3 Wrong      rest_of_south \n 4 Wrong      rest_of_south \n 5 Wrong      midlands_wales\n 6 Wrong      scot          \n 7 Wrong      rest_of_south \n 8 Wrong      midlands_wales\n 9 Don't know midlands_wales\n10 Right      north"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Don't know london        \n 2 Right      rest_of_south \n 3 Wrong      scot          \n 4 Wrong      midlands_wales\n 5 Right      scot          \n 6 Right      north         \n 7 Wrong      london        \n 8 Wrong      midlands_wales\n 9 Right      midlands_wales\n10 Right      midlands_wales"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1188,7 +1188,7 @@
     "href": "tasks/07-week.html",
     "title": "Week 07",
     "section": "",
-    "text": "Below a schedule with Data Story Keyword will be published. We go through the Data Story pitches in this order:\nDraft of those were the Keyword is already clear:\n\nDataStory_BikeSharing\nDataStory_BremenTransit\nDataStory_BusinessDynamics\nDataStory_DigitalSkills\nDataStory_Energy\nDataStory_TechChurn\n… (to be updated!)\n\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
+    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nKeyword\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nNo entry\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1200,7 +1200,7 @@
     "href": "tasks/07-week.html#material",
     "title": "Week 07",
     "section": "",
-    "text": "Below a schedule with Data Story Keyword will be published. We go through the Data Story pitches in this order:\nDraft of those were the Keyword is already clear:\n\nDataStory_BikeSharing\nDataStory_BremenTransit\nDataStory_BusinessDynamics\nDataStory_DigitalSkills\nDataStory_Energy\nDataStory_TechChurn\n… (to be updated!)\n\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
+    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nKeyword\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nNo entry\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1394,7 +1394,7 @@
     "href": "tasks/06-week.html#assignments-readings",
     "title": "Week 06",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 6\n\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. See Week 5 how to make one.\nHave all essential parts outlined at Milestone 1: Project Pitch.\nPerfection in visualization is not the goal at this stage, but having something to show and discuss.",
+    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 6\n\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. See Week 5 how to make one.\nHave all essential parts outlined at Milestone 1: Project Pitch ready for the presentation.\nPerfection in visualization is not the goal at this stage, but having something to pitch.",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1512,7 +1512,7 @@
     "href": "milestones.html#m1",
     "title": "Project Milestones",
     "section": "Milestone 1: Data Story pitch",
-    "text": "Milestone 1: Data Story pitch\nFor each Data Story: &lt;5 min presentation answering:\n\nWhat shall your data story be about?\n🗃️ What is the data?\n💬 At least one story points/insight. This could also be be enlighted with a motivating image or conceptual diagram (max. 3 story points)\n📊 At least one (preliminary) visual created with the data (max. 2 visuals)\n\nMode of presentation:\n\nA short stand-up talk without slides like: “Out data story shall be about THIS INTERESTING TOPIC … We want to use data from … The main point shall be about … Here you see …”.\nYou underpin your pitch with images which you post in the Team’s General Channel directly before your pitch. Prepare a post with the images/screenshots you want to share. Also write the names of Team members and the Keyword of your Data Story in the post.\n\nTarget Achievements:\n\nData and topic chosen\nTeams formed\nData Story repository created\nData Story pitch done",
+    "text": "Milestone 1: Data Story pitch\nFor each Data Story: &lt;5 min presentation answering:\n\nWhat shall your data story be about?\n🗃️ What is the data?\n💬 At least one story points/insight. This could also be be enlighted with a motivating image or conceptual diagram (max. 3 story points)\n📊 At least one (preliminary) visual created with the data (max. 2 visuals)\n\nMode of presentation:\n\nA short stand-up talk without slides like: “Our data story shall be about THIS INTERESTING TOPIC … We want to use data from … The main point shall be about … Here you see …”.\nYou underpin your pitch with images which you post in the Team’s General Channel directly before your pitch. Prepare a post with the images/screenshots you want to share. Also write the names of Team members and the Keyword of your Data Story in the post.\n\nTarget Achievements:\n\nData and topic chosen\nTeams formed\nData Story repository created\nData Story pitch done",
     "crumbs": [
       "Syllabus",
       "Project Milestones"
