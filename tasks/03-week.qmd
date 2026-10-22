@@ -8,24 +8,20 @@ format:
 
 ## Material
 
-Slides [Direct Link](https://docs.google.com/presentation/d/e/2PACX-1vRB_ZP5MZ8tRz-8pCiZWOJvqEv7WJjXDZm-jYOFNTNEXAQSSXVsWXnQtlhZFv8r03dPVs2qItdRmNei/pub?start=false&loop=false&delayms=3000)
-
-```{=html}
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRB_ZP5MZ8tRz-8pCiZWOJvqEv7WJjXDZm-jYOFNTNEXAQSSXVsWXnQtlhZFv8r03dPVs2qItdRmNei/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-```
-
-Slides [Direct Link](../lectures/W03.qmd)
+Lecture Slides [Direct Link](../lectures/W03.qmd)
 
 ```{=html}
 <iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
+Google Slides [Direct Link to Slides File](https://docs.google.com/presentation/d/1JO5-CscloKPDLNbpsCHKQV9oeXOQn3zeoDgZW_ieyFI/edit?slide=id.g300e0669d67_0_25#slide=id.g300e0669d67_0_25)
+
+```{=html}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtIfC_OTv-tcblXt_5vQ0po2lLvdOLg5S1nwTFtQt-jeLRZ6Pe0X7ebjRi0syfmsMZqQidWV0bt7Yg/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+
 Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
-
-## Assignments / Readings
-
-- **Read Chapter 3 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
-- **Make one visual** where you visualize distributions of a numerical variable over different categories. Use the data you find in the [VisCom_Playground](https://github.com/{{< var org.name >}}/VisCom_Playground) in the {{< var org.name >}} Repositories. You can also use data you find yourself. We want to share these in class.
 
 ## Additional readings 
 
@@ -34,6 +30,13 @@ Find the live recording in the [Course's Team's Recording Folder]({{< var teams.
 [Chapter 10 in Fundamentals of Data Visualization: Visualising proportions](https://clauswilke.com/dataviz/visualizing-proportions.html) (Wilke 2018)   
 
 
-## Checklist
+## Assignments / Readings
 
-- [ ] Prepare the visual (see Assignment above) such that you can share it in class.  
+1. **Read Chapter 3 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+    - Enter your reading comments in the Form [My Comments: Chapter 3](https://forms.cloud.microsoft/e/V2Y1AUZQMV) 
+2. **Make visuals:** [To be specified!]{.text-red} 
+<!-- where you visualize distributions of a numerical variable over different categories. Use the data you find in the [VisCom_Playground](https://github.com/{{< var org.name >}}/VisCom_Playground) in the {{< var org.name >}} Repositories. You can also use data you find yourself. Post it in the **Teams Channel "Bubble Plots"** -->
+
+
+
+

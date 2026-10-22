@@ -63,7 +63,7 @@ You will create another Data Science Project focusing on *great graphics* and *t
 
 From the Handbook: 
 
-**Assessment Type:** Project Report (in article format + Slide deck) 3000 - 4000 words  
+**Assessment Type:** Project Report (in article format + slide deck) 3000 - 4000 words  
 
 **Module Achievement:** Students must prepare and present a slide deck demonstrating the verbal storytelling skills developed in the module. The presentation may be delivered in class or submitted as a video. If the module achievement is not fulfilled on the first attempt, the slide deck may be submitted as a video at a later date.
 
@@ -72,13 +72,15 @@ Note: 3000-4000 words is the official word count from the handbook. However, the
 **Details about the project report:** The project report is a website
 which tells a data story which is rendered with quarto.   
 
-It includes
+It must include
 
-1.  a slide deck used to tell the story in a presentation,
-2.  a written report tells the story for readers and gives more details and more visuals, e.g. in Appendices.
+1.  a **slide deck** used to tell the story in a presentation (**narrative form**), and
+2.  a written report tells the story for readers and gives more details and more visuals (**news article form**).
 
-Optional the submission can also include a dashboard with interactive graphs which enables individual
+Optionally, the submission can also include a dashboard with interactive graphs which enables individual
 exploration by the reader.
+
+Alternatively, the narrative form can also be delivered as a scrollytelling report instead of a slide deck. 
 
 The report must be reproducible. That means the source code must be provided.   
 However, the report must be readable without reading code. The target audience is not a programmer and they should not see code while reading. Technical parts should be in the appendix. 

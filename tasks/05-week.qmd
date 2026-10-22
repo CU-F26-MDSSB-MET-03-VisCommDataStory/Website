@@ -16,17 +16,18 @@ Slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
 
 Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
 
+## Additional readings
+
+[Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point](https://clauswilke.com/dataviz/telling-a-story.html)
+
 
 ## Assignments / Readings
 
 - **Read Chapter 5 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+- Enter your reading comments in the Form [My Comments: Chapter 5](https://forms.cloud.microsoft/e/aPDf54gDe2)
 
-- Think about the data story you want to do and fill the [Form: Project and Team Check-in](https://forms.office.com/e/UZb7NFxLZB) by [**Friday, 2025-10-03**]{.red}. Contact fellow students if you want to form a team of two. (In special cases teams of three are possible, please contact me in that case.)
-    - Check the [Milestones](../milestones.qmd). 
+- Think about **your data story**. Contact fellow students to form a team and fill the [Form: Project and Team Check-in](https://forms.office.com/e/UZb7NFxLZB) [**2 days before the week class time**]{.red}. 
+    - Read the [Milestones](../milestones.qmd). 
     - Milestone 1 is the project pitch in class!
     - Check the [Schedule](../schedule.qmd) for the dates of the milestones.
     - **Next week there is no class meeting, but individual coaching sessions with the instructor to discuss your project idea and data story.**
-
-## Additional readings
-
-[Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point](https://clauswilke.com/dataviz/telling-a-story.html)

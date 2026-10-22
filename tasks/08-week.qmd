@@ -24,9 +24,12 @@ Find the live recording in the [Course's Team's Recording Folder]({{< var teams.
 ## Assignments / Readings
 
 - **Read Chapter 8 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter.
+    - Enter your reading comments in the Form [My Comments: Chapter 8](https://forms.cloud.microsoft/e/KMXzW4PHwD) 
+
+
 - Check your project work against [Milestone 2: Main insight 💡](../milestones.qmd#m2) and bring it to that level.
 
-- **Prepare for the classroom activities in Week 09**
+- **Prepare for the classroom activities in Week 09:**
    - Make one visual for your story with your actual data. 
     - Be ready to share the **visual** (e.g. screenshot) and the **code** (R or Python, also share the packages used) over Teams in class. 
     - Be ready to explain what story point you want to make with the visual.

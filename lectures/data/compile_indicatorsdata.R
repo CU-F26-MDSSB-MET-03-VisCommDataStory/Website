@@ -21,24 +21,24 @@ library(tibble)
 # --------------------------------------------------------------
 
 wdi_indicators <- c(
-  total_population                = "SP.POP.TOTL",
-  gdp_total_usd                  = "NY.GDP.MKTP.CD",
-  gdp_per_capita_usd             = "NY.GDP.PCAP.CD",
+  total_population = "SP.POP.TOTL",
+  gdp_total_usd = "NY.GDP.MKTP.CD",
+  gdp_per_capita_usd = "NY.GDP.PCAP.CD",
   secondary_enrollment_gross_pct = "SE.SEC.ENRR",
-  unemployment_rate_pct          = "SL.UEM.TOTL.ZS",
-  inflation_cpi_pct              = "FP.CPI.TOTL.ZG",
-  life_expectancy_years          = "SP.DYN.LE00.IN",
+  unemployment_rate_pct = "SL.UEM.TOTL.ZS",
+  inflation_cpi_pct = "FP.CPI.TOTL.ZG",
+  life_expectancy_years = "SP.DYN.LE00.IN",
   fuel_exports_pct_merch_exports = "TX.VAL.FUEL.ZS.UN",
   fuel_imports_pct_merch_imports = "TM.VAL.FUEL.ZS.UN",
-  voice_accountability_index     = "GOV_WGI_VA.EST"  # renamed from VA.EST in 2025 WGI revision
+  voice_accountability_index = "GOV_WGI_VA.EST" # renamed from VA.EST in 2025 WGI revision
 )
 
 wdi_data <- WDI(
   indicator = wdi_indicators,
-  country   = "all",
-  start     = 1960,
-  end       = 2025,
-  extra     = TRUE
+  country = "all",
+  start = 1960,
+  end = 2025,
+  extra = TRUE
 ) |>
   as_tibble() |>
   filter(region != "Aggregates") |>
@@ -67,7 +67,7 @@ bmi_data <- gho_resp$value |>
   filter(Dim1 == "SEX_BTSX", SpatialDimType == "COUNTRY") |>
   transmute(
     country_code = SpatialDim,
-    year         = as.integer(TimeDim),
+    year = as.integer(TimeDim),
     obesity_prevalence_pct = NumericValue
   ) |>
   distinct(country_code, year, .keep_all = TRUE) |>

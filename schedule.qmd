@@ -12,12 +12,12 @@ Week | Dates  | How | Topic                  | Readings | Milestones |
 -----|--------|:---:|------------------------|---------:|:----------:|
 1    | Sep 04 | [*Class*]{.red} | [What is Visual Communication? What is Data Storytelling?](tasks/01-week.qmd)  |  [Ch 1](readings.qmd#r) | |
 2    | Sep 11 | [*Class*]{.red} | [Data Visualization: Grammar of Graphics](tasks/02-week.qmd)  |  [Ch 2](readings.qmd#r) | |
-3    | Sep 18 | [*Class*]{.red} | Amounts Proportions Uncertainty<!--/03-week.qmd)-->          | [Ch 3](readings.qmd#r) | | 
-4    | Sep 25 | [*Class*]{.red} | Relationships Comparisons Annotations<!--/04-week.qmd)-->    | [Ch 4](readings.qmd#r) |  |   |
-5    | Oct 02 | [*Class*]{.red} | Data Stories<!--/05-week.qmd)-->                             | [Ch 5](readings.qmd#r) |
-6    | Oct 09 | [*Team*]{.green}| Individual Coaching: Projects Work Start!<!--/06-week.qmd)--> | [Ch 6](readings.qmd#r) | [0](milestones.qmd#m0) |
-7    | Oct 16 | [*Class*]{.red} | Project Pitches<!--/07-week.qmd)-->    | [Ch 7](readings.qmd#r) | [1](milestones.qmd#m1) |
-8    | Oct 23 | [*Class*]{.red} | Main Insight<!--/08-week.qmd)-->       | [Ch 8](readings.qmd#r) | [2](milestones.qmd#m2)|
+3    | Sep 18 | [*Class*]{.red} | [Amounts Proportions Uncertainty](tasks/03-week.qmd)     | [Ch 3](readings.qmd#r) | | 
+4    | Sep 25 | [*Class*]{.red} | [Relationships Comparisons Annotations](tasks/04-week.qmd)  | [Ch 4](readings.qmd#r) |  |   |
+5    | Oct 02 | [*Class*]{.red} | [Data Stories](tasks/05-week.qmd)                       | [Ch 5](readings.qmd#r) |
+6    | Oct 09 | [*Team*]{.green}| [Individual Coaching: Project Work Start!](tasks/06-week.qmd) | [Ch 6](readings.qmd#r) | [0](milestones.qmd#m0) |
+7    | Oct 16 | [*Class*]{.red} | [Data Story Pitches](tasks/07-week.qmd)  | [Ch 7](readings.qmd#r) | [1](milestones.qmd#m1) |
+8    | Oct 23 | [*Class*]{.red} | [Main Insight](tasks/08-week.qmd)       | [Ch 8](readings.qmd#r) | [2](milestones.qmd#m2)|
 9    | Oct 30 | [*Class*]{.red} | Making your Visuals!<!--/09-week.qmd)-->   |                        | [3](milestones.qmd#m3)  |
 10   | Nov 06 | [*Class*]{.red} | Story boarding!<!--/10-week.qmd)-->  |                    | [4](milestones.qmd#m4) |
 11   | Nov 13 | [*Team*]{.green}| Individual Coaching<!--/11-week.qmd)-->                     | | |

@@ -22,7 +22,7 @@ Find the live recording in the [Course's Team's Recording Folder]({{< var teams.
     - Enter your reading comments in the Form [My Comments: Chapter 2](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=PpeO9wtcuEq715iHyVqOvWY2_0g0xmdMnWy3R6Eqe89UOUNMOTJKWDcwWTNFNURPQVhMSkIzRTBCSC4u)
 2. **Explore different bubble plot** using different variables on `x`, `y`, `size`, and `color` and filter for an interesting year. Decide for an interesting one and post it in the Teams Channel "Bubble Plots".
     1. Explore some option in the interface of the last slides in this week's slides
-    2. Make your own repository from the [template repository VisCom_Playground](https://github.com/CU-F26-MDSSB-MET-03-VisCommDataStory/VisCom_Playground). Use the green button "Use this template". After creation, clone it to your computer, and start working in the script `CountryBubbles.R`. 
+    2. Make your own repository from the [template repository VisCom_Playground](https://github.com/{{< var org.name >}}/VisCom_Playground). Use the green button "Use this template". After creation, clone it to your computer, and start working in the script `CountryBubbles.R`. 
     3. Work own visual. Improve it such that it is on the level you would like to see it when it would be posted on social media. For example:
         - Interesting selection of variables and year(s)
         - Good title

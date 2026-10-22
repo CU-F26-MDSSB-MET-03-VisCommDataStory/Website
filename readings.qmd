@@ -17,9 +17,9 @@ There are several good books on Data Storytelling. I use the following book as a
 
 Dykes, C. (2019). *Effective Data Storytelling: How to Drive Change with Data, Narrative and Visuals*. Wiley.
 
-The book is available as an eBook through the University Library:   
-<https://ebookcentral.proquest.com/lib/constructor-university/detail.action?docID=5993965>   
-(You need to be on campus or login with your University M365 account.)
+The book is available as an eBook through the University Library and in the private Course Material Repo: 
+{{< var dykes2019 >}}  
+(For the library you need to be on campus or login with your University M365 account. For the Repo you need to logged in to GitHub and be member of the GitHub-Organization.)
 
 After the course you will have read most of the book. 
 

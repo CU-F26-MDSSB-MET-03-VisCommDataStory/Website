@@ -1,7 +1,7 @@
 ---
 title: "W#08 Main Insight"
 author: Jan Lorenz
-subtitle: "Many material from Dykes (2019)"
+subtitle: ""
 format: 
   revealjs: 
     slide-number: true
@@ -24,31 +24,20 @@ Lesson: How much time we spend on doing a project is not reflected in how much t
 Source: <https://x.com/ItaiYanai/status/1847127686612758569>
 :::
 
-## Milestones
+## Milestones: From 2 to
 
-### **2 Main insight** 💡 
-
-**Target Achievements:** 
-
-
--   Target audience described
--   List of main insights in your report drafted (about 3-6 or more when the team is large)
--   Prioritized what will be the main insights
-
-
-
-## Milestones
-
-### **2 Main insight** 💡 
+[**2 Main insight** 💡]{style="font-size: 1.5em;"} 
 
 **Target Achievements:** 
 
 
 -   Target audience described
--   List of main insights in your report drafted (about 3-6 or more when the team is large)
+-   List of 3-6 (depending on team size) insights drafted in your report
 -   Prioritized what will be the main insights
 
-### [**3 Visual Drafts** 📊📈📉️]{style="color:gray;"}
+. . . 
+
+[**3 Visual Drafts** 📊📈📉️]{style="font-size: 1.5em; color:gray;"}
 
 ::: {style="color:gray;"}
 
@@ -60,43 +49,15 @@ Source: <https://x.com/ItaiYanai/status/1847127686612758569>
 :::
 
 
-
-# Chapter 1 {.smaller}
-
-::: {.columns}
-::: {.column width='60%'}
-[**Introduction to Driving Change through Insight**]{style='font-size:200%; font-weight:bold;'}
-:::
-::: {.column width='40%'}
-![](img/dykes/effective_data_stroytelling_cover.jpg){height="200px"}
-
-Dykes, B. (2019). **Effective Data Storytelling**: How to Drive Change with Data, Narrative and Visuals. John Wiley & Sons.
-:::
-::: 
-
-
-
 ## Data Literacy {.smaller}
 
 **Definition:** The ability to understand and communicate data.
 
-- Data has no value for data illiterate people!
-- People can be data literate without knowing much statistics or even programming.
-
-. . . 
-
-- As data scientists we are expected to
-    - know some statistics and programming
-    - communicate data insights on a high level to data literate people
-    - can communicate data insights to less data literate people
-
-. . . 
-
-**The challenge for your project: **
+**Challenge for the Data Story**
 
 ::: incremental
 - [Bring your main insights across to an **audience with low and intermediate data literacy**!]{style='color:blue;'}
-- [**Second order challenge:** Present this way in class, although you do not assume your class mates have *low data literacy*.]{style='color:blue;'}
+- [**Second order challenge:** Present it this way in class, although we (hopefully) have high data literacy. Make it simple, do not make it sophisticated to look competent.]{style='color:blue;'}
 ::: 
 
 ## What is an **insight**? {.smaller}

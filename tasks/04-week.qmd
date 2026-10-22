@@ -8,9 +8,7 @@ format:
 
 ## Material
 
-### Assignments for Visualizations of Distributions
-
-Instructor's trials in VisCom_Playground [GitHub Repo](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground)
+Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
 
 ### Spurious Correlations
 
@@ -20,40 +18,53 @@ Slides [Direct Link](../lectures/W{{<meta week>}}.qmd)
 <iframe src="https://{{< var org.name >}}.github.io/Website/lectures/W{{< meta week >}}.html" frameborder="0" width="800" height="550" style="border:1px solid black;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
-Find the live recording in the [Course's Team's Recording Folder]({{< var teams.recording_folder_link >}}). 
+
+### Discussion: Example Visuals Continued
+
+Slides [Direct Link](https://docs.google.com/presentation/d/e/2PACX-1vTtIfC_OTv-tcblXt_5vQ0po2lLvdOLg5S1nwTFtQt-jeLRZ6Pe0X7ebjRi0syfmsMZqQidWV0bt7Yg/pubembed?start=false&loop=false&delayms=3000)
+
+```{=html}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtIfC_OTv-tcblXt_5vQ0po2lLvdOLg5S1nwTFtQt-jeLRZ6Pe0X7ebjRi0syfmsMZqQidWV0bt7Yg/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+``` 
+
 
 ### Data Story Example
 
-[CoviD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/)
+*How could a **Data Story** look?* 
 
-Follow the [Direct Link](https://janlo.de/presentation.html#/title-slide) to the slides!
+Webpage with report and Presentation: [CoviD Pandemic and Summerbreaks](https://janlorenz.github.io/summerbreakcovid/)
 
-Analyse the Data Story
+The slidedeck is the core deliverable: [Direct Link](https://janlo.de/presentation.html#/title-slide)
+
+Analyse the core components of a Data Story. 
+*This is not a perfect example, you can be critical.*
 
 1. What is the main insight?
 2. Who is the target audience?
-3. What is the story structure?
+3. What is the structure of the story?
 4. What are the data sources?
-  - List all what is necessary to reproduce the analysis
+    - List all what is necessary to reproduce the analysis
 5. What metrics are used?
-  - What new metrics are computed? Try to list all. 
-  - How is the raw data transformed mathematically?
+    - What new metrics are computed? List all. 
+    - How is the raw data transformed mathematically?
 6. Got through the slides one by one
-  - What is the purpose of each slide? 
-  - Is anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?
-  - Detailed analysis/critique of the visuals? Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?
-  - Details about the text and visual presentation of concepts/ideas/story points (everything which is not strictly a data visualization)? 
+    - What is the purpose of each slide? 
+    - Is anything missing at the stage of the story? A slide needed before? What could be emphasized or removed?
+    - On the Data Visuals: Is there clutter (unnecessary elements)? Is everything labeled? Are the colors used wisely?
+    - On things not data: Do concepts, ideas, and story points become clear?
 
-*Group discussion.* 
 
-## Assignments / Readings
+### Exploring the Playground Repository
 
-- **Read Chapter 4 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
-- Prepare things to share in class:
-    1. Please find a data story you find interesting and well-crafted on the internet and
-        a. Be prepared to share the link on Teams on Tuesday, so that we can look at it in class.
-        b. Prepare to walk us through the data story and explain what it is about and what you find well-crafted.
-    2. Find a data source that can build the basis to work out a data story. Be prepared to share it in class, and outline in about 3 sentences what the data story could be about. It can be easy or challenging. We will discuss it briefly. It can be something you want to do, but it can just be an idea. Alternatively, if you do not find data, prepare a topic for a data story. We can then briefly discuss how to find out if data is available for it. 
+*How can components of Data Stories be produced? (reproducibly)* 
+
+Explore the GitHub repository [VisCom_Playground](https://github.com/CU-F26-MDSSB-MET-03-VisCommDataStory/VisCom_Playground). Clone it, do `quarto render`, open `_site/index.html` in your browser, and look at the four pages of the Website:
+
+- Start Page: **Report**
+- Bibliography Example: More **references**. Learn how referencing works. Side-quest: There is interesting literature on Data Visualization there!
+- Presentation: **Slide-deck**
+- **Scrollytelling**: A new option you can use to tell your story. (It can be used in parts of your report.)
+
 
 
 ## Additional readings
@@ -62,3 +73,16 @@ Analyse the Data Story
 [Chapter 13 in Fundamentals of Data Visualization: Visualizing time series and other functions of an independent variable](https://clauswilke.com/dataviz/time-series.html) (Wilke 2018)   
 [Chapter 14 in Fundamentals of Data Visualization: Visualizing trends](https://clauswilke.com/dataviz/visualizing-trends.html) (Wilke 2018)   
 
+
+## Assignments / Readings
+
+1. **Read Chapter 4 in {{< var dykes2019 >}}**, consult the [Reading  Remarks](../readings.qmd) for the Chapter. 
+    - Enter your reading comments in the Form [My Comments: Chapter 4](https://forms.cloud.microsoft/e/F7A5cJGG2i) 
+2. Do two preparation tasks for next weeks class. 
+    1. Find a **data story** (Link) you find interesting and well-crafted on the internet and paste the link in the **Teams Channel: Interesting Data Visuals and Data Stories** 
+    2. Post a Data Story Idea in the **Teams Channel: Data Story Ideas**. This shall be not more than 3 sentences. 
+    
+        - What could it be about? 
+        - What data source could build the basis?  
+      
+        It can be easy or challenging. You are not obliged to do it, you can be creative and do not need to care about feasibility. 

@@ -11,9 +11,47 @@ format:
     smaller: true
     code-fold: true
     echo: true
+webr:
+  packages:
+    - dplyr
+    - ggplot2
+  resources:
+    - data/brexit_opinions.csv
+  show-startup-message: true
 ---
 
+# Communicating Insights
+
+## Communication
+
+![](img/InformingCommunicating.png)
+
+- Key question: What **insight** does a visual **communicate** using data?
+
+
+## What is an insight?
+
+> Intuition is the use of patterns they’ve already learned, whereas insight is
+> the discovery of new patterns.
+
+> an unexpected shift in the way we understand things
+
+—Gary Klein, psychologist
+
+. . .
+
+::: {.incremental}
+- Let us strive for insights, but let us not pretend that we always find exciting new ones. Clear well-crafted data-findings can also be an insight.
+- Phenomenon: When you worked a lot with a dataset, insights do not appear unexpected to you.  
+:::
+
+
 # Visualize Amounts and Proportions by Example
+
+Let us walk through an example about Brexit.  
+
+- Discover and discuss different insights we can focus
+- We discuss typical steps from good to great visual
 
 ## Brexit Opinions in the UK
 
@@ -36,7 +74,7 @@ In September 2019, YouGov survey asked 1,639 adults in the UK the following ques
 🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don't know
 :::
 
-The file `brexit_opinions.csv` in the  dataset in the repository [VisCom_Playground](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground). 
+The file `brexit_opinions.csv` in the  dataset in the repository [VisCom_Playground]. 
 
 ::: {.columns}
 ::: {.column}
@@ -273,6 +311,7 @@ What is the (main) purpose of the visualization?
 . . . 
 
 Purpose: **Show how support for Brexit differs regionally**
+
 
 
 ## First try: Segmented stacked barplot
@@ -703,6 +742,9 @@ brexit |>
 
 What is easier to read for what purpose?
 
+
+# Uncertainty and Distributions
+
 ## \#barbarplots
 
 {{< video https://www.youtube.com/watch?v=LFDbqw2xPbQ  width="600" height="400" >}}
@@ -712,13 +754,9 @@ What is easier to read for what purpose?
 :::
 
 
-# Uncertainty and Distributions
+## Cats and Dogs Example 
 
-
-
-## Visualize all data before aggreagteing 
-
-Lets test the dogs and cats example with self created data. 
+Lets test the dogs and cats example with self created data. Aggregated to \#barbarplot 
 
 ```{r}
 set.seed(1234)
@@ -743,6 +781,33 @@ ggplot(animals_mean, aes(x = animal_type, y = avg_weight, fill = animal_type)) +
   labs(x = NULL, y = "Weight") +
   guides(fill = "none")
 ```
+
+## Uncertainty with errorbars
+
+Use `stat_summary()` to aggregate. Functions `mean_se` computes mean and *standard error*, while `mean_sdl` computes the mean and *standard deviation*. **Know the difference.** 
+
+```{r}
+# Example with standard error
+g1 <- animals |>
+  ggplot(aes(animal_type, weight, fill = animal_type)) +
+  stat_summary(fun = mean, geom = "col") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.4) +
+  labs(title = "Mean ± SE") +
+  guides(fill = "none")
+
+# Example with standard deviation
+g2 <- animals |>
+  ggplot(aes(animal_type, weight, fill = animal_type)) +
+  stat_summary(fun = mean, geom = "col") +
+  stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.4) +
+  # fun.args = list(mult = 1) means 1 standard deviation instead of default of two
+  labs(title = "Mean ± SD")
+
+library(patchwork)
+g1 + g2
+```
+
+These are the classic \#barbarplots.
 
 
 ## Show all data with jitter plots
@@ -834,8 +899,10 @@ ggplot(animals, aes(x = weight, y = animal_type, fill = animal_type)) +
 
 ## Practice: Distribution Visualization
 
-Do some of visualizations of distributions using the country dataset in the [VisCom_Playground](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground) repository.
+Assignment to come!
 
-Create a new slidedeck with some trials. 
+<!-- Do some of visualizations of distributions using the country dataset in the [VisCom_Playground](https://github.com/CU-F25-MDSSB-MET-03-VisCommDataStory/VisCom_Playground) repository.
 
-For example: Use Life Expectancy and compare the distribution of countries' value between continents. You can also visualize how a distribution changes over time.
+**Create a new visual showing distributions.** 
+
+For example: Use Life Expectancy and compare the distribution of countries' value between continents. You can also visualize how a distribution changes over time. -->

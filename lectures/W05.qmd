@@ -24,18 +24,24 @@ Credit: Angela Zoss and Eric Monson, Duke DVS, from Data Science Box from Mine C
 
 ## Why do we need to tell a story?
 
+> I’m still a bit unsure about when I should use storytelling and when it’s better to just present the data and findings directly.
+
+
+
+## Why do we need to tell a story?
+
 ::: {.incremental}
 - Most data visualization is done for the purpose of communication. 
 - We have insights from data, and we have a potential audience for it. 
 - To communicate successfully, we have to present a clear and exciting story. 
 - [The need for a story may seem disturbing to scientists and engineers, who may equate it with making things up, putting a spin on things, or overselling results.]{style='color:blue;'}
 - This perspective misses the important role that stories play in reasoning and memory!
-- Moreover, any communication creates a story in the audience’s minds. If we don’t provide a clear story ourselves, then our audience will make one up. In the best-case scenario, the story they make up is reasonably close to our own view of the material presented. However, it can be and often is much worse. The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent.
+- Moreover, any communication creates a story in the audience’s minds. If we don’t provide a clear story ourselves, then our audience will make one up. In the best-case scenario, the story they make up is reasonably close to our own view of the material presented. However, it can be and often is much worse. The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent".
 :::
 
 . . .
 
-So, we have to do it, even we tend to not wanting to do it...
+So, we have to do it, even if we tend to not wanting to do it...
 
 ::: aside
 From: [Chapter 29 in Fundamentals of Data Visualization: Telling a story and making a point](https://clauswilke.com/dataviz/telling-a-story.html) (Wilke 2018)
@@ -128,7 +134,7 @@ Your report will have two parts:
 ![](img/dykes/datastories_six_elements.png)
 
 - [Your **project slide deck and presentation** matches a **Data Presentation**]{style='color:blue;'}
-- [Your **project  report** matches a **Curated Report (and Dashboard)**]{style='color:blue;'}
+- [Your **project  report** matches a **Curated Report**]{style='color:blue;'}
 
 ## Differences in Communication {.smaller}
 
@@ -167,3 +173,43 @@ Your report will have two parts:
 ![](img/storyboardexample.jpg)
 
 Before you have to achieve milestones 0, 1, 2, and 3 ...
+
+## Your Data Story
+
+You will start to work on your data story now!
+
+Important points:
+
+- What **data** source?
+- What can be the **main point**?
+
+. . . 
+
+**Milestones**: 
+
+0. Project Team and Topic
+1. Project Pitch: Data source, one story point, one visual
+2. Main insight (drafted)
+3. Drafts for some visuals
+
+
+## Questions
+
+::: {.incremental}
+- I am not sure if it is necessary or important to choose one main point when the data shows several interesting insights for example. 
+- Where is the middle ground with an audience with various levels of data literacy, where you don't end up "losing" some of the audience due to the level you pitch.
+:::
+ 
+. . . 
+
+*Practicing with Story-boarding.*
+
+::: {.incremental}
+- I would like to understand better how to choose the right chart or visual for different types of data, especially when there are many options to choose from.
+- I am still not completely clear on how to decide which visualization is best when several different chart types could communicate the same data.
+- I found it difficult to understand how much context should be included in a data story without overwhelming the audience with too much information
+:::
+
+. . . 
+
+*Practice, discuss and test.*

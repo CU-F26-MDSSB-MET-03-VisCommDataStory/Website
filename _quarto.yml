@@ -34,17 +34,17 @@ website:
           - text: "#W02"
             href: tasks/02-week.qmd
           - text: "#W03"
-          # - tasks/03-week.qmd
+            href: tasks/03-week.qmd
           - text: "#W04"
-          # - tasks/04-week.qmd
+            href: tasks/04-week.qmd
           - text: "#W05"
-          # - tasks/05-week.qmd
+            href: tasks/05-week.qmd
           - text: "#W06"
-          # - tasks/06-week.qmd
+            href: tasks/06-week.qmd
           - text: "#W07"
-          # - tasks/07-week.qmd
+            href: tasks/07-week.qmd
           - text: "#W08"
-          # - tasks/08-week.qmd
+            href: tasks/08-week.qmd
           - text: "#W09"
           # - tasks/09-week.qmd
           - text: "#W10"
