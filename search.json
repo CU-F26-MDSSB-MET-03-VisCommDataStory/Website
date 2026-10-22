@@ -441,81 +441,81 @@
     "text": "Do your own!\nNow, move over to your own repository, using the template repo “VisCom_Playground”."
   },
   {
+    "objectID": "lectures/W08.html#today",
+    "href": "lectures/W08.html#today",
+    "title": "W#08 Insights and Main Insight",
+    "section": "Today",
+    "text": "Today\nThree class room tasks\n\nAudience specification for your Data Story\nInsights to communicate and prioritizing a candidate for the main insight\nSummary. It is helpful to work on a summary already at an early stage.\n\n\nCheck: Which Data Story Teams are here today?\n\n\nWhere to work today: Use the README.md in your repository to take notes.\nAll Data Story Repos are listed in the private repo Course-Organization-Resources.\nAdd a line\n## Drafting: Audience, Insights, Summary\nat the end of README.md (Alternative: Create a DRAFT.md in the repo.)"
+  },
+  {
     "objectID": "lectures/W08.html#doing-vs.-presenting-projects",
     "href": "lectures/W08.html#doing-vs.-presenting-projects",
-    "title": "W#08 Main Insight",
+    "title": "W#08 Insights and Main Insight",
     "section": "Doing vs. Presenting Projects",
-    "text": "Doing vs. Presenting Projects\n\nLesson: How much time we spend on doing a project is not reflected in how much time we spend presenting a project.\n\n\nSource: https://x.com/ItaiYanai/status/1847127686612758569"
+    "text": "Doing vs. Presenting Projects\n\n\nLesson: Time spend on doing parts of a project \\(\\neq\\) Time spend on present these parts\n\n\n\nSource: https://x.com/ItaiYanai/status/1847127686612758569"
   },
   {
-    "objectID": "lectures/W08.html#milestones",
-    "href": "lectures/W08.html#milestones",
-    "title": "W#08 Main Insight",
-    "section": "Milestones",
-    "text": "Milestones\n2 Main insight 💡\nTarget Achievements:\n\nTarget audience described\nList of main insights in your report drafted (about 3-6 or more when the team is large)\nPrioritized what will be the main insights"
-  },
-  {
-    "objectID": "lectures/W08.html#milestones-1",
-    "href": "lectures/W08.html#milestones-1",
-    "title": "W#08 Main Insight",
-    "section": "Milestones",
-    "text": "Milestones\n2 Main insight 💡\nTarget Achievements:\n\nTarget audience described\nList of main insights in your report drafted (about 3-6 or more when the team is large)\nPrioritized what will be the main insights\n\n3 Visual Drafts 📊📈📉️\n\nTarget Achievements:\n\nFor each insight\n\na visuals drafted in the report or the presentation (a draft can be a first coded visual, or even photo of a sketch on paper)\nnotes and ideas for the final version"
+    "objectID": "lectures/W08.html#milestones-from-2-to-3",
+    "href": "lectures/W08.html#milestones-from-2-to-3",
+    "title": "W#08 Insights and Main Insight",
+    "section": "Milestones: From 2 to 3",
+    "text": "Milestones: From 2 to 3\n2 Main insight 💡\nTarget Achievements:\n\nTarget audience described\nList of 3-6 (depending on team size) insights drafted in your report\nPrioritized what will be the main insights\n\n\n3 Visual Drafts 📊📈📉️\n\nTarget Achievements:\n\nFor each insight\n\na visuals drafted in the report or the presentation (a draft can be a first coded visual, or even photo of a sketch on paper)\nnotes and ideas for the final version"
   },
   {
     "objectID": "lectures/W08.html#data-literacy",
     "href": "lectures/W08.html#data-literacy",
-    "title": "W#08 Main Insight",
+    "title": "W#08 Insights and Main Insight",
     "section": "Data Literacy",
-    "text": "Data Literacy\nDefinition: The ability to understand and communicate data.\n\nData has no value for data illiterate people!\nPeople can be data literate without knowing much statistics or even programming.\n\n\n\nAs data scientists we are expected to\n\nknow some statistics and programming\ncommunicate data insights on a high level to data literate people\ncan communicate data insights to less data literate people\n\n\n\n\nThe challenge for your project: \n\nBring your main insights across to an audience with low and intermediate data literacy!\nSecond order challenge: Present this way in class, although you do not assume your class mates have low data literacy."
+    "text": "Data Literacy\nDefinition: The ability to understand and communicate data.\nChallenge for the Data Story\n\nBring your main insights across to an audience with low and intermediate data literacy!\nSecond order challenge: Present it this way in class, although we (hopefully) have high data literacy. Make it simple, do not make it sophisticated to look competent."
   },
   {
     "objectID": "lectures/W08.html#what-is-an-insight",
     "href": "lectures/W08.html#what-is-an-insight",
-    "title": "W#08 Main Insight",
+    "title": "W#08 Insights and Main Insight",
     "section": "What is an insight?",
-    "text": "What is an insight?\nEtymology: “inner sight” or “ sight with the ‘eyes’ of the mind”\nA Definition: an unexpected shift in the way we understand things\n\nHowever: Do not feel too much presured!\n\nThe insight need not be new.\nIt also does not need to be unexpected to you or everybody.\n\nIt is more an attitude of holding your main insight to be interesting and important for you and your audience."
+    "text": "What is an insight?\nEtymology: “inner sight” or “ sight with the ‘eyes’ of the mind”\nA Definition: an unexpected shift in the way we understand things\n\nLet us not overdo it!\n\nThe insight need not be new.\nIt also does not need to be unexpected to you or everybody.\n\n\n\nPragmatic interpretation: Presenting things as insights is your presenter attitude. Present things with the idea that they can trigger interesting and important insights in your audience."
   },
   {
     "objectID": "lectures/W08.html#which-perspective-of-communication-shall-the-project-have",
     "href": "lectures/W08.html#which-perspective-of-communication-shall-the-project-have",
-    "title": "W#08 Main Insight",
+    "title": "W#08 Insights and Main Insight",
     "section": "Which perspective of communication shall the project have?",
     "text": "Which perspective of communication shall the project have?\nYou can communicate to the audience from the position of an\n\n\n\nInsider\n\n\nOutsider\n\n\nWhat is the story telling position in your project?"
   },
   {
     "objectID": "lectures/W08.html#path-to-value",
     "href": "lectures/W08.html#path-to-value",
-    "title": "W#08 Main Insight",
+    "title": "W#08 Insights and Main Insight",
     "section": "Path to value",
     "text": "Path to value\n\n\nThink about a potential role your project report could have for your audience."
   },
   {
-    "objectID": "lectures/W08.html#task-1-audience",
-    "href": "lectures/W08.html#task-1-audience",
-    "title": "W#08 Main Insight",
-    "section": "Task 1: Audience",
-    "text": "Task 1: Audience\nThink about the audience of your report: The people you imagine to view your presentation or read your report.\n\nDescribe three different potential individuals in your audience.\nImagine a broader audience than our class!\nAnswer for example:\n\nWho are they?\nWhy are they interested?\nWhat is their connection to the topic?\n\n\nIn class: Describe one individual.\n\n\nThis is called the Persona method coming from Design thinking. Personas help to empathize with users by giving abstract data a human face. Instead of designing for “users aged 25-40,” you design for “Sarah, a 32-year-old marketing manager who commutes 90 minutes daily and needs to manage projects on her phone.”"
+    "objectID": "lectures/W08.html#task-audience",
+    "href": "lectures/W08.html#task-audience",
+    "title": "W#08 Insights and Main Insight",
+    "section": "Task: Audience",
+    "text": "Task: Audience\nThink about the audience of your report: These are the people you imagine to view your presentation.\nWe use the persona approach:\n\nDescribe three different potential individuals in your audience.\nImagine a broader audience than our class!\nAnswer for example:\n\nWho are they?\nWhy are they interested?\nWhat is their connection to the topic?\n\n\nIn class: Describe one individual.\n\n\nThis is called the Persona method coming from Design thinking. Personas help to empathize with users by giving abstract data a human face. Instead of designing for “users aged 25-40,” you design for “Sarah, a 32-year-old marketing manager who commutes 90 minutes daily and needs to manage projects on her phone.”"
   },
   {
-    "objectID": "lectures/W08.html#task-2-short-version-of-story",
-    "href": "lectures/W08.html#task-2-short-version-of-story",
-    "title": "W#08 Main Insight",
-    "section": "Task 2: Short Version of Story",
-    "text": "Task 2: Short Version of Story\nAbstract\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nExample Abstract for the Data Story CoViD Pandemic and Summerbreaks on the website.\n\nOne Sentence\nWrite a one-sentence version of the abstract which contains the main point of your report.\nExample for the Data Story CoViD Pandemic and Summerbreaks:\n\nSchool holidays and summer vacation made the spread of CoViD19 faster, probably because prevention measures at school and in the work place worked better than those for leisure activites and those taken with relatives and friends.\n\nIn class: Describe one individual."
+    "objectID": "lectures/W08.html#task-insights",
+    "href": "lectures/W08.html#task-insights",
+    "title": "W#08 Insights and Main Insight",
+    "section": "Task: Insights",
+    "text": "Task: Insights\nWhat can be main insights of your Data Story?\nActivity: In teams Option: Work on Whiteboards in Teams.\n\nList at least 3 potential main insights/story points, better more\n(It’s okay if the insights are uncertain for now because you do not know yet)\n\nNext: Activity: In groups of teams"
   },
   {
-    "objectID": "lectures/W08.html#task-3-main-insights",
-    "href": "lectures/W08.html#task-3-main-insights",
-    "title": "W#08 Main Insight",
-    "section": "Task 3: Main Insights",
-    "text": "Task 3: Main Insights\nWhat can be main insights of your Data Story?\nActivity: In teams Option: Work on Whiteboards in Teams.\n\nList at least 3 potential main insights/story points, better more\n(It’s okay if the insights are uncertain for now because you do not know yet)\n\nNext: Activity: In groups of teams"
+    "objectID": "lectures/W08.html#task-prioritize-main-insight",
+    "href": "lectures/W08.html#task-prioritize-main-insight",
+    "title": "W#08 Insights and Main Insight",
+    "section": "Task: Prioritize Main Insight",
+    "text": "Task: Prioritize Main Insight\nDiscuss and select main insight of your Data Story?\nActivity: In groups of teams\n\nDiscuss each Data Story in your group and\n\n\nselect a tentative main insight (not binding)\nalso list other insights\nlist also essential information/concepts you want to communicate\n\nRole of other project members: Ask questions\n\nWhat is important to know as an outsider?\nWhat is most interesting as main insight? Why?\n\nIn class: Show your Notes/Whiteboard?"
   },
   {
-    "objectID": "lectures/W08.html#task-4-prioritize-main-insight",
-    "href": "lectures/W08.html#task-4-prioritize-main-insight",
-    "title": "W#08 Main Insight",
-    "section": "Task 4: Prioritize Main Insight",
-    "text": "Task 4: Prioritize Main Insight\nDiscuss and select main insight of your Data Story?\nActivity: In groups of teams\n\nDiscuss each Data Story in your group and\n\n\nselect a tentative main insight (not binding)\nalso list other insights\nlist also essential information/concepts you want to communicate\n\nRole of other project members: Ask questions\n\nWhat is important to know as an outsider?\nWhat is most interesting as main insight? Why?\n\nIn class: Show your Notes/Whiteboard?"
+    "objectID": "lectures/W08.html#task-short-version-of-story",
+    "href": "lectures/W08.html#task-short-version-of-story",
+    "title": "W#08 Insights and Main Insight",
+    "section": "Task: Short Version of Story",
+    "text": "Task: Short Version of Story\nAbstract\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nExample Abstract for the Data Story CoViD Pandemic and Summerbreaks on the website.\n\nOne Sentence\nWrite a one-sentence version of the abstract which contains the main point of your report.\nExample for the Data Story CoViD Pandemic and Summerbreaks:\n\nSchool holidays and summer vacation made the spread of CoViD19 faster, probably because prevention measures at school and in the work place worked better than those for leisure activites and those taken with relatives and friends.\n\nIn class: Read out the one sentence summaries."
   },
   {
     "objectID": "lectures/W03.html#communication",
@@ -543,7 +543,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Don't know london        \n 2 Right      rest_of_south \n 3 Wrong      scot          \n 4 Wrong      midlands_wales\n 5 Right      scot          \n 6 Right      north         \n 7 Wrong      london        \n 8 Wrong      midlands_wales\n 9 Right      midlands_wales\n10 Right      midlands_wales"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Wrong      rest_of_south \n 2 Wrong      midlands_wales\n 3 Wrong      north         \n 4 Wrong      rest_of_south \n 5 Wrong      scot          \n 6 Right      rest_of_south \n 7 Right      rest_of_south \n 8 Right      midlands_wales\n 9 Don't know midlands_wales\n10 Wrong      london"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1188,7 +1188,7 @@
     "href": "tasks/07-week.html",
     "title": "Week 07",
     "section": "",
-    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nKeyword\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nNo entry\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
+    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nRepo\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nSyriaTrade\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1200,7 +1200,7 @@
     "href": "tasks/07-week.html#material",
     "title": "Week 07",
     "section": "",
-    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nKeyword\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nNo entry\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
+    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nRepo\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nSyriaTrade\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1212,7 +1212,7 @@
     "href": "tasks/07-week.html#assignments-readings",
     "title": "Week 07",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/1KUx2DTZxu\n\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story CoViD Pandemic and Summerbreaks: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!) showing that prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”",
+    "text": "Assignments / Readings\n\nRead Chapter 7 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 7\n\nCheck your project work against Milestone 1 and bring it to that level.\nPrepare for the classroom activities in Week 08:\n\nDraft at least 3 visuals as potential story points.\nA story point is a SLIDE in your presentation. Drafting a story point can mean a non-polished visual made with the real data, a visual sketch you did on paper and photograph to have it in the slides, or notes describing the visual to make\nWrite three short narrative texts for example in your repo’s report/index file\n\nWhat is the audience of your report? The audience are the people you imagine to view your presentation or read your report. Describe three different potential individuals in your audience. You are allowed to imagine a broader audience than our class. Answer for example: Who are they? Why are they interested? What is their connection to the topic?\nWrite a short version of your story in the format of an abstract (6-7 sentences, 150-200 words)\nWrite a one-sentence version of the abstract which contains the main insight of your report.\nExample for the Data Story CoViD Pandemic and Summerbreaks: “School holidays and summer vacation made the spread of CoViD19 faster/slower (to find out!) showing that prevention measures at school and in the work place worked better/worse (to find out!) than those for leisure activites and those taken with relatives and friends.”",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1224,21 +1224,36 @@
     "href": "tasks/08-week.html",
     "title": "Week 08",
     "section": "",
-    "text": "Input slides Direct Link\n\nThe slides also contain the activities in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Input slides Direct Link\n\nThe slides also contain the activities in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W08"
+    ]
   },
   {
     "objectID": "tasks/08-week.html#material",
     "href": "tasks/08-week.html#material",
     "title": "Week 08",
     "section": "",
-    "text": "Input slides Direct Link\n\nThe slides also contain the activities in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Input slides Direct Link\n\nThe slides also contain the activities in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W08"
+    ]
   },
   {
     "objectID": "tasks/08-week.html#assignments-readings",
     "href": "tasks/08-week.html#assignments-readings",
     "title": "Week 08",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 8 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nhttps://forms.cloud.microsoft/e/KMXzW4PHwD\n\nCheck your project work against Milestone 2: Main insight 💡 and bring it to that level.\nPrepare for the classroom activities in Week 09\n\nMake one visual for your story with your actual data.\nBe ready to share the visual (e.g. screenshot) and the code (R or Python, also share the packages used) over Teams in class.\nBe ready to explain what story point you want to make with the visual.\nWhat improvements you would like to make (annotations, insets, labels, images, …)\n\nThe purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. So, the discussion should take the form of a peer consulting session."
+    "text": "Assignments / Readings\n\nRead Chapter 8 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 8\n\nCheck your project work against Milestone 2: Main insight 💡 and bring it to that level.\nPrepare for the classroom activities in Week 09:\n\nMake one visual for your story with your actual data.\nBe ready to share the visual (e.g. screenshot) and the code (R or Python, also share the packages used) over Teams in class.\nBe ready to explain what story point you want to make with the visual.\nWhat improvements you would like to make (annotations, insets, labels, images, …)\n\nThe purpose is to discuss improvements but also technical feedback in class. It is expected that students work with different languages, packages, or tools. The discussion should take the form of a peer consulting session.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W08"
+    ]
   },
   {
     "objectID": "tasks/12-week.html",
@@ -1394,7 +1409,7 @@
     "href": "tasks/06-week.html#assignments-readings",
     "title": "Week 06",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 6\n\nPrepare your project pitch for Week #07.\n\nPrepare it in your project repository. See Week 5 how to make one.\nHave all essential parts outlined at Milestone 1: Project Pitch ready for the presentation.\nPerfection in visualization is not the goal at this stage, but having something to pitch.",
+    "text": "Assignments / Readings\n\nRead Chapter 6 in Dykes (2019) Library Repo, consult the Reading Remarks for the Chapter.\n\nEnter your reading comments in the Form My Comments: Chapter 6\n\nPrepare your project pitch for Week #07:\n\nPrepare it in your project repository. See Week 5 how to make one.\nHave all essential parts outlined at Milestone 1: Project Pitch ready for the presentation.\nPerfection in visualization is not the goal at this stage, but having something to pitch.",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1589,7 +1604,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Project Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nData Story Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nMain Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Term\nSubmission\nFinal report and slidedeck\n\n6",
+    "text": "Class = whole class meets together\nTeam = team sessions with the instructor in the same time (no class meeting)\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDates\nHow\nTopic\nReadings\nMilestones\n\n\n\n\n1\nSep 04\nClass\nWhat is Visual Communication? What is Data Storytelling?\nCh 1\n\n\n\n2\nSep 11\nClass\nData Visualization: Grammar of Graphics\nCh 2\n\n\n\n3\nSep 18\nClass\nAmounts Proportions Uncertainty\nCh 3\n\n\n\n4\nSep 25\nClass\nRelationships Comparisons Annotations\nCh 4\n\n\n\n5\nOct 02\nClass\nData Stories\nCh 5\n\n\n\n6\nOct 09\nTeam\nIndividual Coaching: Project Work Start!\nCh 6\n0\n\n\n7\nOct 16\nClass\nData Story Pitches\nCh 7\n1\n\n\n8\nOct 23\nClass\nInsights and Main Insight\nCh 8\n2\n\n\n9\nOct 30\nClass\nMaking your Visuals!\n\n3\n\n\n10\nNov 06\nClass\nStory boarding!\n\n4\n\n\n11\nNov 13\nTeam\nIndividual Coaching\n\n\n\n\n12\nNov 20\nClass\nPolishing your Visuals\n\n\n\n\n13\nNov 27\nClass\nStudent Presentations\n\n5\n\n\n14\nDec 04\nClass\nStudent Presentations\n\n\n\n\n \nEnd of Term\nSubmission\nFinal report and slidedeck\n\n6",
     "crumbs": [
       "Syllabus",
       "Schedule"
