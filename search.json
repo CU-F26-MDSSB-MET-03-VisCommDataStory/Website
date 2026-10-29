@@ -515,7 +515,7 @@
     "href": "lectures/W08.html#task-1-list-insights",
     "title": "W#08 Insights and Main Insight",
     "section": "Task 1: List Insights",
-    "text": "Task 1: List Insights\nWhat can be main insights of your Data Story?\nActivity in your Team:\nList 3 potential insights. If your team has more than 3 members list at least one for each member.\nTeam size 1-3 \\(\\to\\) &gt;3 insights\nTeam size 4 \\(\\to\\) &gt;4 insights\nTeam size 5 \\(\\to\\) &gt;5 insights\n(It’s okay if the insights are uncertain for now because you do not know yet)\nNext: Activity: In groups of teams"
+    "text": "Task 1: List Insights\nWhat can be main insights of your Data Story?\nActivity in your Team:\nList 3 potential insights. If your team has more than 3 members list at least one for each member.\nTeam size 1-3 \\(\\to\\) &gt;3 insights\nTeam size 4 \\(\\to\\) &gt;4 insights\nTeam size 5 \\(\\to\\) &gt;5 insights\n(It’s okay if the insights are uncertain for now because you do not know yet)"
   },
   {
     "objectID": "lectures/W08.html#task-2-prioritize-main-insight",
@@ -564,7 +564,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      rest_of_south \n 2 Don't know midlands_wales\n 3 Wrong      midlands_wales\n 4 Wrong      midlands_wales\n 5 Wrong      north         \n 6 Wrong      midlands_wales\n 7 Wrong      midlands_wales\n 8 Right      north         \n 9 Don't know midlands_wales\n10 Right      rest_of_south"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Wrong      north         \n 2 Wrong      midlands_wales\n 3 Wrong      london        \n 4 Wrong      midlands_wales\n 5 Right      north         \n 6 Wrong      london        \n 7 Wrong      scot          \n 8 Right      midlands_wales\n 9 Wrong      london        \n10 Don't know rest_of_south"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1302,21 +1302,36 @@
     "href": "tasks/09-week.html",
     "title": "Week 09",
     "section": "",
-    "text": "9:45 - 11:00\nInput slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nA special event! A talk by a leading data visualization expert.\n11:15 - 12:30 Room RLH 274 (as part of Current Topics Seminars)\nSpeaker: Moritz Stefaner\nTitle: The Art and Beauty of Data Visualization\nAbstract: As an independent Truth & Beauty Operator, Moritz Stefaner is constantly chasing the perfect shape for information — how can we create expressive, intriguing, and elegant data experiences? Drawing on high-profile projects for the German government, WHO, and OECD, as well as innovative creative explorations, he demonstrates how effective data visualization can achieve much more than simply making charts look nicer.\n\n\nShort Bio: With a background in Cognitive Science and Interface Design, his work beautifully balances analytical and aesthetic aspects in mapping complex phenomena to support data–driven decision making. Moritz has helped clients like the OECD, Google News Initiative, Salesforce, the World Economic Forum, Deutsche Bahn and the Max Planck Research Society to find insights and beauty in large and complex data sets. He is the record winner of the Kantar Information is Beautiful awards and his work has been exhibited at Venice Biennale of Architecture, SIGGRAPH, Max Planck Science Gallery, Fondation EDF, and Ars Electronica. As a writer, co-host of the Data Stories podcast, and sought-after keynote speaker and workshop facilitator, Moritz Stefaner continues to excite more and more people about the magic that can emerge when art and science connect deeply.\n\n\n\n\nSlide of Moritz Stefaner\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W09"
+    ]
   },
   {
     "objectID": "tasks/09-week.html#material",
     "href": "tasks/09-week.html#material",
     "title": "Week 09",
     "section": "",
-    "text": "9:45 - 11:00\nInput slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.\n\n\n\nA special event! A talk by a leading data visualization expert.\n11:15 - 12:30 Room RLH 274 (as part of Current Topics Seminars)\nSpeaker: Moritz Stefaner\nTitle: The Art and Beauty of Data Visualization\nAbstract: As an independent Truth & Beauty Operator, Moritz Stefaner is constantly chasing the perfect shape for information — how can we create expressive, intriguing, and elegant data experiences? Drawing on high-profile projects for the German government, WHO, and OECD, as well as innovative creative explorations, he demonstrates how effective data visualization can achieve much more than simply making charts look nicer.\n\n\nShort Bio: With a background in Cognitive Science and Interface Design, his work beautifully balances analytical and aesthetic aspects in mapping complex phenomena to support data–driven decision making. Moritz has helped clients like the OECD, Google News Initiative, Salesforce, the World Economic Forum, Deutsche Bahn and the Max Planck Research Society to find insights and beauty in large and complex data sets. He is the record winner of the Kantar Information is Beautiful awards and his work has been exhibited at Venice Biennale of Architecture, SIGGRAPH, Max Planck Science Gallery, Fondation EDF, and Ars Electronica. As a writer, co-host of the Data Stories podcast, and sought-after keynote speaker and workshop facilitator, Moritz Stefaner continues to excite more and more people about the magic that can emerge when art and science connect deeply.\n\n\n\n\nSlide of Moritz Stefaner\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W09"
+    ]
   },
   {
     "objectID": "tasks/09-week.html#assignments",
     "href": "tasks/09-week.html#assignments",
     "title": "Week 09",
     "section": "Assignments",
-    "text": "Assignments\n\nCheck your project work against Milestone 3: Visual Drafts 📊📈📉️ and bring it to that level.\nHave a list of story points and visual drafts ready for Milestone 4: Data story and storyboard 📖 next week.\nIf you need to follow next week’s Storyboarding online: Prepare a pile of 10-20 sheets of paper in small format (A6 or A7 = Postcard or half a postcard, also Post-its can work if not very small) and pens in 2-4 colors. You also need space on a table where you can order and shift around these sheets. My experience is that this is better than using online whiteboards. When your team colleagues are also remote, I suggest you both storyboard independently and exchange either in class occasionally or afterward."
+    "text": "Assignments\n\nCheck your project work against Milestone 3: Visual Drafts 📊📈📉️ and bring it to that level.\nHave a list of story points and visual drafts ready for Milestone 4: Data story and storyboard 📖 next week.\nImportant: Next week’s Storyboarding activity is designed for in the classroom!\nIf you must follow next week’s Storyboarding online: Prepare a pile of 10-20 sheets of paper in small format (A6 or A7 = Postcard or half a postcard, also Post-its can work if not too small) and pens in 2-4 colors. You also need space on a table where you can order and shift around these sheets. My experience is that this is better than using online whiteboards. When your team colleagues are also online, I suggest you both storyboard independently and exchange either in class occasionally or afterward.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W09"
+    ]
   },
   {
     "objectID": "tasks/11-week.html",
