@@ -564,7 +564,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Wrong      north         \n 2 Wrong      midlands_wales\n 3 Wrong      london        \n 4 Wrong      midlands_wales\n 5 Right      north         \n 6 Wrong      london        \n 7 Wrong      scot          \n 8 Right      midlands_wales\n 9 Wrong      london        \n10 Don't know rest_of_south"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Wrong      london        \n 2 Don't know midlands_wales\n 3 Wrong      midlands_wales\n 4 Don't know rest_of_south \n 5 Wrong      london        \n 6 Wrong      london        \n 7 Right      rest_of_south \n 8 Wrong      london        \n 9 Wrong      north         \n10 Wrong      north"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1770,21 +1770,28 @@
     "href": "lectures/W09.html#data-variations-to-consider-for-visuals",
     "title": "W#09 Making Visuals",
     "section": "Data Variations to Consider for Visuals",
-    "text": "Data Variations to Consider for Visuals\n\nActivity: (Consult the Dykes (2019) for details)\n\nThink about communicating Totals, Percentages and Variance. How important is which for your story?\n\nDo you need a Special Calculated Metric?\nWhat added context will help? (Aggregated data as main trend, or data from other sources for comparison.)"
+    "text": "Data Variations to Consider for Visuals\n\nActivity: For your Data Story note a data variation you (could) do for each of these:\n\n\n\nTotals\nPercentages, part-of-a-whole\nChange, in time or what else, as percentage, or total?\n\n\n\nAnother Metric special for your purpose\nVariance or other way to show or summarize variation\nInteresting added context, a main trend/average, data from other source?"
   },
   {
     "objectID": "lectures/W09.html#example-visual-story-points",
     "href": "lectures/W09.html#example-visual-story-points",
     "title": "W#09 Making Visuals",
     "section": "Example (Visual) Story Points",
-    "text": "Example (Visual) Story Points\n\nActivity: Write down which of them you will use. Sketch how. Extend by some you could check out. (Consult the Dykes (2019) for details)"
+    "text": "Example (Visual) Story Points\n\n\n\n\nActivity: For a visual of another team:\n\nWrite down which story points (narrative!) can be made with the visual.\nWhat could be added to foster it?\nIs it a good chart type?"
   },
   {
-    "objectID": "lectures/W09.html#ideas-on-data-visuals",
-    "href": "lectures/W09.html#ideas-on-data-visuals",
+    "objectID": "lectures/W09.html#ideas-on-data-visuals-chart-types",
+    "href": "lectures/W09.html#ideas-on-data-visuals-chart-types",
     "title": "W#09 Making Visuals",
-    "section": "Ideas on Data Visuals",
-    "text": "Ideas on Data Visuals\n\nActivity: Write down which of them you will use. Sketch how. Extend by some you could check out. (Consult the Dykes (2019) for details)"
+    "section": "Ideas on Data Visuals: Chart Types",
+    "text": "Ideas on Data Visuals: Chart Types\n\nActivity: For your Data Story, go through the categories Comparison, Trend, Composition, Relationship, Distribution, Spatial, Flow and describe at least one possible visual."
+  },
+  {
+    "objectID": "lectures/W09.html#best-practices",
+    "href": "lectures/W09.html#best-practices",
+    "title": "W#09 Making Visuals",
+    "section": "Best practices",
+    "text": "Best practices\n\nHow to make visuals practically?\nWhat is your workflow?\nWhat is important for the workflow?\nHow well does AI help?\n\nWhat is important for the human to do?\n\n\nLet us discuss your experiences."
   },
   {
     "objectID": "lectures/W04.html#stop-eating-margarine",
