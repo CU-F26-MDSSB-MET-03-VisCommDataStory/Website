@@ -564,7 +564,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Wrong      london        \n 2 Don't know midlands_wales\n 3 Wrong      midlands_wales\n 4 Don't know rest_of_south \n 5 Wrong      london        \n 6 Wrong      london        \n 7 Right      rest_of_south \n 8 Wrong      london        \n 9 Wrong      north         \n10 Wrong      north"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      london        \n 2 Right      london        \n 3 Wrong      midlands_wales\n 4 Wrong      north         \n 5 Don't know london        \n 6 Wrong      london        \n 7 Right      rest_of_south \n 8 Wrong      scot          \n 9 Right      london        \n10 Wrong      rest_of_south"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -895,7 +895,7 @@
     "href": "index.html#class-meeting-information",
     "title": "Visual Communication and Data Story-telling",
     "section": "3 Class Meeting Information",
-    "text": "3 Class Meeting Information\nClasses are on Tuesdays\nSession 1 Fri 9:45 - 11:00\nSession 2 Fri 11:15 - 12:30\nLocation: IRC-Seminar Room III in-person\nVideo streaming and recording in Teams will be provided (but it does not work for all class activities perfectly): Team F26_MDSSB-MET-03_Visual Communication and Data Story-telling, General Channel",
+    "text": "3 Class Meeting Information\nClasses are:\nSession 1 Fri 9:45 - 11:00\nSession 2 Fri 11:15 - 12:30\nLocation: IRC-Seminar Room III in-person\nVideo streaming and recording in Teams will be provided (but it does not work for all class activities perfectly): Team F26_MDSSB-MET-03_Visual Communication and Data Story-telling, General Channel",
     "crumbs": [
       "Syllabus"
     ]
@@ -1152,21 +1152,36 @@
     "href": "tasks/10-week.html",
     "title": "Week 10",
     "section": "",
-    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W10"
+    ]
   },
   {
     "objectID": "tasks/10-week.html#material",
     "href": "tasks/10-week.html#material",
     "title": "Week 10",
     "section": "",
-    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder."
+    "text": "Input slides Direct Link\n\nThe slides also mention the activity in class. If you do this week assynchronously, please work through the slides and do the activities on your own.\nFind the live recording in the Course’s Team’s Recording Folder.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W10"
+    ]
   },
   {
     "objectID": "tasks/10-week.html#assignments-readings",
     "href": "tasks/10-week.html#assignments-readings",
     "title": "Week 10",
     "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nCheck your project work against Milestone 4: Data story and storyboard 📖 and bring it to that level.\nPrepare a draft presentation of your project for the individual coaching to discuss the student presentation Milestone 5: Presentation 💬. To that end read:\n\nDelivery: Quarto Advice and check the DataStory_Template. (You need to be member of CU-F26-MDSSB-MET-03-VisCommDataStory and logged in at GitHub.)"
+    "text": "Assignments / Readings\n\nCheck your project work against Milestone 4: Data story and storyboard 📖 and bring it to that level.\nPrepare a draft presentation of your project for the individual coaching to discuss the student presentation Milestone 5: Presentation 💬. To that end read:\n\nDelivery: Quarto Advice and check the DataStory_Template. (You need to be member of CU-F26-MDSSB-MET-03-VisCommDataStory and logged in at GitHub.)",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W10"
+    ]
   },
   {
     "objectID": "tasks/01-week.html",
@@ -1338,21 +1353,36 @@
     "href": "tasks/11-week.html",
     "title": "Week 11",
     "section": "",
-    "text": "A meeting will be scheduled on MS Teamsin the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor."
+    "text": "A meeting will be scheduled on MS Teams in the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W11"
+    ]
   },
   {
     "objectID": "tasks/11-week.html#no-class-but-individual-meeting-with-instructor-about-project-status-and-presentation",
     "href": "tasks/11-week.html#no-class-but-individual-meeting-with-instructor-about-project-status-and-presentation",
     "title": "Week 11",
     "section": "",
-    "text": "A meeting will be scheduled on MS Teamsin the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor."
+    "text": "A meeting will be scheduled on MS Teams in the range of class 09:45 – 12:30. Special arrangement are possible for online students, contact the instructor.",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W11"
+    ]
   },
   {
-    "objectID": "tasks/11-week.html#assignments-readings",
-    "href": "tasks/11-week.html#assignments-readings",
+    "objectID": "tasks/11-week.html#additional-reading",
+    "href": "tasks/11-week.html#additional-reading",
     "title": "Week 11",
-    "section": "Assignments / Readings",
-    "text": "Assignments / Readings\n\nRead the paper recommended by Moritz Stefaner: Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110–161. https://doi.org/10.1177/15291006211051956"
+    "section": "Additional Reading",
+    "text": "Additional Reading\n\nRead the scientific paper on what works in visual communication: Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110–161. https://doi.org/10.1177/15291006211051956",
+    "crumbs": [
+      "Syllabus",
+      "Schedule",
+      "#W11"
+    ]
   },
   {
     "objectID": "tasks/13-week.html",
@@ -1693,7 +1723,7 @@
     "href": "lectures/W10.html#six-essential-elements-of-data-stories",
     "title": "W#10: Storyboarding!",
     "section": "Six essential elements of data stories",
-    "text": "Six essential elements of data stories\n\n\nYour project slide deck and presentation matches a Data Presentation\nYour project report matches a Curated Report (and Dashboard)"
+    "text": "Six essential elements of data stories\n\n\nYour project slide deck and presentation matches a Data Presentation\nYour project report matches a Curated Report"
   },
   {
     "objectID": "lectures/W10.html#differences-in-communication",
