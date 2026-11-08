@@ -564,7 +564,7 @@
     "href": "lectures/W03.html#brexit-survey-data",
     "title": "W#03 Amounts Proportions Uncertainty",
     "section": "Brexit Survey Data",
-    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion    region        \n   &lt;chr&gt;      &lt;chr&gt;         \n 1 Right      london        \n 2 Right      london        \n 3 Wrong      midlands_wales\n 4 Wrong      north         \n 5 Don't know london        \n 6 Wrong      london        \n 7 Right      rest_of_south \n 8 Wrong      scot          \n 9 Right      london        \n10 Wrong      rest_of_south"
+    "text": "Brexit Survey Data\nIn September 2019, YouGov survey asked 1,639 adults in the UK the following question:\n\nIn hindsight, do you think Britain was right/wrong to vote to leave EU?\n🔲 Right to leave | 🔲 Wrong to leave | 🔲 Don’t know\n\nThe file brexit_opinions.csv in the dataset in the repository [VisCom_Playground].\n\n\nLook at the first 10 rows\n\n\nCode\nlibrary(tidyverse)\nbrexit &lt;- read_csv(\"data/brexit_opinions.csv\")\nbrexit\n\n\n# A tibble: 1,639 × 2\n   opinion region\n   &lt;chr&gt;   &lt;chr&gt; \n 1 Right   london\n 2 Right   london\n 3 Right   london\n 4 Right   london\n 5 Right   london\n 6 Right   london\n 7 Right   london\n 8 Right   london\n 9 Right   london\n10 Right   london\n# ℹ 1,629 more rows\n\n\n\nLook at 10 random rows\n\n\nCode\nbrexit |&gt; slice_sample(n = 10)\n\n\n# A tibble: 10 × 2\n   opinion region        \n   &lt;chr&gt;   &lt;chr&gt;         \n 1 Right   rest_of_south \n 2 Wrong   rest_of_south \n 3 Wrong   midlands_wales\n 4 Wrong   midlands_wales\n 5 Wrong   london        \n 6 Wrong   rest_of_south \n 7 Wrong   rest_of_south \n 8 Wrong   rest_of_south \n 9 Right   london        \n10 Right   rest_of_south"
   },
   {
     "objectID": "lectures/W03.html#first-basic-visuals-with-geom_bar",
@@ -1224,7 +1224,7 @@
     "href": "tasks/07-week.html",
     "title": "Week 07",
     "section": "",
-    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nRepo\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nSyriaTrade\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
+    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nMeeting\nTime\nNumber\nRepo\n\n\n\n\n1\n10:45:00\n1\nBusinessDynamics\n\n\n2\n11:00:00\n2\nLifeExpectancy\n\n\n3\n11:15:00\n3\nEnergy\n\n\n4\n11:30:00\n4\nRentSqueeze\n\n\n5\n11:45:00\n5\nBikeSharing\n\n\n6\n12:00:00\n6\nBremenTransit\n\n\n7\n12:15:00\n7\nDigitalSkills\n\n\n7\n12:15:00\n8\nSteamGaming\n\n\n8\n12:30:00\n9\nStudentHousing\n\n\n8\n12:30:00\n10\nOpportunitiesInDE\n\n\n9\n12:45:00\n11\nTechChurn\n\n\n9\n12:45:00\n12\nTakedownRequests\n\n\n9\n12:45:00\n13\nProcurementSupplierAnalysis\n\n\n10\n13:00:00\n14\nAIDivides\n\n\n10\n13:00:00\n15\nAIImpact\n\n\n10\n13:00:00\n16\nSyriaTrade\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1236,7 +1236,7 @@
     "href": "tasks/07-week.html#material",
     "title": "Week 07",
     "section": "",
-    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nNumber\nRepo\n\n\n\n\n1\nBikeSharing\n\n\n2\nBremenTransit\n\n\n3\nBusinessDynamics\n\n\n4\nDigitalSkills\n\n\n5\nEnergy\n\n\n6\nRentSqueeze\n\n\n7\nLifeExpectancy\n\n\n8\nStudentHousing\n\n\n9\nSteamGaming\n\n\n10\nOpportunitiesInDE\n\n\n11\nTechChurn\n\n\n12\nTakedownRequests\n\n\n13\nProcurementSupplierAnalysis\n\n\n14\nAIDivides\n\n\n15\nAIImpact\n\n\n16\nSyriaTrade\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
+    "text": "We go through the Data Story pitches in this order:\n\n\n\n\n\nMeeting\nTime\nNumber\nRepo\n\n\n\n\n1\n10:45:00\n1\nBusinessDynamics\n\n\n2\n11:00:00\n2\nLifeExpectancy\n\n\n3\n11:15:00\n3\nEnergy\n\n\n4\n11:30:00\n4\nRentSqueeze\n\n\n5\n11:45:00\n5\nBikeSharing\n\n\n6\n12:00:00\n6\nBremenTransit\n\n\n7\n12:15:00\n7\nDigitalSkills\n\n\n7\n12:15:00\n8\nSteamGaming\n\n\n8\n12:30:00\n9\nStudentHousing\n\n\n8\n12:30:00\n10\nOpportunitiesInDE\n\n\n9\n12:45:00\n11\nTechChurn\n\n\n9\n12:45:00\n12\nTakedownRequests\n\n\n9\n12:45:00\n13\nProcurementSupplierAnalysis\n\n\n10\n13:00:00\n14\nAIDivides\n\n\n10\n13:00:00\n15\nAIImpact\n\n\n10\n13:00:00\n16\nSyriaTrade\n\n\n\n\n\nFind the Team members in the private repo Course-Organization-Resources\nHow to deliver your project pitch? Read Milestone 1: Data Story pitch",
     "crumbs": [
       "Syllabus",
       "Schedule",
@@ -1377,7 +1377,7 @@
     "href": "tasks/11-week.html#additional-reading",
     "title": "Week 11",
     "section": "Additional Reading",
-    "text": "Additional Reading\n\nRead the scientific paper on what works in visual communication: Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110–161. https://doi.org/10.1177/15291006211051956",
+    "text": "Additional Reading\n\nRead the scientific paper on what works in visual communication: Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110–161. https://doi.org/10.1177/15291006211051956\n\nFocus on Figures and read more relating to them when relevant for your design of visuals.",
     "crumbs": [
       "Syllabus",
       "Schedule",
